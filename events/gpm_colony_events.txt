@@ -5,23 +5,21 @@ namespace = gpm_colony
 # dont delete this again idiot ;)
 planet_event = { id = gpm_colony.1 hide_window = yes is_triggered_only = yes
 	trigger = {
-		AND = {
-			OR = {
-				has_planet_flag = gpm_is_precursor_world
-				has_planet_flag = gpm_is_wondrous_planet
-			}
-			owner = {
-				is_ai = yes
-				# new 21/04/2018 -guilli
-				NOT = {
-                    OR = {
-                        is_country_type = swarm
-                        is_country_type = extradimensional
-                        is_country_type = extradimensional_2
-                        is_country_type = extradimensional_3
-                        is_country_type = ai_empire
-                    }
-                }
+		OR = {
+			has_planet_flag = gpm_is_precursor_world
+			has_planet_flag = gpm_is_wondrous_planet
+		}
+		owner = {
+			is_ai = yes
+			# new 21/04/2018 -guilli
+			NOT = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = extradimensional
+					is_country_type = extradimensional_2
+					is_country_type = extradimensional_3
+					is_country_type = ai_empire
+				}
 			}
 		}
 	}

@@ -546,10 +546,8 @@ espionage_operation_event = {
 		every_country = {
 			limit = {
 				gpm_is_country_type_default = yes
-				AND = {
-					has_communications = root.from
-					has_communications = root.owner
-				}
+				has_communications = root.from
+				has_communications = root.owner
 				NOR = {
 					is_country = root.from
 					is_country = root.owner

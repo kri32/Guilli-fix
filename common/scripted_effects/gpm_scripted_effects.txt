@@ -1632,10 +1632,8 @@ gpm_precursor_star_shipyards = {
 		save_event_target_as = gpm_precursor_star
 		if = {
 			limit = { 
-				AND = {
-					has_global_flag = "has_real_space_mod"
-					NOT = { has_global_flag = "has_real_space_mc_mod" }
-				}
+				has_global_flag = "has_real_space_mod"
+				NOT = { has_global_flag = "has_real_space_mc_mod" }
 			}
 			create_ambient_object = {
 				type = gpm_precursor_shipyards_star_rs
