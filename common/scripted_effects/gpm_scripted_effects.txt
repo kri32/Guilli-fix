@@ -806,7 +806,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 2
 									create_ship = {
-										name = "NAME_Drone_0931-F"
+										name = "NAME_Drone_0931_F"
 										design = "NAME_Ancient_Mining_Drone"
 									}
 								}
@@ -815,7 +815,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 3
 									create_ship = {
-										name = "NAME_Drone_0931-F"
+										name = "NAME_Drone_0931_F"
 										design = "NAME_Ancient_Mining_Drone"
 									}
 								}
@@ -824,7 +824,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 4
 									create_ship = {
-										name = "NAME_Drone_1119-X"
+										name = "NAME_Drone_1119_X"
 										design = "NAME_Ancient_Mining_Drone"
 									}
 								}
@@ -833,7 +833,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 5
 									create_ship = {
-										name = "NAME_Drone_1119-X"
+										name = "NAME_Drone_1119_X"
 										design = "NAME_Ancient_Mining_Drone"
 									}
 								}
@@ -842,7 +842,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 6
 									create_ship = {
-										name = "NAME_Drone_1119-X"
+										name = "NAME_Drone_1119_X"
 										design = "NAME_Ancient_Mining_Drone"
 									}
 								}
@@ -888,7 +888,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 2
 									create_ship = {
-										name = "NAME_Drone_0931-F"
+										name = "NAME_Drone_0931_F"
 										design = "NAME_Ancient_Combat_Drone"
 									}
 								}
@@ -897,7 +897,7 @@ gpm_create_rogue_traders = {
 								while = {
 									count = 3
 									create_ship = {
-										name = "NAME_Drone_1119-X"
+										name = "NAME_Drone_1119_X"
 										design = "NAME_Ancient_Combat_Drone"
 									}
 								}
