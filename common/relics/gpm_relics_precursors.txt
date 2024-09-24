@@ -1386,7 +1386,7 @@ gpm_r_soul_gem = {
 				random_list = {
 					10 = {
 						create_leader = {
-							class = admiral
+							class = commander
 							species = owner_main_species
 							skill = 5
 							name = random
@@ -1397,7 +1397,7 @@ gpm_r_soul_gem = {
 					}
 					10 = {
 						create_leader = {
-							class = general
+							class = commander
 							species = owner_main_species
 							skill = 5
 							name = random
@@ -1408,7 +1408,7 @@ gpm_r_soul_gem = {
 					}
 					10 = {
 						create_leader = {
-							class = governor
+							class = official
 							species = owner_main_species
 							skill = 5
 							name = random
