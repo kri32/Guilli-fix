@@ -1,0 +1,4 @@
+# Irony this is a placeholder file please ignore it
+
+@has_gigastructures = 0
+@has_planetary_diversity = 0
