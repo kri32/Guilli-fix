@@ -1,0 +1,7 @@
+name="Guilli's Planet Modifiers and Features"
+tags={
+	"Gameplay"
+}
+picture="thumbnail.png"
+supported_version="v3.13.*"
+remote_file_id="865040033"
