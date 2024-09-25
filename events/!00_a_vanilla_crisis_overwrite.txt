@@ -85,7 +85,7 @@ planet_event = {
 					gpm_is_planet_class_habitat = yes # -guilli
 				}
 			}
-			remove_planet = yes
+			spawn_habitat_cracker_effect = yes
 		}
 		solar_system = {
 			if = { # Build starbase if no other colonies are left
@@ -176,7 +176,7 @@ planet_event = {
 					gpm_is_planet_class_habitat = yes # -guilli
 				}
 			}
-			remove_planet = yes
+			spawn_habitat_cracker_effect = yes
 		}
 	}
 }
@@ -852,7 +852,7 @@ planet_event = {
 				}
 
 				# Cybrex Depart Galaxy
-				country_event = { id = crisis.2406 days = 365 random = 800 }
+				country_event = { id = crisis.2406 days = 360 random = 800 }
 
 			}
 		}
