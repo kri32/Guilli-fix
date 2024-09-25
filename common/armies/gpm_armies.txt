@@ -135,7 +135,7 @@ gpm_precursor_bunker_army = {
 			has_building = gpm_building_stronghold
 		}
 		owner = {
-			NOT = { has_ethic = ethic_gestalt_consciousness }
+			NOT = { is_gestalt = yes }
 		}
 	}
 	
@@ -253,7 +253,7 @@ gpm_precursor_bunker_army_machine = {
 			has_building = gpm_building_stronghold
 		}
 		owner = {
-			has_ethic = ethic_gestalt_consciousness
+			is_gestalt = yes
 		}
 	}
 	
