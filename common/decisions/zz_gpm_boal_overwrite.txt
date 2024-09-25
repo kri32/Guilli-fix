@@ -8,28 +8,30 @@ decision_baol_life_seed = {
 	enactment_time = 720
 
 	potential = {
-		NOT = {
-			has_global_flag = planetarydiversity
-			OR = {
-				is_planet_class = pc_pdshroud
-				is_planet_class = pc_milarc_relic
-				is_pd_unique = yes
-				is_pd_arcology = yes
-			}
-		}
-		is_artificial = no
+        NOR = {
+            # is_planet_class = pc_city
+            # is_planet_class = pc_machine
+            is_planet_class = pc_relic
+            # is_planet_class = pc_hive
+            is_planet_class = pc_gaia
+        }
+        is_artificial = no
+		
 		gpm_is_planet_class_city = no
-		gpm_is_planet_class_hive = no
-		NOT = { is_planet_class = pc_relic }
-		NOT = { is_planet_class = pc_gpm_precursor_tomb }
-		gpm_is_planet_class_machine = no
+        gpm_is_planet_class_machine = no
+        gpm_is_planet_class_hive = no
+        NOT = {
+            is_planet_class = pc_gpm_precursor_tomb
+        }
 
-		exists = owner
-		owner = { has_country_flag = relic_last_baol_activated }
-		owner = {
-			has_country_flag = not_activated_baol
-		}
-	}
+        exists = owner
+        owner = {
+            has_country_flag = relic_last_baol_activated
+        }
+        owner = {
+            has_country_flag = not_activated_baol
+        }
+    }
 
 	allow = { }
 
@@ -37,34 +39,20 @@ decision_baol_life_seed = {
 		# Convert to Gaia world, spawn Nu-Baol pops
 		custom_tooltip = decision_baol_life_seed_effects
 		hidden_effect = {
-			# Planetary Diversity compatiability
 			if = {
-				limit = { has_global_flag = planetarydiversity }
-				if = {
-					limit = {
-						OR = {
-							is_planet_class = pc_tidallylocked
-							is_planet_class = pc_eyeball
-						}
-					}
-					change_pc = pc_tidallygaia
+                limit = {
+                    has_global_flag = planetarydiversity
+                }
+				owner = { remove_country_flag = relic_last_baol_activated }
+				add_modifier = {
+					modifier = engineered_environment_gaia
+					days = -1
 				}
-				if = {
-					limit = {
-						NOT = { is_planet_class = pc_tidallygaia }
-					}
-					change_pc = pc_gaia
-				}
+				pd_make_all_gaia_worlds_effect = yes
 			}
-			#
-
-			# standard
-			if = {
-				limit = { NOT = { has_global_flag = planetarydiversity } }
+			else = {
 				change_pc = pc_gaia
 			}
-			#
-
 			if = {
 				limit = { NOT = { exists = event_target:nu_baol_species } }
 				if = {
@@ -88,13 +76,11 @@ decision_baol_life_seed = {
 					}
 				}
 			}
-
-			# Planetary Diversity compatiability
+			planet_event = { id = ancrel.2025 } #Notification event
 			if = {
-				limit = { has_global_flag = planetarydiversity }
-				pd_remove_special_deposits_modifiers = yes
-				remove_deposit = d_pdgaia
-				add_deposit = d_pdgaia
+                limit = {
+                    has_global_flag = planetarydiversity
+                }
 				if = {
 					limit = {
 						has_planet_flag = planet_earth
@@ -121,15 +107,10 @@ decision_baol_life_seed = {
 						entity = "gaiavenus_planet_entity"
 					}
 				}
-				if = {
-					limit = {
-						has_planet_flag = pdaquapicture
-					}
-					remove_planet_flag = pdaquapicture
-				}
+				pd_gaia_flooded_check = yes
 			}
-			planet_event = { id = ancrel.2025 } #Notification event
-			planet_event = { id = gpm_terraform.78871 } # guilli
+			planet_event = { id = gpm_terraform.78871 } #Guilli
+			
 		}
 	}
 	

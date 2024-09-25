@@ -21,7 +21,6 @@ planet_event = {
 	immediate = {
 		
 		# PD compatibility
-		remove_modifier = engineered_environment
 		remove_modifier = engineered_environment_gaia
 		#
 
