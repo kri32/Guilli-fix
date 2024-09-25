@@ -92,6 +92,7 @@ planets = {
 	use_for_ai_budget = yes
 	ai_use_parent_for_resources_upkeep = {
 		energy
+		consumer_goods
 	}
 
 	generate_mult_modifiers = {
@@ -391,6 +392,32 @@ planet_livestock = {
 		upkeep
 	}
 	modifier_category = pop
+	triggered_produces_modifier = {
+        key = planet_farmers
+        modifier_types = {
+            mult
+            add
+        }
+        trigger = {
+            has_job = livestock
+            is_organic_species = yes
+            is_lithoid = no
+        }
+        use_parent_icon = yes
+    }
+    triggered_produces_modifier = {
+        key = planet_miners
+        modifier_types = {
+            mult
+            add
+        }
+        trigger = {
+            has_job = livestock
+            is_organic_species = yes
+            is_lithoid = yes
+        }
+        use_parent_icon = yes
+    }
 }
 
 planet_technician = {
@@ -430,6 +457,16 @@ planet_managers = {
 		upkeep
 	}
 	modifier_category = pop
+	triggered_produces_modifier = {
+        key = planet_administrators
+        modifier_types = {
+            add
+        }
+        trigger = {
+            always = yes
+        }
+        use_parent_icon = yes
+    }
 }
 
 planet_administrators = {
@@ -488,7 +525,7 @@ planet_culture_workers = {
 }
 
 planet_evaluators = {
-	parent = planet_jobs_productive
+	parent = planet_administrators
 	generate_mult_modifiers = {
 		produces
 		upkeep
@@ -501,7 +538,7 @@ planet_evaluators = {
 }
 
 planet_synapse_drones = {
-	parent = planet_jobs_productive
+	parent = planet_administrators
 	generate_mult_modifiers = {
 		produces
 		upkeep
@@ -602,6 +639,16 @@ planet_priests = {
 		upkeep
 	}
 	modifier_category = pop
+	triggered_produces_modifier = {
+        key = planet_administrators
+        modifier_types = {
+            add
+        }
+        trigger = {
+            always = yes
+        }
+        use_parent_icon = yes
+    }
 }
 
 planet_enforcers = {
@@ -628,6 +675,16 @@ planet_telepaths = {
 		upkeep
 	}
 	modifier_category = pop
+	triggered_produces_modifier = {
+        key = planet_administrators
+        modifier_types = {
+            add
+        }
+        trigger = {
+            always = yes
+        }
+        use_parent_icon = yes
+    }
 }
 
 planet_doctors = {
@@ -756,6 +813,18 @@ ships = {
 			has_ship_owner_type = galactic_community
 		}
 	}
+
+	triggered_cost_modifier = {
+        key = ship_nanite_swarmer
+        use_parent_icon = yes
+        modifier_types = {
+            mult
+        }
+        trigger = {
+            is_scope_valid = yes
+            is_ship_size = nanite_swarmer
+        }
+    }
 
 	triggered_cost_modifier = {
 		key = ship_corvette
