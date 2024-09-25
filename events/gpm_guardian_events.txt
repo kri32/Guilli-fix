@@ -219,7 +219,7 @@ ship_event = {
 	# biological option
 	option = {
 		trigger = {
-			owner = { NOT = { has_authority = auth_machine_intelligence	} }
+			owner = { NOT = { is_machine_empire = yes	} }
 		}
 		name = gpm_guardian.101.a
 		FROMFROM = {
@@ -233,7 +233,7 @@ ship_event = {
 	# robot option
 	option = {
 		trigger = {
-			owner = { has_authority = auth_machine_intelligence	}
+			owner = { is_machine_empire = yes	}
 		}
 		name = gpm_guardian.101.b
 		FROMFROM = {
@@ -261,7 +261,7 @@ ship_event = {
 	# biological option
 	option = {
 		trigger = {
-			owner = { NOT = { has_authority = auth_machine_intelligence	} }
+			owner = { NOT = { is_machine_empire = yes	} }
 		}
 		name = gpm_guardian.102.a
 		hidden_effect = { FROMFROM = { country_event = { id = gpm_guardian.105 } } }
@@ -269,7 +269,7 @@ ship_event = {
 	# robot option
 	option = {
 		trigger = {
-			owner = { has_authority = auth_machine_intelligence	}
+			owner = { is_machine_empire = yes	}
 		}
 		name = gpm_guardian.102.b
 		hidden_effect = { FROMFROM = { country_event = { id = gpm_guardian.105 } } }
