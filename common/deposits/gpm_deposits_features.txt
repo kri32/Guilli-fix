@@ -54,7 +54,7 @@ gpm_d_spaceship_graveyard = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -116,7 +116,7 @@ gpm_d_unusual_formations = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -138,7 +138,7 @@ gpm_d_ice_flora = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -160,7 +160,7 @@ gpm_d_planetwide_forest = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -182,7 +182,7 @@ gpm_d_dense_forests = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -204,7 +204,7 @@ gpm_d_proto_forests = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -282,7 +282,7 @@ gpm_d_dunes = {
 			always = yes
 		}
 		district_generator_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -304,7 +304,7 @@ gpm_d_mushroom_forest = {
 			always = yes
 		}
 		district_farming_max = 4
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -326,7 +326,7 @@ gpm_d_floating_rocks = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -348,7 +348,7 @@ gpm_d_oasis = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -413,7 +413,7 @@ gpm_d_small_wildlife = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -436,7 +436,7 @@ gpm_d_massive_wildlife = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -459,7 +459,7 @@ gpm_d_super_volcano = {
 			always = yes
 		}
 		district_mining_max = 4
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -482,7 +482,7 @@ gpm_d_obsidian_fields = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -505,7 +505,7 @@ gpm_d_magnetic_mountains = {
 			always = yes
 		}
 		district_generator_max = 5
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -528,7 +528,7 @@ gpm_d_magnetic_fields = {
 			always = yes
 		}
 		district_generator_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -551,7 +551,7 @@ gpm_d_rich_crater = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -574,7 +574,7 @@ gpm_d_surface_mineral_veins = {
 			always = yes
 		}
 		district_mining_max = 4
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -597,7 +597,7 @@ gpm_d_dense_metal_veins = {
 			always = yes
 		}
 		district_mining_max = 5
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -620,7 +620,7 @@ gpm_d_iron_mountain = {
 			always = yes
 		}
 		district_mining_max = 5
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -674,7 +674,7 @@ gpm_d_carnivorous_jungle = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -698,7 +698,7 @@ gpm_d_carnivorous_forest = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -722,7 +722,7 @@ gpm_d_carnivorous_kelp = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -776,7 +776,7 @@ gpm_d_colossal_subterranean_cavern = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -799,7 +799,7 @@ gpm_d_titanic_hunting_ground = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 
 	# weight 0: event added
@@ -1011,7 +1011,7 @@ gpm_d_colossal_fish = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1035,7 +1035,7 @@ gpm_d_sprawling_archipelago = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1091,7 +1091,7 @@ gpm_d_garbage_patch = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1116,7 +1116,7 @@ gpm_d_industrial_ruins= {
 		}
 		district_generator_max = 3
 		district_mining_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1139,7 +1139,7 @@ gpm_d_radioactive_dump = {
 			always = yes
 		}
 		district_generator_max = 5
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1169,7 +1169,7 @@ gpm_d_ice_flower_field = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1199,7 +1199,7 @@ gpm_d_white_forest = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1222,7 +1222,7 @@ gpm_d_strange_ice_river = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1245,7 +1245,7 @@ gpm_d_massive_ray_school = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1361,7 +1361,7 @@ gpm_d_grand_reef = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1384,7 +1384,7 @@ gpm_d_glistening_lake = {
 			always = yes
 		}
 		district_farming_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1407,7 +1407,7 @@ gpm_d_fossilized_egg_sacks = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1430,7 +1430,7 @@ gpm_d_fossilized_structures = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1453,7 +1453,7 @@ gpm_d_fossilized_creep = {
 			always = yes
 		}
 		district_mining_max = 5
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1476,7 +1476,7 @@ gpm_d_giant_skeleton = {
 			always = yes
 		}
 		district_mining_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1499,7 +1499,7 @@ gpm_d_resonating_ice = {
 			always = yes
 		}
 		district_generator_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1540,7 +1540,7 @@ gpm_d_fertile_field = {
 			always = yes
 		}
 		district_farming_max = 3
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1596,7 +1596,7 @@ gpm_d_colossal_coral_life = {
 			always = yes
 		}
 		district_farming_max = 4
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1619,7 +1619,7 @@ gpm_d_salt_flats = {
 			always = yes
 		}
 		district_generator_max = 4
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
@@ -1865,7 +1865,7 @@ gpm_d_empty_nest = {
 			always = yes
 		}
 		district_mining_max = 2
-		mult = value:district_amount_mastery_of_nature
+		mult = value:natural_desposit_district_amount_multiplier
 	}
 	
 	# weight 0: event added
