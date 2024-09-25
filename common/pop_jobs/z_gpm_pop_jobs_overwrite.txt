@@ -58,6 +58,13 @@ archaeoengineers = {
 		}
 	}
 
+	triggered_country_modifier = {
+		modifier = {
+			country_naval_cap_add = 1
+		}
+		mult = planet.modifier:job_researcher_naval_cap_add
+	}
+
 	weight = {
 		weight = @specialist_job_weight
 		mult = value:job_weights_research_modifier|JOB|archaeoengineers|
@@ -84,4 +91,6 @@ archaeoengineers = {
 			has_slavery_type = { type = slavery_indentured }
 		}
 	}
+
+	inline_script = "jobs/automodding_priority_research"
 }
