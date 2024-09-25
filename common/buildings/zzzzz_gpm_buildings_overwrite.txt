@@ -13,7 +13,6 @@ building_archaeostudies_faculty = {
 		NOR = {
 			has_modifier = resort_colony
 			has_modifier = slave_colony
-			has_modifier = crucible_colony
 		}
 		exists = owner
 	}
@@ -23,7 +22,6 @@ building_archaeostudies_faculty = {
 		OR = {
 			has_modifier = resort_colony
 			has_modifier = slave_colony
-			has_modifier = crucible_colony
 		}
 	}
 
@@ -42,73 +40,10 @@ building_archaeostudies_faculty = {
 		}
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_gestalt = no }
-		}
-		modifier = {
-			job_archaeoengineers_add = 3
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_hive_empire = yes }
-		}
-		modifier = {
-			job_archaeo_drone_add = 3
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_machine_empire = yes }
-		}
-		modifier = {
-			job_archaeo_unit_add = 3
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { 
-				is_gestalt = no
-				has_ascension_perk = ap_archaeoengineers
-			}
-		}
-		modifier = {
-			job_archaeoengineers_add = 2
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_hive_empire = yes
-				has_ascension_perk = ap_archaeoengineers
-			}
-		}
-		modifier = {
-			job_archaeo_drone_add = 2
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-				has_ascension_perk = ap_archaeoengineers
-			}
-		}
-		modifier = {
-			job_archaeo_unit_add = 2
-		}
+	inline_script = {
+		script = jobs/archaeoengineers_add
+		BASE_AMOUNT = 3
+		AP_AMOUNT = 2
 	}
 
 	country_modifier = {
@@ -137,30 +72,6 @@ building_archaeostudies_faculty = {
 
 	prerequisites = {
 		"tech_archaeostudies"
-	}
-
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = { is_gestalt = no }
-		}
-		text = job_archaeoengineers_effect_desc
-	}
-
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = { is_hive_empire = yes }
-		}
-		text = job_archaeo_drone_effect_desc
-	}
-
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = { is_machine_empire = yes }
-		}
-		text = job_archaeo_unit_effect_desc
 	}
 
 	triggered_desc = {
