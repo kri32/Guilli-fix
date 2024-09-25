@@ -2702,15 +2702,15 @@ gpm_random_precursor_empire_dig_site_bonus = {
 			# log = "gpm_random_precursor_empire_dig_site_bonus - gpm_precursor_remnants_discovery"
 		}
 		10 = {
-			add_research_option = tech_gpm_crystalis_targeting_matrix_1
-			hidden_effect = { add_tech_progress = { tech = tech_gpm_crystalis_targeting_matrix_1 progress = 0.10 } }
-			modifier = { factor = 0 has_technology = tech_gpm_crystalis_targeting_matrix_1 }
+			owner = { add_research_option = tech_gpm_crystalis_targeting_matrix_1 }
+			hidden_effect = { owner = {  add_tech_progress = { tech = tech_gpm_crystalis_targeting_matrix_1 progress = 0.10 } } }
+			modifier = { factor = 0 owner = { has_technology = tech_gpm_crystalis_targeting_matrix_1 } }
 			modifier = { factor = 2 from.planet = { has_modifier = gpm_precursor_planetary_gun } }
 		}
 		10 = {
-			add_research_option = tech_gpm_hangar_1
-			hidden_effect = { add_tech_progress = { tech = tech_gpm_hangar_1 progress = 0.10 } }
-			modifier = { factor = 0 has_technology = tech_gpm_hangar_1 }
+			owner = {  add_research_option = tech_gpm_hangar_1 }
+			hidden_effect = { owner = { add_tech_progress = { tech = tech_gpm_hangar_1 progress = 0.10 } } }
+			modifier = { factor = 0 owner = { has_technology = tech_gpm_hangar_1 } }
 			modifier = { factor = 2 from.planet = { has_modifier = gpm_precursor_crashed_spacestation } }
 		}
 		10 = {

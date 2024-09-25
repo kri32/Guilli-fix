@@ -189,7 +189,7 @@ ship_event = {
 	}
 }
 # give terraform 1/3 bonus
-ship_event = {
+country_event = {
 	id = gpm_survey.2
 	title = "gpm_survey.2.name"
 	desc = {
