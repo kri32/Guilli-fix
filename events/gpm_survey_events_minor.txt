@@ -3434,7 +3434,7 @@ ship_event = {
 	}
 
 	##############################
-	#### EXOTIC GASSES OPTION ####
+	#### EXOTIC GASES OPTION ####
 	##############################
 	option = {
 		trigger = {

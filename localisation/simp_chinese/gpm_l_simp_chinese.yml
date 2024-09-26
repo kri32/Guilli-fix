@@ -761,7 +761,7 @@ pop_cat_gpm_spacer:0 "轨道采集工"
  mod_planet_chemists_minor_artifacts_upkeep_add:0 "£job_chemist£ Chemists £minor_artifacts£ Minor Artifacts upkeep"
  mod_planet_pop_assemblers_minor_artifacts_upkeep_add:0 "£job_roboticist£ Roboticists £minor_artifacts£ Minor Artifacts upkeep"
  
- mod_planet_farmers_rare_crystals_produces_add:0 "£rare_crystals£ Rare Crystams from £job_farmer£ $job_farmer_plural$"
+ mod_planet_farmers_rare_crystals_produces_add:0 "£rare_crystals£ Rare Crystals from £job_farmer£ $job_farmer_plural$"
  mod_planet_miners_food_produces_add:0 "£food£ Food from £job_miner£ $job_miner_plural$"
  mod_planet_miners_exotic_gases_produces_add:0 "£exotic_gases£ Exotic Gases from £job_miner£ $job_miner_plural$"
  mod_planet_miners_sr_living_metal_produces_add:0 "£sr_living_metal£ Living Metal from £job_miner£ $job_miner_plural$"
@@ -785,7 +785,7 @@ pop_cat_gpm_spacer:0 "轨道采集工"
  pc_gpm_precursor_tomb_adj:0 "ruined archaeopolis"
  pc_gpm_precursor_tomb_desc:0 "An ancient ruined precursor city world stripped of most of its toxic atmosphere. Surviving on the surface of this once great city world would be very challenging."
  trait_pc_gpm_precursor_tomb_preference:0 "Archaeopolis World Preference"
- trait_pc_gpm_precursor_tomb_preference_desc:0 "Somehow, this specief found it's home here."
+ trait_pc_gpm_precursor_tomb_preference_desc:0 "Somehow, this species found its home here."
  
  #######################################
  #### Policies
@@ -835,10 +835,10 @@ pop_cat_gpm_spacer:0 "轨道采集工"
  gpm_crystal_ship_large_red_elite_section:0 " "
  
  # Crystal Event Ships
- NAME_GPM_Large_Crystal_Entity_Blue_Elite:0 "Blue Crystaline Beast"
- NAME_GPM_Large_Crystal_Entity_Green_Elite:0 "Green Crystaline Beast"
- NAME_GPM_Large_Crystal_Entity_Yellow_Elite:0 "Yellow Crystaline Beast"
- NAME_GPM_Large_Crystal_Entity_Red_Elite:0 "Red Crystaline Beast"
+ NAME_GPM_Large_Crystal_Entity_Blue_Elite:0 "Blue Crystalline Beast"
+ NAME_GPM_Large_Crystal_Entity_Green_Elite:0 "Green Crystalline Beast"
+ NAME_GPM_Large_Crystal_Entity_Yellow_Elite:0 "Yellow Crystalline Beast"
+ NAME_GPM_Large_Crystal_Entity_Red_Elite:0 "Red Crystalline Beast"
   
  # manufactorium ship
  NAME_manufactorium_fleet:0 "Manufactorium Ship"
@@ -936,9 +936,9 @@ pop_cat_gpm_spacer:0 "轨道采集工"
  gpm_start_menu.2.enabled_relic_AI_heists:1 "£options_icon  §GEnable AI Relic Heists§!"
  gpm_start_menu.2.enable_relic_AI_heistsTT:1 "§HClick this to enable Steal Relic spy operations for AI§!\nThis will allow the AI to use §YSteal Relic§! Spy Operations on players."
 
- gpm_start_menu.2.enabled_mp_fun:1 "£options_icon  §GEnable Increased Presursor 'drops'§!"
+ gpm_start_menu.2.enabled_mp_fun:1 "£options_icon  §GEnable Increased Precursor 'drops'§!"
  gpm_start_menu.2.enabled_mp_funTT:1 "§HClick this to increase the chance of precursor dig sites and increase their special rewards§!\nGreatly increases the chance of precursor dig sites appearing during the game.\nGreatly increases the chance precursor dig sites give special or unique rewards such as relics, ships, components,..\n\n§TAlso works in single player!§!"
- gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDisable Increased Presursor 'drops'§!"
+ gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDisable Increased Precursor 'drops'§!"
  gpm_start_menu.2.disable_mp_funTT:1 "§HClick this to reset the chance of precursor dig sites and reset their special rewards§!\nResets the chance of precursor dig sites appearing during the game to their default values.\nResets the chance precursor digsites give special rewards to their default values"
 
  gpm_start_menu.2.enabled_mini_structures:0 "£options_icon  §GEnable Mini Megastructures§!"
@@ -961,7 +961,7 @@ pop_cat_gpm_spacer:0 "轨道采集工"
  
 
  gpm_tech_arcane_research:0 "Precursor Studies"
- gpm_tech_arcane_research_desc:0 "Enhanced research methodologies for to the collecting and understading of precursor technolgies."
+ gpm_tech_arcane_research_desc:0 "Enhanced research methodologies for collecting and understading of precursor technolgies."
  gpm_tech_arcane_researchTT: "§HUnlocks:§! $gpm_precursor_research_center$ £minor_artifacts£ Minor Artifacts production: §G+0.25§!"
  
  tech_gpm_tb_toxic_gas:0 "空气化学中和剂"
@@ -1316,7 +1316,7 @@ pop_cat_gpm_spacer:0 "轨道采集工"
  tech_gpm_crystalis_targeting_matrix_1:0 "Chrono-Refractive Matrix"
  tech_gpm_crystalis_targeting_matrix_1_desc:0 "Improves ship accuracy on larger targets by predicting the effects of fire in the immediate future using an enigmatic chrono-algorithm.\n\n"
  
- tech_gpm_hangar_1:0 "Autonomous Maintanance Bay"
+ tech_gpm_hangar_1:0 "Autonomous Maintenance Bay"
  tech_gpm_hangar_1_desc:0 "$GPM_HANGAR_1_DESC$\n"
  
  

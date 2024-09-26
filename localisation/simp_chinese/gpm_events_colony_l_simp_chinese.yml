@@ -345,7 +345,7 @@
  # Colony event: stored food eaten by trubbles
  gpm_colony.240.name:0 "它们是害虫，还宠它们吗？"
  gpm_colony.240.desc:0 "一只麻烦精已经设法进入§H[Root.GetName]§!的食品仓库中。这些臭名昭著的害虫是大胃王，而且繁殖速度惊人。它们无性繁殖的特点使它们成为了真正的威胁。如果放任不管，它们会很快淹没一个地区，并吃掉它们遇到的一切。这正是我们的食品仓库中发生的事情。这唯一一只麻烦精已经繁育出了几百只，它们完全吃光了整个仓库的库存。"
- gpm_colony.240.a:0 "真是害虫.."
+ gpm_colony.240.a:0 "真是害虫..."
  gpm_colony.240.hive:0 "要扫除一切害人虫"
  #gpm_colony.240.b:0 "Lose §G000§! Food."
 
@@ -484,8 +484,8 @@
  # gpm_on_colonize.1.RingsTT:0 "\nIn addition, Adds §G1§! to §G4§! £minerals£ or £energy£ §HResource Sites§! to each planetary ring in this system"
 
  gpm_decisions.2.name:0 "The Great One Answers"
- gpm_decisions.2.desc:0 "Our planet's population exits it's trance-like state after listening to the voices in the wind. With a final whisper, our eyes opened and we are now able to see if we are worthy.."
- gpm_decisions.2.a:0 "We see the truth.."
+ gpm_decisions.2.desc:0 "Our planet's population exits it's trance-like state after listening to the voices in the wind. With a final whisper, our eyes opened and we are now able to see if we are worthy..."
+ gpm_decisions.2.a:0 "We see the truth..."
  
  #######################################
  #### Capital Event Chains

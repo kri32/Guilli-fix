@@ -182,12 +182,12 @@
  
  gpm_giant_arachnid_army:0 "Giant Arachnid Army"
  gpm_giant_arachnid_army_plural:0 "Giant Arachnid Armies"
- gpm_giant_arachnid_army_desc:0 "Trough blood, sweat and tears.. well mostly blood and tears, we have managed to tame the arachnids! A cybernetic implant lets us control these giant arachnids by suggestion a direction for them to move to. They usually proceed to try and eat anything they encounter. Dropping the arachnids from orbit might just be scary enough to win the war!" 
+ gpm_giant_arachnid_army_desc:0 "Trough blood, sweat and tears... well mostly blood and tears, we have managed to tame the arachnids! A cybernetic implant lets us control these giant arachnids by suggestion a direction for them to move to. They usually proceed to try and eat anything they encounter. Dropping the arachnids from orbit might just be scary enough to win the war!" 
  giant_arachnid_army_trigger_tooltip:0 "§BCan only be built on worlds infested with giant arachnids.§!"
 
  gpm_giant_arachnid_army_defensive:0 "Giant Arachnid Swarm"
  gpm_giant_arachnid_army_defensive_plural:0 "Giant Arachnid Swarms"
- gpm_giant_arachnid_army_defensive_desc:0 "A swarm of hyper-agressive giant arachnids."
+ gpm_giant_arachnid_army_defensive_desc:0 "A swarm of hyper-aggressive giant arachnids."
  
  gpm_precursor_mech_army_machine:0 "Repurposed Precursor Mech"
  gpm_precursor_mech_army_machine_plural:0 "Repurposed Precursor Mechs"
@@ -201,7 +201,7 @@
  
  gpm_giant_arachnid_army_machine:0 "Cybernetic Arachnid Swarms"
  gpm_giant_arachnid_army_machine_plural:0 "Cybernetic Arachnid Swarms"
- gpm_giant_arachnid_army_machine_desc:0 "Using extensive cybernetics and deep-brain-implants on these arachnids we have manage to obtain complete control of these violent creatures. Fast breeding programs ensure a large supply of these creatures can be used. Programmed to behave like a tight, fast moving swarm they will ensure victory over our enemies in virtually any type of situation." 
+ gpm_giant_arachnid_army_machine_desc:0 "Using extensive cybernetics and deep-brain-implants on these arachnids we have managed to obtain complete control of these violent creatures. Fast breeding programs ensure a large supply of these creatures can be used. Programmed to behave like a tight, fast moving swarm they will ensure victory over our enemies in virtually any type of situation." 
  giant_arachnid_army_machine_trigger_tooltip:0 "§BCan only be built on worlds infested with giant arachnids.§!"
 
  gpm_relic_tank_battalion:0 "Tank Battalion"
@@ -257,7 +257,7 @@
  GPM_unlock_artifact_research_centre_locked:0 "§L??????§!"
  GPM_unlock_artifact_research_centre_locked_desc:0 "$artifact_action_locked_desc$"
  GPM_unlock_artifact_research_centre:0 "Fund Precursor Research"
- GPM_unlock_artifact_research_centre_desc:0 "Institute an empire wide protocol allowing researchers far and wide access to precursor data, greatly eccelerating your understanding of precursor artifacts."
+ GPM_unlock_artifact_research_centre_desc:0 "Institute an empire wide protocol allowing researchers far and wide access to precursor data, greatly accelerating your understanding of precursor artifacts."
  GPM_unlock_artifact_research_centre_TT:1 "\n§Y$gpm_tech_arcane_research$§! unlocks the §H$gpm_precursor_research_center$§! building which adds 3 $job_gpm_archaeologist$ jobs and pruduce some £minor_artifacts£ Minor Artifacts.\n\n$job_gpm_archaeologist_effect_desc$\n\n"
  gpm_artifact.1.desc:0 "Experiments on the arcane artifacts have resulted in an incredible technological breakthrough!"
  gpm_artifact.2.name:0 "§HReverse Engineering§! Ready"
@@ -268,7 +268,7 @@
  #### Buildings
  #######################################
  gpm_building_stronghold:0 "Salvaged Precursor Bunker Command Center"
- gpm_building_stronghold_desc:0 "This command center oversees the deployment of your defensive armies to various ancient precursor bunkers. Overtime, more bunkers will become availible."
+ gpm_building_stronghold_desc:0 "This command center oversees the deployment of your defensive armies to various ancient precursor bunkers. Overtime, more bunkers will become available."
  
  gpm_building_mining_nanite_nexus:0 "Mining Nanite Nexus"
  gpm_building_mining_nanite_nexus_desc:0 "Storage and control centre for our mining nanites. These nanites, once released, will dig smooth large tunnels towards any otherwise unreachable mineral veins."
@@ -278,7 +278,7 @@
  gpm_building_precursor_research_center_effect:0 "\n§BCan only be build on a precursor world§!\nIf built on a §YRelic World§!:\n Research Speed (Archaeostudies): §G+50%§!\n £minor_artifacts£ Minor Artifacts from £job_researcher£ Archaeoengineers: §G+0.3§!\nIf built on an §YAncient Archaeopolis World§!:\n Research Speed (Archaeostudies): §G+100%§!\n £minor_artifacts£ Minor Artifacts from £job_researcher£ Archaeoengineers: §G+0.6§!"
  
  gpm_building_ascension_tower:0 "Ascension Tower"
- gpm_building_ascension_tower_desc:0 "A colossal building capable of housing an incredible amount of people. The ascension tower reaches so high the top has to be made air tight to prevent its residents from suffacating."
+ gpm_building_ascension_tower_desc:0 "A colossal building capable of housing an incredible amount of people. The ascension tower reaches so high the top has to be made air tight to prevent its residents from suffocating."
  
  gpm_building_exotic_park:0 "Exotic Park"
  gpm_building_exotic_park_desc:0 "A park filled with strange and exotic alien fauna."
@@ -396,8 +396,8 @@
  gpm_precursor_planetary_shield_discovery:0 "Experimental Emitter"
  gpm_precursor_planetary_shield_discovery_2:0 "Exotic-Energy Battery Pack"
  gpm_precursor_floating_city_discovery:0 "Super-Tensile Cable"
- gpm_precursor_floating_city_discovery_2:0 "Ancient Flying Automobiel"
- gpm_precursor_capital_complex_discovery:0 "The Galactic Rules Of Buraeucracy, Volume 3"
+ gpm_precursor_floating_city_discovery_2:0 "Ancient Flying Automobile"
+ gpm_precursor_capital_complex_discovery:0 "The Galactic Rules Of Bureaucracy, Volume 3"
  gpm_precursor_capital_complex_discovery_2:0 "The Galactic Rules of Diplomacy, Volume 1"
  gpm_precursor_communication_hub_discovery:0 "Sub-Space Communication Relay"
  gpm_precursor_communication_hub_discovery_2:0 "Sub-Space Personal Com Device"
@@ -434,7 +434,7 @@
  gpm_floating_islands_discovery:0 "Heat Generating Crystals"
  gpm_floating_islands_discovery_2:0 "Magnetic Obsidian Shard"
  gpm_ruined_battlefield_discovery:0 "Ancient Musical Instrument"
- gpm_ruined_battlefield_discovery_2:0 "Undetonated Distruptor Grenade"
+ gpm_ruined_battlefield_discovery_2:0 "Undetonated Disruptor Grenade"
  gpm_spaceship_graveyard_discovery:0 "Crashed Strike-Fighter"
  gpm_spaceship_graveyard_discovery_2:0 "Molten Hull"
  gpm_artificial_water_discovery:0 "Artificial Water Sample"
@@ -757,7 +757,7 @@
  mod_planet_chemists_minor_artifacts_upkeep_add:0 "£job_chemist£ Chemists £minor_artifacts£ Minor Artifacts upkeep"
  mod_planet_pop_assemblers_minor_artifacts_upkeep_add:0 "£job_roboticist£ Roboticists £minor_artifacts£ Minor Artifacts upkeep"
  
- mod_planet_farmers_rare_crystals_produces_add:0 "£rare_crystals£ Rare Crystams from £job_farmer£ $job_farmer_plural$"
+ mod_planet_farmers_rare_crystals_produces_add:0 "£rare_crystals£ Rare Crystals from £job_farmer£ $job_farmer_plural$"
  mod_planet_miners_food_produces_add:0 "£food£ Food from £job_miner£ $job_miner_plural$"
  mod_planet_miners_exotic_gases_produces_add:0 "£exotic_gases£ Exotic Gases from £job_miner£ $job_miner_plural$"
  mod_planet_miners_sr_living_metal_produces_add:0 "£sr_living_metal£ Living Metal from £job_miner£ $job_miner_plural$"
@@ -781,7 +781,7 @@
  pc_gpm_precursor_tomb_adj:0 "ruined archaeopolis"
  pc_gpm_precursor_tomb_desc:0 "An ancient ruined precursor city world stripped of most of its toxic atmosphere. Surviving on the surface of this once great city world would be very challenging."
  trait_pc_gpm_precursor_tomb_preference:0 "Archaeopolis World Preference"
- trait_pc_gpm_precursor_tomb_preference_desc:0 "Somehow, this specief found it's home here."
+ trait_pc_gpm_precursor_tomb_preference_desc:0 "Somehow, this species found its home here."
  
  #######################################
  #### Policies
@@ -814,27 +814,27 @@
  gpm_precursor_destroyer:0 "Precursor Ship"
  gpm_precursor_destroyer_plural:0 "Precursor Ships" 
  
- gpm_crystal_ship_large_blue_elite:0 "Crystaline Beast"
- gpm_crystal_ship_large_blue_elite_plural:0 "Crystaline Beasts"
+ gpm_crystal_ship_large_blue_elite:0 "Crystalline Beast"
+ gpm_crystal_ship_large_blue_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_blue_elite_section:0 " "
 
- gpm_crystal_ship_large_green_elite:0 "Crystaline Beast"
- gpm_crystal_ship_large_green_elite_plural:0 "Crystaline Beasts"
+ gpm_crystal_ship_large_green_elite:0 "Crystalline Beast"
+ gpm_crystal_ship_large_green_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_green_elite_section:0 " "
 
- gpm_crystal_ship_large_yellow_elite:0 "Crystaline Beast"
- gpm_crystal_ship_large_yellow_elite_plural:0 "Crystaline Beasts"
+ gpm_crystal_ship_large_yellow_elite:0 "Crystalline Beast"
+ gpm_crystal_ship_large_yellow_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_yellow_elite_section:0 " "
 
- gpm_crystal_ship_large_red_elite:0 "Crystaline Beast"
- gpm_crystal_ship_large_red_elite_plural:0 "Crystaline Beasts"
+ gpm_crystal_ship_large_red_elite:0 "Crystalline Beast"
+ gpm_crystal_ship_large_red_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_red_elite_section:0 " "
  
  # Crystal Event Ships
- NAME_GPM_Large_Crystal_Entity_Blue_Elite:0 "Blue Crystaline Beast"
- NAME_GPM_Large_Crystal_Entity_Green_Elite:0 "Green Crystaline Beast"
- NAME_GPM_Large_Crystal_Entity_Yellow_Elite:0 "Yellow Crystaline Beast"
- NAME_GPM_Large_Crystal_Entity_Red_Elite:0 "Red Crystaline Beast"
+ NAME_GPM_Large_Crystal_Entity_Blue_Elite:0 "Blue Crystalline Beast"
+ NAME_GPM_Large_Crystal_Entity_Green_Elite:0 "Green Crystalline Beast"
+ NAME_GPM_Large_Crystal_Entity_Yellow_Elite:0 "Yellow Crystalline Beast"
+ NAME_GPM_Large_Crystal_Entity_Red_Elite:0 "Red Crystalline Beast"
   
  # manufactorium ship
  NAME_manufactorium_fleet:0 "Manufactorium Ship"
@@ -863,8 +863,8 @@
  GPM_TARGETTING_COMPUTER_1:0 "Chrono-Refractive Matrix"
  GPM_TARGETTING_COMPUTER_1_DESC:0 "This targeting computer runs a future predicting enigmatic chrono-algorithm allowing the ship to fire with more devastating effect at larger targets."
 
- GPM_HANGAR_1:0 "Autonomous Maintanance Bay"
- GPM_HANGAR_1_DESC:0 "Autonomous maintanance bay allowing faster deployment of strike craft. Improved maintenance protocols allow your strike craft to be more efficient in combat."
+ GPM_HANGAR_1:0 "Autonomous Maintenance Bay"
+ GPM_HANGAR_1_DESC:0 "Autonomous maintenance bay allowing faster deployment of strike craft. Improved maintenance protocols allow your strike craft to be more efficient in combat."
  
  
  #######################################
@@ -915,7 +915,7 @@
  gpm_start_menu.1.scaling_randomTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§W Random§! §G(currently selected)§!\n§L Random+§!\n§L Off§!"
 
  gpm_start_menu.1.scaling_randomplus:0 "§YScaling:§! Random+"
- gpm_start_menu.1.scaling_randomplusTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§L Random§!\n§W Random+§! §G(currently selected)§!\n§L Off§!\n\n§LPlanet modifier bonuses §Tmaximum§! values is increased by 50%\n<<<§RWarning§!: this isn't very balanced!>>>§!"
+ gpm_start_menu.1.scaling_randomplusTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§L Random§!\n§W Random+§! §G(currently selected)§!\n§L Off§!\n\n§LPlanet modifier bonuses §Tmaximum§! values are increased by 50%\n<<<§RWarning§!: this isn't very balanced!>>>§!"
 
  gpm_start_menu.1.scaling_off:0 "§YScaling:§! Off"
  gpm_start_menu.1.scaling_offTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§L Random§!\n§L Random+§!\n§R Off§! §G(currently selected)§!"
@@ -970,9 +970,9 @@
  gpm_start_menu.2.enabled_relic_AI_heists:1 "£options_icon  §GEnable AI Relic Heists§!"
  gpm_start_menu.2.enable_relic_AI_heistsTT:1 "§HClick this to enable Steal Relic spy operations for AI§!\nThis will allow the AI to use §YSteal Relic§! Spy Operations on players."
 
- gpm_start_menu.2.enabled_mp_fun:1 "£options_icon  §GEnable Increased Presursor 'drops'§!"
+ gpm_start_menu.2.enabled_mp_fun:1 "£options_icon  §GEnable Increased Precursor 'drops'§!"
  gpm_start_menu.2.enabled_mp_funTT:1 "§HClick this to increase the chance of precursor dig sites and increase their special rewards§!\nGreatly increases the chance of precursor dig sites appearing during the game.\nGreatly increases the chance precursor dig sites give special or unique rewards such as relics, ships, components,..\n\n§TAlso works in single player!§!"
- gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDisable Increased Presursor 'drops'§!"
+ gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDisable Increased Precursor 'drops'§!"
  gpm_start_menu.2.disable_mp_funTT:1 "§HClick this to reset the chance of precursor dig sites and reset their special rewards§!\nResets the chance of precursor dig sites appearing during the game to their default values.\nResets the chance precursor digsites give special rewards to their default values"
 
  gpm_start_menu.2.enabled_mini_structures:0 "£options_icon  §GEnable Mini Megastructures§!"
@@ -994,14 +994,14 @@
  
  
  gpm_tech_arcane_research:0 "Precursor Studies"
- gpm_tech_arcane_research_desc:0 "Enhanced research methodologies for to the collecting and understading of precursor technolgies."
+ gpm_tech_arcane_research_desc:0 "Enhanced research methodologies for collecting and understading of precursor technolgies."
  gpm_tech_arcane_researchTT: "§HUnlocks:§! $gpm_precursor_research_center$ £minor_artifacts£ Minor Artifacts production: §G+0.25§!"
  
  tech_gpm_tb_toxic_gas:0 "Aero-Chemical Neutralisers"
  tech_gpm_tb_toxic_gas_desc:0 "It is going to be hard to remove toxic gas clouds that roam the landscape. Our best bet is dropping a mist of chemical neutralisers over them."
 
  tech_gpm_tb_toxic_gas_hive_mind:0 "Global Chemical Neutralisers"
- tech_gpm_tb_toxic_gas_desc_hive_mind:0 "The collective will put it's full effort into spreading chemical neutralisers over these worlds."
+ tech_gpm_tb_toxic_gas_desc_hive_mind:0 "The collective will put its full effort into spreading chemical neutralisers over these worlds."
  tech_gpm_tb_toxic_gas_machine_intelligence:0 "Non-Corrosive Alloys"
  tech_gpm_tb_toxic_gas_desc_machine_intelligence:0 "By fusing our standard building materials with a specific non-corrosive element we can keep the toxic gas out of our buildings indefinitely. "
 
@@ -1015,7 +1015,7 @@
  tech_gpm_tb_locust_plagues_desc:0 "By introducing harmless natural predators into the environment we should be able to control the locust swarms. We are fairly sure nothing can go wrong with this plan."
 
  tech_gpm_tb_locust_plagues_hive_mind:0 "Planned Extermination"
- tech_gpm_tb_locust_plagues_desc_hive_mind:0 "To effectively combat these swarms we should divide the area in sectors and work from the outside in. Specialised equipment and biological engineered natural predators will be used to systematically eradicate the locust swarms."
+ tech_gpm_tb_locust_plagues_desc_hive_mind:0 "To effectively combat these swarms we should divide the area in sectors and work from the outside in. Specialised equipment and biologically engineered natural predators will be used to systematically eradicate the locust swarms."
  
  tech_gpm_tb_locust_plagues_machine_intelligence:0 "Artificial Predators"
  tech_gpm_tb_locust_plagues_desc_machine_intelligence:0 "Carefully crafted mechanical insects will be introduced to hunt and kill every single locust."
@@ -1024,7 +1024,7 @@
  tech_gpm_tb_seasonal_flooding_desc:0 "Flood management strategies generally involve multiple engineering projects that can fall under one of two categories. Hard engineering projects are ones that involve the construction of artificial structures that, through a combination of science, technology and a bit of brute force, prevent a river from flooding. Soft engineering projects are the opposite. These projects use natural resources and local people's knowledge of the river to reduce the risk posed by a flood."
 
  tech_gpm_tb_seasonal_flooding_machine_intelligence:0 "Flood Draining Systems"
- tech_gpm_tb_seasonal_flooding_desc_machine_intelligence:0 "Artificial basins and deep underground cisterns will be used to buffer any flood water that appears duo to natural or artificial planetary changes."
+ tech_gpm_tb_seasonal_flooding_desc_machine_intelligence:0 "Artificial basins and deep underground cisterns will be used to buffer any flood water that appears due to natural or artificial planetary changes."
 
  tech_gpm_d_arachnophobia:0 "They are no joke!"
  tech_gpm_d_arachnophobia_desc:0 "If we could we would take the next shuttle out of here! But sadly we cannot, so we will have to deal with these giant arachnids. Perhaps a giant flamethrower. Something with fire §Ralways§! works."
@@ -1039,13 +1039,13 @@
  tech_gpm_d_dunes_desc:0 "The management of dune removal projects includes planting vegetation successfully. Merely scattering and leaving seeds over sandy areas is perceived as a potential waste as strong winds can blow seeds away. Planting of nurseries should be conducted in the hollows of any present sand hills or in depressions of sandy areas. Seeds should be planted in moist conditions and should be lightly covered by a layer of sand and large mature grass individuals should be planted in deep holes with the tops of the plants cut short so as to reduce wind resistance."
 
  tech_gpm_precursor_remnants_discovery:0 "Non-Standard Archaeologist Safety Gear"
- tech_gpm_precursor_remnants_discovery_desc:0 "Allowing your archaeologists to chose their own gear and protection based on the site they are exploring gives the best chance of success!"
+ tech_gpm_precursor_remnants_discovery_desc:0 "Allowing your archaeologists to choose their own gear and protection based on the site they are exploring gives the best chance of success!"
 
  tech_gpm_precursor_remnants_discovery_2:0 "Triple Probe Search Patterns"
  tech_gpm_precursor_remnants_discovery_2_desc:0 "Utilising an optimised search pattern involving three probes simultaneously vastly increases our ability to scan the surfaces of worlds."
 
  tech_gpm_precursor_energy_grid_discovery:0 "Energy Recycling Conduits"
- tech_gpm_precursor_energy_grid_discovery_desc:0 "New thermal recycling systems in energy conduits allow for more efficient power transfer. Unfortunately this new technology works best in vacuum environments and are very fragile so they are best suited for stationary designs."
+ tech_gpm_precursor_energy_grid_discovery_desc:0 "New thermal recycling systems in energy conduits allow for more efficient power transfer. Unfortunately this new technology works best in vacuum environments and is very fragile so they are best suited for stationary designs."
 
  tech_gpm_precursor_energy_grid_discovery_2:0 "Energy Field Theories"
  tech_gpm_precursor_energy_grid_discovery_2_desc:0 "New theories on energy fields will have a positive effect on our ability to generate energy."
@@ -1072,7 +1072,7 @@
  tech_gpm_precursor_planetary_gun_discovery_desc:0 "Specialised quantum computer-chips are much more efficient in predicting where a target will be."
  
  tech_gpm_precursor_planetary_gun_discovery_2:0 "Aerogel Cooling Plating"
- tech_gpm_precursor_planetary_gun_discovery_2_desc:0 "Special carbon aerogel plating can be applied to our weapon systems allowing them to fire more rapid without causing internal damage from overheating."
+ tech_gpm_precursor_planetary_gun_discovery_2_desc:0 "Special carbon aerogel plating can be applied to our weapon systems allowing them to fire more rapidly without causing internal damage from overheating."
  
  tech_gpm_precursor_bunker_grid_discovery:0 "Portable Forcefields"
  tech_gpm_precursor_bunker_grid_discovery_desc:0 "Advanced forcefield emitters allow for them to be much more easily deployed."
@@ -1093,34 +1093,34 @@
  tech_gpm_precursor_planetary_shield_discovery_2_desc:0 "Large open channel conduits allow for vastly more power to run through the shield emitters, causing our shields to regain strength faster."
 
  tech_gpm_precursor_floating_city_discovery:0 "Gravity Anchors"
- tech_gpm_precursor_floating_city_discovery_desc:0 "Gravitational anchors reduce the amount of stress structures experience from their own weight. They allow for much taller and wider structures to be build."
+ tech_gpm_precursor_floating_city_discovery_desc:0 "Gravitational anchors reduce the amount of stress structures experience from their own weight. They allow for much taller and wider structures to be built."
  
  tech_gpm_precursor_floating_city_discovery_2:0 "Micro Gravity Fields"
  tech_gpm_precursor_floating_city_discovery_2_desc:0 "Small emitters produce a localised anti-gravity field which allows structures to have far extruding platforms and sections without collapsing."
  
  tech_gpm_precursor_capital_complex_discovery:0 "Bureaucratic Protocols"
- tech_gpm_precursor_capital_complex_discovery_desc:0 "Standardised efficient protocols allow for decisions to go through a governance system faster then before."
+ tech_gpm_precursor_capital_complex_discovery_desc:0 "Standardised efficient protocols allow for decisions to go through a governance system faster than before."
  
  tech_gpm_precursor_capital_complex_discovery_2:0 "Diplomatic Appeasement Techniques"
  tech_gpm_precursor_capital_complex_discovery_2_desc:0 "Through genuine interest or not, we can reduce the perceived threat to our neighbours by acting slightly condescending. A diplomatic technique that just works universally. We are perceived as the parent, rather than the aggressive sibling."
  
  tech_gpm_precursor_communication_hub_discovery:0 "Time-Crystal Storage"
- tech_gpm_precursor_communication_hub_discovery_desc:0 "Artificial Time-Crystals do not degrade and can be used to store vast amounts of knowledge. All the knowledge and instructions a new colony could need to grown and expand."
+ tech_gpm_precursor_communication_hub_discovery_desc:0 "Artificial Time-Crystals do not degrade and can be used to store vast amounts of knowledge. All the knowledge and instructions a new colony could need to grow and expand."
  
  tech_gpm_precursor_communication_hub_discovery_2:0 "Deep-Space Relay Stations"
  tech_gpm_precursor_communication_hub_discovery_2_desc:0 "Efficient and self-powered relay stations to boost signals coming from the borders of our empire."
  
  tech_gpm_precursor_singularity_drive_discovery:0 "Master-Database"
- tech_gpm_precursor_singularity_drive_discovery_desc:0 "Specialised Database containing the entirety of our empires scientific knowledge. Specialised algorithms to look up data makes it easier to cross-reference scientific information."
+ tech_gpm_precursor_singularity_drive_discovery_desc:0 "Specialised Database containing the entirety of our empire's scientific knowledge. Specialised algorithms to look up data make it easier to cross-reference scientific information."
  
  tech_gpm_precursor_singularity_drive_discovery_2:0 "Personal Singularity Assistant"
- tech_gpm_precursor_singularity_drive_discovery_2_desc:0 "A miniatures simple version of the singularity drive is used as a personal assistant. Though simple in form the personal drive can calculate extremely complex tasks if asked."
+ tech_gpm_precursor_singularity_drive_discovery_2_desc:0 "A miniature simple version of the singularity drive is used as a personal assistant. Though simple in form the personal drive can calculate extremely complex tasks if asked."
  
  tech_gpm_precursor_eternal_fortress_discovery:0 "Orbital Camouflage"
  tech_gpm_precursor_eternal_fortress_discovery_desc:0 "A unique way of constructing buildings using various angles and colours based on the surroundings of structures can make them very difficult to see from orbit."
  
  tech_gpm_precursor_eternal_fortress_discovery_2:0 "Polar Garrisons"
- tech_gpm_precursor_eternal_fortress_discovery_2_desc:0 "Insight into precursor warfare leads us to believe polar invasions is a much more common strategy than we first thought."
+ tech_gpm_precursor_eternal_fortress_discovery_2_desc:0 "Insight into precursor warfare leads us to believe polar invasions are a much more common strategy than we first thought."
  
  tech_gpm_precursor_prison_planet_discovery:0 "Drone Watchers"
  tech_gpm_precursor_prison_planet_discovery_desc:0 "Tiny drones that patrol the streets, much like their immobile static variant: the traffic camera."
@@ -1145,13 +1145,13 @@
  tech_gpm_precursor_vaults_discovery_desc:0 "Discovery of unique subspace emissions coming from these artifacts allows us to detect them from large distances away. The galaxy is full of them, we just have to pick them up!"
  
  tech_gpm_precursor_vaults_discovery_2:0 "Ancient Vault Treasure Map"
- tech_gpm_precursor_vaults_discovery_2_desc:0 "Hidden in a compartment of one of the artifacts found was a map. A map leading to a hidden vault within our territories on an ancient moon. Expeditions have already be sent out. "
+ tech_gpm_precursor_vaults_discovery_2_desc:0 "Hidden in a compartment of one of the artifacts found was a map. A map leading to a hidden vault within our territories on an ancient moon. Expeditions have already been sent out. "
  
  tech_gpm_precursor_crashed_spacestation_discovery:0 "Self-Assembly Starbase Modules"
  tech_gpm_precursor_crashed_spacestation_discovery_desc:0 "Highly modular systems allow starbases to cheaply change their configurations."
  
  tech_gpm_precursor_crashed_spacestation_discovery_2:0 "Starbase Heat Recycling"
- tech_gpm_precursor_crashed_spacestation_discovery_2_desc:0 "Vast network of thermal transfer nodes allow the starbase to efficiently recyle waste heat."
+ tech_gpm_precursor_crashed_spacestation_discovery_2_desc:0 "Vast network of thermal transfer nodes allows the starbase to efficiently recyle waste heat."
  
  tech_gpm_precursor_battleground_ruins_discovery:0 "Plasma Rifles"
  tech_gpm_precursor_battleground_ruins_discovery_desc:0 "Soldiers equipped with plasma rifles fire a beam of plasma, which is an excited state of matter consisting of atomic electrons & nuclei and free electrons, causing unprecedented damage to whatever they hit."
@@ -1163,13 +1163,13 @@
  tech_gpm_precursor_outpost_ruins_discovery_desc:0 "Sensors capable of peering into subspace can detect the warp signatures of ships further away then conventional sensors."
  
  tech_gpm_precursor_outpost_ruins_discovery_2:0 "Command Outposts"
- tech_gpm_precursor_outpost_ruins_discovery_2_desc:0 "Specialises military command outposts allow for fleets to better coordinate with central command. As a result, committing more assets to the front lines becomes a lot easier."
+ tech_gpm_precursor_outpost_ruins_discovery_2_desc:0 "Specialised military command outposts allow for fleets to better coordinate with central command. As a result, committing more assets to the front lines becomes a lot easier."
  
  tech_gpm_precursor_harbor_ruins_discovery:0 "Auto Fisheries"
- tech_gpm_precursor_harbor_ruins_discovery_desc:0 "Automated harbour fisheries provide an endless supply of food without negatively effecting the environment."
+ tech_gpm_precursor_harbor_ruins_discovery_desc:0 "Automated harbour fisheries provide an endless supply of food without negatively affecting the environment."
  
  tech_gpm_precursor_harbor_ruins_discovery_2:0 "Nanite Fluid Filters"
- tech_gpm_precursor_harbor_ruins_discovery_2_desc:0 "Energetic fluid filters that pull fluids through their nanite latices creating drinkable liquids."
+ tech_gpm_precursor_harbor_ruins_discovery_2_desc:0 "Energetic fluid filters that pull fluids through their nanite lattices creating drinkable liquids."
  
  tech_gpm_precursor_ruins_discovery:0 "Precursor Theories"
  tech_gpm_precursor_ruins_discovery_desc:0 "A vast databank of precursor gained knowledge will help us out with newer discoveries."
@@ -1251,10 +1251,10 @@
  tech_gpm_plasmoid_life_discovery_2_desc:0 "Using radon gas, a highly stable and non-reactant material, and super heating it to plasma has remarkable applications in the manufacturing areas of non-stable elements."
  
  tech_gpm_temple_of_the_ancient_one_discovery:0 "Ritual Of Insight"
- tech_gpm_temple_of_the_ancient_one_discovery_desc:0 "An ancient scroll speaks of a ritual that gives insights into the very nature of the universe.."
+ tech_gpm_temple_of_the_ancient_one_discovery_desc:0 "An ancient scroll speaks of a ritual that gives insights into the very nature of the universe..."
  
  tech_gpm_temple_of_the_ancient_one_discovery_2:0 "Ritual Of Sacrifice"
- tech_gpm_temple_of_the_ancient_one_discovery_2_desc:0 "An ancient scroll speaks of a ritual that prolongs life.. at a cost."
+ tech_gpm_temple_of_the_ancient_one_discovery_2_desc:0 "An ancient scroll speaks of a ritual that prolongs life... at a cost."
  
  tech_gpm_proto_forests_discovery:0 "Alien Fruits"
  tech_gpm_proto_forests_discovery_desc:0 "Fast growing exotic trees that produce succulent juicy orange fruits ready to eat."
@@ -1349,7 +1349,7 @@
  tech_gpm_crystalis_targeting_matrix_1:0 "Chrono-Refractive Matrix"
  tech_gpm_crystalis_targeting_matrix_1_desc:0 "Improves ship accuracy on larger targets by predicting the effects of fire in the immediate future using an enigmatic chrono-algorithm.\n\n"
  
- tech_gpm_hangar_1:0 "Autonomous Maintanance Bay"
+ tech_gpm_hangar_1:0 "Autonomous Maintenance Bay"
  tech_gpm_hangar_1_desc:0 "$GPM_HANGAR_1_DESC$\n"
  
  
@@ -1357,7 +1357,7 @@
  #### Traits
  #######################################
  trait_gpm_forgotten_species:0 "Forgotten Species"
- trait_gpm_forgotten_species_desc:0 "§LYour species finds itself on a world devastated by a war you have lost. You learn quick and this time you won't take your chances.§!"
+ trait_gpm_forgotten_species_desc:0 "§LYour species finds itself on a world devastated by a war you have lost. You learn quickly and this time you won't take your chances.§!"
  TRAIT_GPM_FORGOTTEN_SPECIES_EFFECT:0 ""
  
  trait_gpm_mega_adaptive:0 "Deathworlders"
@@ -1365,7 +1365,7 @@
  TRAIT_GPM_MEGA_ADAPTIVE_EFFECT:0 ""
  
  trait_gpm_high_status:0 "Respected Beginnings"
- trait_gpm_high_status_desc:0 "§LYour species origin is unknown to yourself, and perhaps most of the galaxy. Yet you sense that your very existence demands respect.§!"
+ trait_gpm_high_status_desc:0 "§LYour species' origin is unknown to yourself, and perhaps most of the galaxy. Yet you sense that your very existence demands respect.§!"
  TRAIT_GPM_HIGH_STATUS_EFFECT:0 "£unity£ Unity from £pop£ pop Jobs: §G+15%§!\nYour species gains a §G+40§! opinion bonus with §HFallen Empires§!."
 
  leader_trait_gpm_guilli:0 "Mad Scientist"
@@ -1387,7 +1387,7 @@
  trait_gpm_enigmatic_update_desc:0 "§LThe machine intelligence has received an unwanted update.§!"
  
  leader_trait_gpm_fallen_heraldry:0 "Fallen Heraldry"
- leader_trait_gpm_fallen_heraldry_desc:0 "Bright and shiney heraldry covering troop armour to inspire confidence."
+ leader_trait_gpm_fallen_heraldry_desc:0 "Bright and shiny heraldry covering troop armour to inspire confidence."
  
  leader_trait_gpm_battle_standards:0 "Battle Standards"
  leader_trait_gpm_battle_standards_desc:0 "Colourful Banners that inspire the troops and bring fear to your mortal enemies."

@@ -17,7 +17,7 @@ Flat world planet picture resets/gets updated/breaks after every survey!
 
 hey @Guilliman , shield arrays lost its strength after terraforming, is this normal
 issue with starting world changing to other world, some kind of mod incompatibility (not likely my mod issue)
-make it so survey options are shown regardless of availible influence. 
+make it so survey options are shown regardless of available influence. 
 Some starting options appear to not be working correctly
 fly traps (?) deploying leads to no longer be able to build arachnid armies.
 any fix for the precursor energy grid visuals not spawning?

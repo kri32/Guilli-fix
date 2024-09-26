@@ -179,7 +179,7 @@ gpm_tb_toxic_gas:0 "£blocker£有毒气体"
  gpm_tb_xenomorph_blocker_empty_desc:1 "Ravenous hordes of bio-engineered horrors made up of little more than teeth, claws and an instinctive urge to kill."
  
  gpm_tb_automated_turrets_empty:1 "£blocker£ Autonomous Arc Turrets"
- gpm_tb_automated_turrets_empty_desc:1 "Deadly autnomous turrets that shoot everything that moves."
+ gpm_tb_automated_turrets_empty_desc:1 "Deadly autonomous turrets that shoot everything that moves."
 
  gpm_d_webbing:0 "Sticky Webbing"
  gpm_d_webbing_desc:0 "Thick sticky webbing spans across the landscape making it extremely difficult to navigate"
