@@ -309,6 +309,7 @@
  #######################################
  #### Casus Bellis
  #######################################
+ casus_belli_cb_gpm_claim_relic:0 "Claim Relic"
  casus_belli_cb_gpm_r_time_displacer:0 "宣称$gpm_r_time_displacer$"
  casus_belli_cb_gpm_r_alien_eggs:0 "宣称$gpm_r_alien_eggs$"
  casus_belli_cb_gpm_r_machine_world_core:0 "宣称$gpm_r_machine_world_core$"

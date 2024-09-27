@@ -215,3 +215,11 @@ gpm_has_other_mod_relic = {
 		has_relic = r_sh_book
 	}
 }
+
+gpm_has_wargoal_relic = {
+	OR = {
+		gpm_has_vanilla_precursor_relic = yes
+		gpm_has_modded_precursor_relic = yes
+		gpm_has_modded_non_precursor_relic = yes
+	}
+}
