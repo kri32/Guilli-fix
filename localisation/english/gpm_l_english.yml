@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 # l_spanish:
 # l_german:
 # l_french:
@@ -1534,7 +1534,7 @@
  gpm_war_of_the_stc:0 "War for the STC"
  gpm_war_of_the_codex:0 "War of the Codex"
  gpm_war_of_the_soul:0 "War for the Soul"
- gpm_war_of_the_queen:0 "The Sentinal War"
+ gpm_war_of_the_queen:0 "The Sentinel War"
  gpm_war_of_the_fallen:0 "War of the Fallen" 
  gpm_war_of_the_dragon:0 "War of the Dragon"
  gpm_war_of_the_throne:0 "War for the Throne"
@@ -1551,7 +1551,7 @@
  gpm_war_of_the_zro_crystal:0 "The Zro Wars"
  gpm_war_of_the_last_baol:0 "War for the Last Baol"
  gpm_war_of_the_defragmentor:0 "The Defragmentor Wars"
- gpm_war_of_the_reality_perforator:0 "The Reality wars"
+ gpm_war_of_the_reality_perforator:0 "The Reality Wars"
  gpm_war_of_the_pox_sample:0 "The Pox Wars"
  gpm_war_of_the_cryo_core:0 "The Cryo Wars"
  gpm_war_of_the_war_forge:0 "War of the Forge"
