@@ -636,7 +636,7 @@ country_event = {
 		hidden_effect = {
 			# all relations get to know we "found" a new relic
 			if = {
-				limit = { num_owned_relics = 1 }
+				limit = { num_owned_relics = value:gpm_base_num_relics|PLUS|1| }
 				every_relation = {
 					limit = {
 						gpm_is_country_type_default = yes
@@ -657,7 +657,7 @@ country_event = {
 				}
 			}
 			if = {
-				limit = { num_owned_relics > 1 }
+				limit = { num_owned_relics > value:gpm_base_num_relics|PLUS|1| }
 				every_relation = {
 					limit = {
 						gpm_is_country_type_default = yes
@@ -730,7 +730,7 @@ country_event = {
 							category = technology
 							level < 2
 						}
-						num_owned_relics = 1
+						num_owned_relics = value:gpm_base_num_relics|PLUS|1|
 					}
 					log = "<< RELICS >> | RELIC STOLEN <<< create message on THIS = [THIS.GetName]; every relation notifcation"
 					create_message = {
@@ -754,7 +754,7 @@ country_event = {
 							category = technology
 							level < 2
 						}
-						num_owned_relics > 1
+						num_owned_relics > value:gpm_base_num_relics|PLUS|1|
 					}
 					log = "<< RELICS >> | RELIC STOLEN <<< create message on THIS = [THIS.GetName]; every relation notifcation"
 					create_message = {
@@ -889,7 +889,7 @@ country_event = {
 							category = technology
 							level < 2
 						}
-						num_owned_relics = 1
+						num_owned_relics = value:gpm_base_num_relics|PLUS|1|
 					}
 					log = "<< RELICS >> | RELIC STOLEN <<< create message on THIS = [THIS.GetName]; every relation notifcation"
 					create_message = {
@@ -913,7 +913,7 @@ country_event = {
 							category = technology
 							level < 2
 						}
-						num_owned_relics > 1
+						num_owned_relics > value:gpm_base_num_relics|PLUS|1|
 					}
 					log = "<< RELICS >> | RELIC STOLEN <<< create message on THIS = [THIS.GetName]; every relation notifcation"
 					create_message = {

@@ -19,16 +19,7 @@ cb_gpm_claim_relic = {
 		}
 		from = {
 			# a faster check before asking for each supported relic
-			if = {
-				limit = {
-					has_global_flag = gigastructures_enabled 
-					has_relic = r_giga_ai_savings
-				}
-				num_owned_relics > 1
-			}
-			else = {
-				num_owned_relics > 0
-			}
+			num_owned_relics > value:gpm_base_num_relics
 			gpm_has_wargoal_relic = yes
 		}
 	}

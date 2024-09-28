@@ -117,3 +117,14 @@ gpm_leader_level_value = {
 		}
 	}
 }
+
+gpm_base_num_relics = {
+	base = 0
+	add = $PLUS|0$
+
+	# gigastructures
+	inline_script = { 
+		script = mod_support/gpm_giga_present 
+		code = "modifier = { add = 1 has_relic = r_giga_ai_savings }"
+	}
+}

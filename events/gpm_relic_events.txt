@@ -464,7 +464,7 @@ country_event = {
 							category = technology
 							level < 2
 						}
-						num_owned_relics = 1
+						num_owned_relics = value:gpm_base_num_relics|PLUS|1|
 					}
 					log = "<< RELICS >> | RELIC CONQUEST <<< create message on THIS = [THIS.GetName]; every relation notifcation"
 					create_message = {
@@ -488,7 +488,7 @@ country_event = {
 							category = technology
 							level < 2
 						}
-						num_owned_relics > 1
+						num_owned_relics > value:gpm_base_num_relics|PLUS|1|
 					}
 					log = "<< RELICS >> | RELIC CONQUEST <<< create message on THIS = [THIS.GetName]; every relation notifcation"
 					create_message = {

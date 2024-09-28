@@ -85,7 +85,7 @@ country_event = {
 						gpm_has_modded_non_precursor_relic = yes
 						gpm_has_other_mod_relic = yes
 					}
-					num_owned_relics = 1
+					num_owned_relics = value:gpm_base_num_relics|PLUS|1|
 				}
 			}
 			root = {
@@ -112,7 +112,7 @@ country_event = {
 						gpm_has_modded_non_precursor_relic = yes
 						gpm_has_other_mod_relic = yes
 					}
-					num_owned_relics > 1
+					num_owned_relics > value:gpm_base_num_relics|PLUS|1|
 				}
 			}
 			root = {
@@ -141,7 +141,7 @@ country_event = {
 						gpm_has_modded_non_precursor_relic = yes
 						gpm_has_other_mod_relic = yes
 					}
-					num_owned_relics = 1
+					num_owned_relics = value:gpm_base_num_relics|PLUS|1|
 				}
 			}
 			FROM = {
@@ -168,7 +168,7 @@ country_event = {
 						gpm_has_modded_non_precursor_relic = yes
 						gpm_has_other_mod_relic = yes
 					}
-					num_owned_relics > 1
+					num_owned_relics > value:gpm_base_num_relics|PLUS|1|
 				}
 			}
 			FROM = {
