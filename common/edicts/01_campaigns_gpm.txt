@@ -32,6 +32,10 @@ gpm_edict_alloy_production  = {
 		has_ancrel = yes
 	}
 
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
+
 	modifier = {
 		planet_metallurgists_alloys_produces_add = 2
 		planet_metallurgists_minor_artifacts_upkeep_add = 0.5
@@ -62,6 +66,10 @@ gpm_edict_consumer_goods_production  = {
 		}
 	}
 
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
+
 	modifier = {
 		planet_artisans_consumer_goods_produces_add = 2
 		planet_artisans_minor_artifacts_upkeep_add = 0.5
@@ -86,6 +94,10 @@ gpm_edict_exotic_production  = {
 		has_technology = tech_arcane_deciphering
 		has_ancrel = yes
 	}
+
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
 
 	modifier = {
         planet_refiners_exotic_gases_produces_add = 2

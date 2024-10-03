@@ -34,6 +34,10 @@ gpm_edict_pop_assembly  = {
 		has_ancrel = yes
 	}
 
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
+
 	modifier = {
 		planet_pop_assembly_mult = 0.33
 		planet_pop_assemblers_minor_artifacts_upkeep_add = 1.0
@@ -58,6 +62,10 @@ gpm_edict_terraform_speed  = {
 		has_technology = tech_ascension_theory
 		has_ancrel = yes
 	}
+
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
 
 	modifier = {
 		terraform_speed_mult = 2.00
@@ -86,6 +94,10 @@ gpm_edict_armor_regen  = {
 		has_technology = tech_ascension_theory
 		has_ancrel = yes
 	}
+
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
 
 	modifier = {
 		#ship_armor_regen_add_perc = 100.00
@@ -117,6 +129,10 @@ gpm_edict_shield_regen  = {
 		has_ancrel = yes
 	}
 
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
+
 	modifier = {
 		ship_shield_regen_add_perc = 1.0
 	}
@@ -145,6 +161,10 @@ gpm_edict_ship_bombard_dmg  = {
 		has_ancrel = yes
 	}
 
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
+
 	modifier = {
 		ship_orbital_bombardment_mult = 1.00
 	}
@@ -172,6 +192,10 @@ gpm_edict_army_boost  = {
 		has_technology = tech_ascension_theory
 		has_ancrel = yes
 	}
+
+	allow = {
+        resource_stockpile_compare = { resource = minor_artifacts value > 0 }
+    }
 
 	modifier = {
 		army_defense_damage_mult = 1.00
