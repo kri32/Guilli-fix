@@ -10,6 +10,10 @@ Zrocursor_system = {
 	
 	planet = {
 		class = star
+		size = {
+			min = 26
+			max = 30
+		}
 		orbit_distance = 0
 		init_effect = {
 			if = { 
@@ -430,6 +434,10 @@ last_baol_system = {
 
 	planet = {
 		class = star
+		size = {
+			min = 26
+			max = 30
+		}
 		orbit_distance = 0
 		orbit_angle = 1
 		init_effect = {
@@ -1339,6 +1347,7 @@ irass_system = {
 	planet = {
 		class = star
 		orbit_distance = 0
+		size = 29
 		init_effect = {
 			if = { 
 				limit = { NOT = { host_has_dlc = Federations } }
@@ -1595,7 +1604,7 @@ cybrex_system = {
 	planet = {
 		class = star
 		orbit_distance = 0
-
+		size = 30
 		init_effect = {
 			if = { 
 				limit = { NOT = { host_has_dlc = Federations } }
