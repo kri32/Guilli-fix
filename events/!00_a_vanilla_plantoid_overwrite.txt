@@ -12,7 +12,7 @@ planet_event = {
 
 	trigger = {
 		last_building_changed = building_gaiaseeders_4
-		pd_is_planet_class_gaia = no
+		pd_is_planet_class_gaia = no # This has pc_gaia without PD
 	}
 
 	immediate = {

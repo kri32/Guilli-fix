@@ -1,4 +1,4 @@
-# 3.7 compatible
+# 3.14 compatible
 
 decision_baol_life_seed = {
 	owned_planets_only = yes
@@ -9,28 +9,17 @@ decision_baol_life_seed = {
 
 	potential = {
         NOR = {
-            # is_planet_class = pc_city
-            # is_planet_class = pc_machine
-            is_planet_class = pc_relic
-            # is_planet_class = pc_hive
+			gpm_is_planet_class_city = yes
+			is_planet_class = pc_gpm_precursor_tomb
+			gpm_is_planet_class_machine = yes
+        	gpm_is_planet_class_hive = yes
             is_planet_class = pc_gaia
         }
         is_artificial = no
-		
-		gpm_is_planet_class_city = no
-        gpm_is_planet_class_machine = no
-        gpm_is_planet_class_hive = no
-        NOT = {
-            is_planet_class = pc_gpm_precursor_tomb
-        }
-
         exists = owner
-        owner = {
-            has_country_flag = relic_last_baol_activated
-        }
-        owner = {
-            has_country_flag = not_activated_baol
-        }
+        owner = { has_country_flag = relic_last_baol_activated }
+        owner = { has_country_flag = not_activated_baol }
+		NOT = { has_designation = col_nanotech_world }
     }
 
 	allow = { }
@@ -76,7 +65,6 @@ decision_baol_life_seed = {
 					}
 				}
 			}
-			planet_event = { id = ancrel.2025 } #Notification event
 			if = {
                 limit = {
                     has_global_flag = planetarydiversity
@@ -109,6 +97,7 @@ decision_baol_life_seed = {
 				}
 				pd_gaia_flooded_check = yes
 			}
+			planet_event = { id = ancrel.2025 } #Notification event
 			planet_event = { id = gpm_terraform.78871 } #Guilli
 			
 		}

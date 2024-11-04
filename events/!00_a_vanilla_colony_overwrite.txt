@@ -175,7 +175,6 @@ planet_event = {
 	immediate = {
 		
 		hidden_effect = {
-			remove_modifier = "abandoned_terraforming"
 			switch = {
 				trigger = is_planet_class
 				pc_desert = {
@@ -300,6 +299,7 @@ planet_event = {
 					}
 				}
 			}
+			remove_modifier = "abandoned_terraforming"
 			owner = { set_country_flag = terraforming_mutants_invade_country }
 			set_planet_flag = terraforming_mutants_invade_planet
 			create_country = {
@@ -433,6 +433,12 @@ planet_event = {
 							has_trait = trait_pc_nuked_preference
 							has_trait = trait_mechanical
 							has_trait = trait_machine_unit
+                            has_trait = trait_survivor
+                            has_trait = trait_cave_dweller
+                            has_trait = trait_presapient_irradiated
+                            has_trait = trait_plantoid_radiotrophic
+                            has_trait = trait_lithoid_radiotrophic
+                            has_trait = trait_harvested_radiotrophic
 						}
 					}
 				}
@@ -447,6 +453,12 @@ planet_event = {
 							has_trait = trait_pc_nuked_preference
 							has_trait = trait_mechanical
 							has_trait = trait_machine_unit
+                            has_trait = trait_survivor
+                            has_trait = trait_cave_dweller
+                            has_trait = trait_presapient_irradiated
+                            has_trait = trait_plantoid_radiotrophic
+                            has_trait = trait_lithoid_radiotrophic
+                            has_trait = trait_harvested_radiotrophic
 						}
 					}
 					kill_pop = yes
@@ -497,7 +509,10 @@ planet_event = {
 			}
 		}
 		name = EXCELLENT
-		change_pc = pc_nuked
+        hidden_effect = {
+            change_pc = pc_nuked
+        }
+        set_planet_flag = nuked_planet_anomalies_disabled
 		hidden_effect = {
 			remove_modifier = "abandoned_terraforming"
 			if = {									# -guilli

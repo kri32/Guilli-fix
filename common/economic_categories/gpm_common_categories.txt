@@ -356,6 +356,7 @@ planet_pop_assemblers = {
 }
 
 planet_farmers = {
+	icon = "job_farmer"
 	parent = planet_jobs_productive
 	generate_mult_modifiers = {
 		produces
@@ -369,6 +370,7 @@ planet_farmers = {
 }
 
 planet_miners = {
+	icon = "job_miner"
 	parent = planet_jobs_productive
 	generate_mult_modifiers = {
 		produces
@@ -421,6 +423,7 @@ planet_livestock = {
 }
 
 planet_technician = {
+	icon = "job_technician"
 	parent = planet_jobs_productive
 	generate_mult_modifiers = {
 		produces
@@ -679,6 +682,7 @@ planet_telepaths = {
         key = planet_administrators
         modifier_types = {
             add
+			mult
         }
         trigger = {
             always = yes
@@ -779,12 +783,38 @@ ships = {
 	triggered_cost_modifier = {
 		key = starbase_shipyard_build
 		use_parent_icon = yes
-
 		modifier_types = {
 			mult
             add
 		}
+		trigger = {
+            is_scope_valid = yes
+        }
 	}
+
+	triggered_cost_modifier = {
+        key = starbase_shipyard_artificial_build
+        use_parent_icon = yes
+        modifier_types = {
+            mult
+        }
+        trigger = {
+            is_scope_valid = yes
+            is_space_fauna = no
+        }
+    }
+	
+    triggered_cost_modifier = {
+        key = starbase_shipyard_space_fauna_build
+        use_parent_icon = yes
+        modifier_types = {
+            mult
+        }
+        trigger = {
+            is_scope_valid = yes
+            is_space_fauna = yes
+        }
+    }
 
 	triggered_cost_modifier = {
 		key = gdf_ship

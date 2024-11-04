@@ -13,6 +13,7 @@ building_archaeostudies_faculty = {
 		NOR = {
 			has_modifier = resort_colony
 			has_modifier = slave_colony
+			has_modifier = penal_colony
 		}
 		exists = owner
 	}
@@ -22,6 +23,7 @@ building_archaeostudies_faculty = {
 		OR = {
 			has_modifier = resort_colony
 			has_modifier = slave_colony
+			has_modifier = penal_colony
 		}
 	}
 
