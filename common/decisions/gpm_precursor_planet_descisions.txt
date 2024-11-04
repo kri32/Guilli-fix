@@ -94,6 +94,7 @@ gpm_decision_dig_for_precursor_artifacts = {
 	}
 	
 	potential = {
+		exists = from
 		FROM = {
 			OR = {
 				has_event_chain = "vultaum_chain"
@@ -104,7 +105,6 @@ gpm_decision_dig_for_precursor_artifacts = {
 			}
 		}
 		exists = space_owner
-		exists = from
 		space_owner = { is_same_value = from }
 		OR = {
 			has_planet_flag = gpm_is_precursor_world
