@@ -1,35 +1,23 @@
 # Irony this is a placeholder file please ignore it
 
-has_pd_modifier = {
-	always = no
-}
-pd_aw_is_megaflora_planet = {
-	always = no
-}
-pd_aw_is_wasteland_planet = {
-	always = no
-}
-pd_aw_is_shroud_planet = {
-	always = no
-}
-pd_aw_is_necro_planet = {
-	always = no
-}
-pd_is_flooded_planet = {
-	always = no
-}
-pd_aw_is_lithoid_planet = {
-	always = no
-}
-pd_is_planet_class_superhabitable = {
-	always = no
-}
-pd_is_planet_class_tidally_locked = {
-	always = no
-}
-pd_is_planet_class_cave = {
-	always = no
-}
-pd_is_planet_class_gaia = {
-	is_planet_class = pc_gaia
-}
+### Planetary Diversity
+has_pd_modifier = { always = no }
+pd_is_planet_class_all = { always = no }
+pd_is_planet_class_superhabitable = { always = no }
+pd_is_planet_class_tidally_locked = { always = no }
+pd_is_planet_class_cave = { always = no }
+pd_is_planet_class_gaia = { is_planet_class = pc_gaia }
+pd_is_planet_pd_class_nuked = { always = no }
+pd_is_planet_class_hive = { always = no }
+pd_is_planet_class_machine = { always = no }
+pd_is_pd_hive_arc = { always = no }
+pd_is_pd_machine_arc = { always = no }
+pd_aw_is_megaflora_planet = { always = no }
+pd_aw_is_wasteland_planet = { always = no }
+pd_aw_is_shroud_planet = { always = no }
+pd_aw_is_necro_planet = { always = no }
+pd_is_flooded_planet = { always = no }
+pd_aw_is_lithoid_planet = { always = no }
+
+### Gigastructural Engineering
+giga_is_ringworld = { always = no }

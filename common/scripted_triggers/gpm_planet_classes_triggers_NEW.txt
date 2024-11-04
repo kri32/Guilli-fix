@@ -9,7 +9,7 @@ gpm_is_planet_class_normal_uninhabitable = {
 		is_planet_class = pc_frozen					# Vanilla
 		is_planet_class = pc_barren					# Vanilla
 		is_planet_class = pc_barren_cold			# Vanilla
-		inline_script = {
+		inline_script = {							# PD
 			script = mod_support/gpm_pd_present
 			code = "
 				is_planet_class = pc_pd_barren_superhabitable
@@ -42,7 +42,7 @@ gpm_is_planet_class_barren = {
 	OR = {
 		is_planet_class = pc_barren					# Vanilla
 		is_planet_class = pc_barren_cold			# Vanilla
-		inline_script = {
+		inline_script = {							# PD
 			script = mod_support/gpm_pd_present
 			code = "
 				is_planet_class = pc_pd_barren_superhabitable
@@ -70,31 +70,11 @@ gpm_is_planet_class_normal_habitable = {
 		is_planet_class = pc_arctic					# Vanilla
 		is_planet_class = pc_tundra					# Vanilla
 		#is_planet_class = pc_nuked					# Vanilla
-		inline_script = {
+		pd_is_planet_class_all = yes				# PD
+		inline_script = {							# Giga
 			script = mod_support/gpm_giga_present
 			code = "
 				is_planet_class = pc_flat_world
-			"
-		}
-		
-		inline_script = {
-			script = mod_support/gpm_pd_present
-			code = "
-				is_planet_class = pc_pd_wet_superhabitable
-				is_planet_class = pc_pd_wet_cave
-				is_planet_class = pc_pd_wet_gaia
-				is_planet_class = pc_pd_wet_tidally_locked
-				is_planet_class = pc_pd_cold_superhabitable
-				is_planet_class = pc_pd_cold_cave
-				is_planet_class = pc_pd_cold_gaia
-				is_planet_class = pc_pd_cold_tidally_locked
-				is_planet_class = pc_pd_dry_superhabitable
-				is_planet_class = pc_pd_dry_cave
-				is_planet_class = pc_pd_dry_gaia
-				is_planet_class = pc_pd_dry_tidally_locked
-				is_planet_class = pc_pd_gaia_superhabitable
-				is_planet_class = pc_pd_gaia_cave
-				is_planet_class = pc_pd_gaia_tidally_locked
 			"
 		}
 	}
@@ -103,14 +83,7 @@ gpm_is_planet_class_nuked = {
 	optimize_memory
 	OR = {
 		is_planet_class = pc_nuked					# Vanilla
-		inline_script = {
-			script = mod_support/gpm_pd_present
-			code = "
-				is_planet_class = pc_pd_nuked_superhabitable
-				is_planet_class = pc_pd_nuked_cave
-				is_planet_class = pc_pd_nuked_tidally_locked
-			"
-		}
+		pd_is_planet_pd_class_nuked = yes			# PD
 	}
 }
 
@@ -128,7 +101,7 @@ gpm_is_planet_class_star = {
 		is_planet_class = pc_m_star					# Vanilla
 		is_planet_class = pc_m_giant_star			# Vanilla
 		is_planet_class = pc_t_star					# Vanilla
-		inline_script = {
+		inline_script = {							# Giga
 			script = mod_support/gpm_giga_present
 			code = "
 				is_planet_class = pc_habitable_m_star
@@ -144,25 +117,17 @@ gpm_is_planet_class_asteroid = {
 		is_planet_class = pc_asteroid				# Vanilla
 		is_planet_class = pc_ice_asteroid			# Vanilla
 		is_planet_class = pc_crystal_asteroid		# Vanilla
+		is_planet_class = pc_rare_crystal_asteroid	# Vanilla
 	}
 }
 gpm_is_planet_class_gas_giant = {
 	optimize_memory
 	OR = {
 		is_planet_class = pc_gas_giant				# Vanilla
-		inline_script = {
+		inline_script = {							# Giga
 			script = mod_support/gpm_giga_present
 			code = "
 				is_planet_class = pc_habitable_gas_giant
-			"
-		}
-		inline_script = {
-			script = mod_support/gpm_pd_present
-			code = "
-				is_planet_class = pc_hot_gas_giant
-				is_planet_class = pc_cold_gas_giant
-				is_planet_class = pc_dwarf_gas_giant
-				is_planet_class = pc_cloudless_gas_giant
 			"
 		}
 	}
@@ -172,7 +137,9 @@ gpm_is_planet_class_city = {
 	OR = {
 		is_planet_class = pc_city					# Vanilla
 		is_planet_class = pc_relic					# Vanilla
-		inline_script = {
+		pd_is_pd_machine_arc = yes					# PD More Arcs
+		pd_is_pd_hive_arc = yes						# PD More Arcs
+		inline_script = {							# Giga
 			script = mod_support/gpm_giga_present
 			code = "
 				is_planet_class = pc_ringworld_city
@@ -185,25 +152,12 @@ gpm_is_planet_class_machine = {
 	OR = {
 		is_planet_class = pc_machine					# Vanilla
 		is_planet_class = pc_ai							# Vanilla
-		inline_script = {
+		pd_is_planet_class_machine = yes				# PD
+		inline_script = {								# Giga
 			script = mod_support/gpm_giga_present
 			code = "
 				is_planet_class = pc_ringworld_machine
 				is_planet_class = pc_giga_planetary_computer
-			"
-		}
-		inline_script = {
-			script = mod_support/gpm_pd_present
-			code = "
-				is_planet_class = pc_pd_machine_superhabitable
-				is_planet_class = pc_pd_machine_cave
-				is_planet_class = pc_pd_machine_tidally_locked
-			"
-		}
-		inline_script = {
-			script = mod_support/gpm_pd_ma_present
-			code = "
-				is_planet_class = pc_pd_machine
 			"
 		}
 	}
@@ -212,30 +166,11 @@ gpm_is_planet_class_hive = {
 	optimize_memory
 	OR = {
 		is_planet_class = pc_hive					# Vanilla
-		inline_script = {
+		pd_is_planet_class_hive = yes				# PD
+		inline_script = {							# Giga
 			script = mod_support/gpm_giga_present
 			code = "
 				is_planet_class = pc_ringworld_hive
-			"
-		}
-		inline_script = {
-			script = mod_support/gpm_pd_present
-			code = "
-				is_planet_class = pc_pd_hive_superhabitable
-				is_planet_class = pc_pd_hive_cave
-				is_planet_class = pc_pd_hive_tidally_locked
-			"
-		}
-		inline_script = {
-			script = mod_support/gpm_pd_ma_present
-			code = "
-				is_planet_class = pc_pd_hive
-			"
-		}
-		inline_script = {
-			script = mod_support/gpm_pd_aw_present
-			code = "
-				is_planet_class = pc_pd_flora_hive
 			"
 		}
 	}
@@ -247,45 +182,20 @@ gpm_is_planet_class_habitat = {
 		inline_script = {
 			script = mod_support/gpm_giga_present
 			code = "
-				is_planet_class = pc_birch
-				is_planet_class = pc_virtual_world
 				is_planet_class = pc_interstellar_habitat
+				is_planet_class = pc_giga_elysium
+				is_planet_class = pc_giga_orbital
 			"
 		}
-		# inline_script = {
-		# 	script = mod_support/gpm_pd_present
-		# 	code = "
-		# 		is_planet_class = pc_pd_domed_colony_barren
-		# 		is_planet_class = pc_pd_domed_colony_barren_cold
-		# 		is_planet_class = pc_pd_domed_colony_frozen
-		# 		is_planet_class = pc_pd_domed_colony_toxic
-		# 		is_planet_class = pc_pd_domed_colony_superhabitable
-		# 		is_planet_class = pc_pd_domed_colony_tidally_locked
-		# 		is_planet_class = pc_pd_domed_colony_cave
-		# 	"
-		# }
 	}
 }
 gpm_is_planet_class_ringworld = {
 	optimize_memory
 	OR = {
 		is_ringworld = yes
-		is_planet_class = pc_ringworld_habitable				# Vanilla
-		is_planet_class = pc_cybrex								# Vanilla
-		inline_script = {
-			script = mod_support/gpm_giga_present
-			code = "
-				is_planet_class = pc_city_ringworld_habitable
-				is_planet_class = pc_squareworld_habitable
-				is_planet_class = pc_giga_ringworld_habitable
-				is_planet_class = pc_gigaorbital_ring
-				is_planet_class = pc_squareworld_habitable
-				is_planet_class = pc_interstellar_ringworld_habitable
-				is_planet_class = pc_ringworld_machine
-				is_planet_class = pc_ringworld_city
-				is_planet_class = pc_ringworld_hive
-			"
-		}
+		is_planet_class = pc_ringworld_habitable		# Vanilla
+		is_planet_class = pc_cybrex						# Vanilla
+		giga_is_ringworld = yes							# Giga
 		is_planet_class = pc_rw_at_habitable			# request from user, no specific mod
 		is_planet_class = pc_rw_admin_habitable			# request from user, no specific mod
 	}
