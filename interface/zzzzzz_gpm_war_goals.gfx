@@ -187,4 +187,52 @@ spriteTypes = {
 		name = "GFX_wg_gpm_r_war_forge"
 		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
 	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_vacuum_flower"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_toxic_god"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_odryskan_crystal"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_wormhole_key"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_ever_spinning_top"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_celestial_tear"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_plasmic_core"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_infinity_root"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_time_crystal"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_daedalus_seal"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_continuum"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_eternal_throne"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
 }
