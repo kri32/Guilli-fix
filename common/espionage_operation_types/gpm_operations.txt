@@ -112,7 +112,6 @@ operation_gpm_steal_relic = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
-					gpm_has_other_mod_relic = yes						# only available for supported relics for now
 				}
 			}
 			fail_text = gpm_target_has_no_relics_operation

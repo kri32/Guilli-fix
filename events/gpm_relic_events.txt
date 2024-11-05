@@ -440,12 +440,7 @@ country_event = {
 		if = {
 			limit = {
 				from = {
-					OR = {
-						gpm_has_vanilla_precursor_relic = yes
-						gpm_has_modded_precursor_relic = yes
-						gpm_has_modded_non_precursor_relic = yes
-						gpm_has_other_mod_relic = yes
-					}
+					num_owned_relics > value:gpm_base_num_relics
 				}
 			}
 			steal_relic = {
