@@ -737,7 +737,7 @@ gpm_d_magma_ocean = {
 	category = deposit_cat_rare
 	
 	planet_modifier = { 
-		building_gas_extractors_max = 1
+		job_gas_extractor_add = 1
 	}
 	
 	# weight 0: event added
@@ -752,7 +752,7 @@ gpm_d_toxic_vent = {
 	category = deposit_cat_rare
 	
 	planet_modifier = { 
-		building_gas_extractors_max = 1
+		job_gas_extractor_add = 1
 	}
 	
 	# weight 0: event added
@@ -814,7 +814,7 @@ gpm_d_unnatural_crystals = {
 	category = deposit_cat_rare
 	
 	planet_modifier = { 
-		building_crystal_mines_max = 1
+		job_crystal_miner_add = 1
 	}
 
 	# weight 0: event added
@@ -988,7 +988,7 @@ gpm_d_crystal_hills = {
 	category = deposit_cat_rare
 	
 	planet_modifier = { 
-		building_crystal_mines_max = 1
+		job_crystal_miner_add = 1
 	}
 	
 	# weight 0: event added
@@ -1050,7 +1050,7 @@ gpm_d_spice_fields = {
 	category = deposit_cat_rare
 	
 	planet_modifier = { 
-		building_mote_harvesters_max = 1
+		job_mote_harvester_add = 1
 	}
 	
 	# weight 0: event added
@@ -1857,7 +1857,7 @@ gpm_d_empty_nest = {
 	
 	planet_modifier = {
 		district_mining_max = 2
-		building_crystal_mines_max = 1
+		job_crystal_miner_add = 1
 	}
 	
 	triggered_planet_modifier = {

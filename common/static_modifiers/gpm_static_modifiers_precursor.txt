@@ -175,9 +175,9 @@ gpm_precursor_manufactorium = {
 	icon_frame = 5
 }
 gpm_precursor_vaults = {
-	building_mote_harvesters_max = 3
-	building_gas_extractors_max = 3
-	building_crystal_mines_max = 3
+	job_mote_harvester_add = 3
+	job_gas_extractor_add = 3
+	job_crystal_miner_add = 3
 	building_betharian_power_plant_max = 3
 	icon = "gfx/interface/icons/planet_modifiers/gpm_precursor_vaults.dds"
 	icon_frame = 5

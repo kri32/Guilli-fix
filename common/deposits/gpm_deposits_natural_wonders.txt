@@ -92,7 +92,7 @@ gpm_d_crystal_jungle = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			building_crystal_mines_max = 4
+			job_crystal_miner_add = 4
 			district_farming_max = 10
 			planet_farmers_rare_crystals_produces_add = 1
 		}
@@ -104,7 +104,7 @@ gpm_d_crystal_jungle = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			building_crystal_mines_max = 4
+			job_crystal_miner_add = 4
 			district_farming_max = 10
 			planet_farmers_rare_crystals_produces_add = 1
 		}
@@ -116,7 +116,7 @@ gpm_d_crystal_jungle = {
 			owner = { is_machine_empire = yes }
 		}
 		modifier = {	
-			building_crystal_mines_max = 4
+			job_crystal_miner_add = 4
 			district_mining_max = 10
 			planet_miners_rare_crystals_produces_add = 1
 		}
@@ -306,7 +306,7 @@ gpm_d_bioluminescent_forest = {
 	should_swap_deposit_on_terraforming = no
 
 	planet_modifier = {
-		planet_jobs_volatile_motes_produces_add = 0.5
+		planet_miners_volatile_motes_produces_add = 0.4
 	}
 
 	# weight 0: event added
