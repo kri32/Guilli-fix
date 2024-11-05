@@ -3110,14 +3110,6 @@ wg_gpm_r_banner_of_the_fallen = {
 	}
 	on_accept = {
 		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_banner_of_the_fallen }
-		if = {
-			limit = { from = { has_relic = gpm_r_banner_of_the_fallen } }
-			hidden_effect = { from = { remove_country_flag = gpm_r_banner_of_the_fallen_loot_flag } }
-			hidden_effect = { 
-				country_event = { id = gpm_relics.20 } # adds trait to admirals
-				set_country_flag = gpm_r_banner_of_the_fallen_loot_flag
-			}
-		}
 	}
 	on_status_quo = {
 		inline_script = war_goals/gpm_relic_wg_on_status_quo
@@ -3189,14 +3181,6 @@ wg_gpm_r_cloaking_device = {
 	}
 	on_accept = {
 		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_cloaking_device }
-		if = {
-			limit = { from = { has_relic = gpm_r_cloaking_device } }
-			hidden_effect = { from = { remove_country_flag = gpm_r_cloaking_device_loot_flag } }
-			hidden_effect = { 
-				country_event = { id = gpm_relics.1 } # adds trait to admirals
-				set_country_flag = gpm_r_cloaking_device_loot_flag
-			}
-		}
 	}
 	on_status_quo = {
 		inline_script = war_goals/gpm_relic_wg_on_status_quo

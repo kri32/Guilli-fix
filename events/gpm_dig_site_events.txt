@@ -1535,7 +1535,6 @@ fleet_event = {
 			15 = {
 				owner = {
 					add_relic = gpm_r_banner_of_the_fallen
-					hidden_effect = { country_event = { id = gpm_relics.20 } } # adds trait to admirals
 				}
 				log = "<< RELICS >> | ADD_RELIC <<< gpm_r_banner_of_the_fallen >>> to OWNER = [owner.GetName] ; dig site reward"
 				owner = {
@@ -3769,7 +3768,6 @@ fleet_event = {
 			15 = {
 				owner = {
 					add_relic = gpm_r_cloaking_device
-					hidden_effect = { country_event = { id = gpm_relics.1 } } # adds trait to admirals
 				}
 				log = "<< RELICS >> | ADD_RELIC <<< gpm_r_cloaking_device >>> to OWNER = [owner.GetName] ; dig site reward"
 				owner = {

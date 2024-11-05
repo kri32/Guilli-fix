@@ -533,6 +533,13 @@ on_planet_attackers_win = {
 	# }
 # }
 
+# This = Country
+on_relic_received = {
+	events = {
+		gpm_relics.10000
+	}
+}
+
 
 # a new leader is generated for an empire, to be available for recruitment
 # scope: country, from: leader

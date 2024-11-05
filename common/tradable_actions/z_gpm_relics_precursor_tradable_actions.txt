@@ -1115,15 +1115,6 @@ trade_action_gpm_r_banner_of_the_fallen = {
 			script = tradable_actions/gpm_relic_trade_on_traded_effect
 			RELIC = gpm_r_banner_of_the_fallen
 		}
-		hidden_effect = {
-			remove_country_flag = gpm_r_banner_of_the_fallen_loot_flag
-		}
-		from = {
-			hidden_effect = {
-				set_country_flag = gpm_r_banner_of_the_fallen_loot_flag
-				country_event = { id = gpm_relics.20 }
-			}
-		}
 	}
 
 	ai_weight = {
@@ -1194,15 +1185,6 @@ trade_action_gpm_r_cloaking_device = {
 		inline_script = {
 			script = tradable_actions/gpm_relic_trade_on_traded_effect
 			RELIC = gpm_r_cloaking_device
-		}
-		hidden_effect = {
-			remove_country_flag = gpm_r_cloaking_device_loot_flag
-		}
-		from = {
-			hidden_effect = {
-				set_country_flag = gpm_r_cloaking_device_loot_flag
-				country_event = { id = gpm_relics.1 }
-			}
 		}
 	}
 

@@ -23,9 +23,7 @@ gpm_give_all_relics = {
 		add_relic = r_war_forge
 		add_relic = gpm_r_ai_architect
 		add_relic = gpm_r_banner_of_the_fallen
-		hidden_effect = { country_event = { id = gpm_relics.20 } } # adds trait to admirals
 		add_relic = gpm_r_cloaking_device
-		hidden_effect = { country_event = { id = gpm_relics.1 } } # adds trait to admirals
 		add_relic = gpm_r_codex_administratum
 		add_relic = gpm_r_datacube
 		add_relic = gpm_r_earthquake_engine

@@ -977,3 +977,18 @@ country_event = {
 		# }
 	}
 }
+
+country_event = {
+	id = gpm_relics.10000
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		switch = {
+			trigger = last_received_relic
+			gpm_r_banner_of_the_fallen = { country_event = { id = gpm_relics.20 } } # adds trait to admirals
+			gpm_r_cloaking_device = { country_event = { id = gpm_relics.1 } } # adds trait to admirals
+		}
+	}
+}

@@ -264,22 +264,16 @@ gpm_steal_random_relic = {
 		}
 		10 = {
 			steal_relic = { target = FROMFROM relic = gpm_r_banner_of_the_fallen }
-			set_country_flag = gpm_r_banner_of_the_fallen_loot_flag
-			hidden_effect = { country_event = { id = gpm_relics.20 } } # adds trait to admirals
 			FROMFROM = { 
 				set_country_flag = gpm_r_banner_of_the_fallen_relic_stolen
-				remove_country_flag = gpm_r_banner_of_the_fallen_loot_flag
 			}
 			modifier = { factor = 0 FROMFROM = { NOT = { has_relic = gpm_r_banner_of_the_fallen } } }
 			log = "<< RELICS >> | STEAL_RELIC <<< gpm_r_banner_of_the_fallen >>> from FROMFROM = [fromfrom.GetName] giving it to ROOT.OWNER = [root.owner.GetName]"
 		}
 		10 = {
 			steal_relic = { target = FROMFROM relic = gpm_r_cloaking_device }
-			set_country_flag = gpm_r_cloaking_device_loot_flag
-			hidden_effect = { country_event = { id = gpm_relics.1 } } # adds trait to admirals
 			FROMFROM = { 
 				set_country_flag = gpm_r_cloaking_device_relic_stolen
-				remove_country_flag = gpm_r_cloaking_device_loot_flag
 			}
 			modifier = { factor = 0 FROMFROM = { NOT = { has_relic = gpm_r_cloaking_device } } }
 			log = "<< RELICS >> | STEAL_RELIC <<< gpm_r_cloaking_device >>> from FROMFROM = [fromfrom.GetName] giving it to ROOT.OWNER = [root.owner.GetName]"
