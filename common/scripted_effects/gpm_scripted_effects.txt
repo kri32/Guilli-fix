@@ -654,21 +654,12 @@ gpm_create_tiyanki_resident = {
 				name = "NAME_Tiyanki_Space_Whale"
 				effect = {
 					set_owner = event_target:tiyanki_country
-					create_ship = {
-						name = "NAME_Cow"
-						design = "NAME_Tiyanki_Cow"
-					}
-					create_ship = {
-						name = "NAME_Calf"
-						design = "NAME_Tiyanki_Calf"
-					}
-					create_ship = {
-						name = "NAME_Calf"
-						design = "NAME_Tiyanki_Calf"
-					}
-					create_ship = {
-						name = "NAME_Calf"
-						design = "NAME_Tiyanki_Calf"
+					while = {
+						count = 4
+						create_ship = {
+							name = "NAME_Cow"
+							design = "NAME_Tiyanki_Cow"
+						}
 					}
 					set_location = event_target:planet_location
 					set_fleet_stance = passive

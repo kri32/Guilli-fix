@@ -267,54 +267,33 @@ country_event = {
 				set_owner = ROOT
 				random_list = {
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
+						while = {
+							count = 2
+							create_ship = {
+								name = random
+								design = "NAME_Reaver"
+								graphical_culture = "pirate_01"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
+						while = {
+							count = 3
+							create_ship = {
+								name = random
+								design = "NAME_Reaver"
+								graphical_culture = "pirate_01"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Reaver"
-							graphical_culture = "pirate_01"
+						while = {
+							count = 4
+							create_ship = {
+								name = random
+								design = "NAME_Reaver"
+								graphical_culture = "pirate_01"
+							}
 						}
 					}
 				}
@@ -467,163 +446,53 @@ country_event = {
 				set_owner = ROOT
 				random_list = {
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 4
+							create_ship = {
+								name = random
+								design = "NAME_Gamma"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 5
+							create_ship = {
+								name = random
+								design = "NAME_Gamma"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 6
+							create_ship = {
+								name = random
+								design = "NAME_Gamma"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 7
+							create_ship = {
+								name = random
+								design = "NAME_Gamma"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Gamma"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 8
+							create_ship = {
+								name = random
+								design = "NAME_Gamma"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 				}
@@ -769,69 +638,33 @@ country_event = {
 				set_owner = ROOT
 				random_list = {
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 3
+							create_ship = {
+								name = random
+								design = "NAME_Avatar"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 4
+							create_ship = {
+								name = random
+								design = "NAME_Avatar"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 					50 = {
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
-						}
-						create_ship = {
-							name = random
-							design = "NAME_Avatar"
-							graphical_culture = "fallen_empire_04"
+						while = {
+							count = 5
+							create_ship = {
+								name = random
+								design = "NAME_Avatar"
+								graphical_culture = "fallen_empire_04"
+							}
 						}
 					}
 				}
@@ -3113,107 +2946,14 @@ planet_event = {
 			portrait = random
 			traits = random
 		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
-		}
-		create_army = {
-			name = "Cultist Rebels"
-			owner = last_created_country
-			species = last_created_country
-			type = "rebel_army"
+		while = {
+			count = 17
+			create_army = {
+				name = "Cultist Rebels"
+				owner = last_created_country
+				species = last_created_country
+				type = "rebel_army"
+			}
 		}
 	}
 
