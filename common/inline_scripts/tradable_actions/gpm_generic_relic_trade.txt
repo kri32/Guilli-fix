@@ -1,0 +1,58 @@
+trade_action_$RELIC$ = {
+	fire_and_forget = yes
+
+	potential = {
+		inline_script = {
+			script = tradable_actions/gpm_relic_trade_potential
+			RELIC = $RELIC$
+		}
+	}
+
+	on_traded_effect = {
+		inline_script = {
+			script = tradable_actions/gpm_relic_trade_on_traded_effect
+			RELIC = $RELIC$
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+		inline_script = tradable_actions/gpm_relic_trade_ai_weight
+		modifier = {
+			has_ethic = ethic_militarist
+			factor = 1.1
+		}
+		modifier = {
+			has_ethic = ethic_fanatic_militarist
+			factor = 1.25
+		}
+		modifier = {
+			has_ethic = ethic_authoritarian
+			factor = 1.1
+		}
+		modifier = {
+			has_ethic = ethic_fanatic_authoritarian
+			factor = 1.25
+		}
+		modifier = {
+			has_ethic = ethic_fanatic_pacifist
+			factor = 0.9
+		}
+		modifier = {
+			has_ethic = ethic_pacifist
+			factor = 0.75
+		}
+		modifier = {
+			is_megacorp = yes
+			factor = 1.2
+		}
+		modifier = {
+			has_ethic = ethic_fanatic_xenophile
+			factor = 0.9
+		}
+		modifier = {
+			has_ethic = ethic_xenophile
+			factor = 0.75
+		}
+	}
+}

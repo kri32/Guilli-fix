@@ -1830,3 +1830,23 @@ trade_action_r_eternal_throne = {
 		}
 	}
 }
+
+########################
+# Relics - Grand Archive
+########################
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_the_modularium }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_flowmetal_alloy }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_crystallinus_diffuser }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_everchanging_stone }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_pulsestone }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_gavel_of_the_tribunal }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_entangled_relay }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_prototype_vir_core }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_propagandosphere }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_executus_compendium }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_the_pattern_maker }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_vaporous_mega_orchid }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_tiyanki_matriarch_nerve_core }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_preservation_chamber }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_celestial_resonator }
+inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_mutated_voidworm_nest }

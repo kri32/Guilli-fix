@@ -235,4 +235,68 @@ spriteTypes = {
 		name = "GFX_wg_gpm_r_eternal_throne"
 		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
 	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_the_modularium"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_flowmetal_alloy"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_crystallinus_diffuser"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_everchanging_stone"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_pulsestone"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_gavel_of_the_tribunal"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_entangled_relay"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_prototype_vir_core"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_propagandosphere"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_executus_compendium"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_the_pattern_maker"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_vaporous_mega_orchid"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_tiyanki_matriarch_nerve_core"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_preservation_chamber"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_celestial_resonator"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_mutated_voidworm_nest"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
 }

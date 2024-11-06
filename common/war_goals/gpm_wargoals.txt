@@ -1823,6 +1823,38 @@ wg_gpm_r_eternal_throne = {
 		}
 	}
 }
+# r_the_modularium
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_the_modularium }
+# r_flowmetal_alloy
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_flowmetal_alloy }
+# r_crystallinus_diffuser
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_crystallinus_diffuser }
+# r_everchanging_stone
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_everchanging_stone }
+# r_pulsestone
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_pulsestone }
+# r_gavel_of_the_tribunal
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_gavel_of_the_tribunal }
+# r_entangled_relay
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_entangled_relay }
+# r_prototype_vir_core
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_prototype_vir_core }
+# r_propagandosphere
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_propagandosphere }
+# r_executus_compendium
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_executus_compendium }
+# r_the_pattern_maker
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_the_pattern_maker }
+# r_vaporous_mega_orchid
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_vaporous_mega_orchid }
+# r_tiyanki_matriarch_nerve_core
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_tiyanki_matriarch_nerve_core }
+# r_preservation_chamber
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_preservation_chamber }
+# r_celestial_resonator
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_celestial_resonator }
+# r_mutated_voidworm_nest
+inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_mutated_voidworm_nest }
 
 ## GPM RELIC WAR GOALS ##
 
