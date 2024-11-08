@@ -55,3 +55,8 @@ defined_text = {
 		localization_key = gpm_unknown_precursor_empire
 	}
 }
+
+defined_text = {
+	name = GuilliGetNumRelics
+	value = value:gpm_num_owned_relics
+}

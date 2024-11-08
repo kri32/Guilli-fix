@@ -33,7 +33,7 @@
  gpm_relic_map_mode:1 "Ancient Relic Map Mode"
  gpm_relic_map_mode_desc:1 "Empire borders will be colored based on owning an ancient relic or not."
  GPM_MAP_MODE_NOT_HAS_RELIC:1 "Has no §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC:1 "Has an §YAncient Relic§!"
+ GPM_MAP_MODE_HAS_RELIC:1 "Has 1 §YAncient Relic§!"
  GPM_MAP_MODE_HAS_RELIC_2:1 "Has 2 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_3:1 "Has 3 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_4:1 "Has 4 §YAncient Relics§!"
@@ -44,10 +44,10 @@
  GPM_MAP_MODE_HAS_RELIC_9:1 "Has 9 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_10:1 "Has 10 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_11:1 "Has too many §YAncient Relics!§!"
- GPM_MAP_MODE_HAS_UNKNOWN_RELICS:1 "This empire has an unknown number of §YRelics§!.\nRequires more §Hintel§!."
+ GPM_MAP_MODE_HAS_UNKNOWN_RELICS:1 "This empire has an unknown number of §YAncient Relics§!.\nRequires more §HIntel§!."
 
  GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC:1 "We have no §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC:1 "We have an §YAncient Relic§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC:1 "We have 1 §YAncient Relic§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_2:1 "We have 2 §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_3:1 "We have 3 §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_4:1 "We have 4 §YAncient Relics§!"
@@ -58,6 +58,9 @@
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_9:1 "We have 9 §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_10:1 "We have 10 §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_11:1 "We have over 10 §YAncient Relics!§!"
+
+ GPM_MAP_MODE_HAS_RELIC_MULTIPLE: "Has [This.GuilliGetNumRelics] §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE: "We have [This.GuilliGetNumRelics] §YAncient Relics!§!"
 
  #######################################
  #### Generic Names
