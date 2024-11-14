@@ -32,6 +32,22 @@ gpm_has_vanilla_precursor_relic = {
 		has_relic = r_daedalus_seal
 		has_relic = r_continuum
 		has_relic = r_eternal_throne
+		has_relic = r_the_modularium
+		has_relic = r_flowmetal_alloy
+		has_relic = r_crystallinus_diffuser
+		has_relic = r_everchanging_stone
+		has_relic = r_pulsestone
+		has_relic = r_gavel_of_the_tribunal
+		has_relic = r_entangled_relay
+		has_relic = r_prototype_vir_core
+		has_relic = r_propagandosphere
+		has_relic = r_executus_compendium
+		has_relic = r_the_pattern_maker
+		has_relic = r_vaporous_mega_orchid
+		has_relic = r_tiyanki_matriarch_nerve_core
+		has_relic = r_preservation_chamber
+		has_relic = r_celestial_resonator
+		has_relic = r_mutated_voidworm_nest
 	}
 }
 
