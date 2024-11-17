@@ -246,7 +246,6 @@ gpm_d_energy_storm = {
 	should_swap_deposit_on_terraforming = no
 	
 	planet_modifier = {
-		planet_districts_energy_upkeep_mult = -1
 		planet_structures_energy_upkeep_mult = -1
 		planet_jobs_energy_upkeep_mult = -1
 	}
