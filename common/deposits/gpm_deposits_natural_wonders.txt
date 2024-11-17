@@ -270,10 +270,12 @@ gpm_d_titanic_cave = {
 	should_swap_deposit_on_terraforming = no
 
 	planet_modifier = {
-		country_resource_max_add = 30000
 		planet_orbital_bombardment_damage = -0.5		
 		planet_max_districts_add = 5
-		
+	}
+
+	country_modifier = {
+		country_resource_max_add = 30000
 	}
 
 	# weight 0: event added
