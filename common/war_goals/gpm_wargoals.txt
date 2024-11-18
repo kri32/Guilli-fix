@@ -3,659 +3,127 @@
 
 ## BASE RELIC WAR GOALS ##
 
-# r_dragon_trophy
 wg_gpm_r_dragon_trophy = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-	potential = {
-		from = { has_relic = r_dragon_trophy }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_dragon_trophy }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_dragon_trophy
+		POSITIVE = militarist|P|authoritarian|P|
+		NEGATIVE = pacifist|N|xenophile|N|megacorp|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_khans_throne
 wg_gpm_r_khans_throne = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_khans_throne }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_khans_throne }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_khans_throne
+		POSITIVE = militarist|P|authoritarian|P|
+		NEGATIVE = egalitarian|N|xenophobe|N|megacorp|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_worm_scales
 wg_gpm_r_worm_scales = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_worm_scales }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_worm_scales }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_worm_scales
+		POSITIVE = spiritualist|P|xenophile|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_rubricator
 wg_gpm_r_rubricator = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_rubricator }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_rubricator }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_rubricator
+		POSITIVE = materialist|P|megacorp|P|machine|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_galaxy
 wg_gpm_r_galaxy = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_galaxy }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_galaxy }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_galaxy
+		POSITIVE = materialist|P|authoritarian|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_omnicodex
 wg_gpm_r_omnicodex = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_omnicodex }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_omnicodex }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_omnicodex
+		POSITIVE = pacifist|P|hive|P|
+		NEGATIVE = machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_surveyor
 wg_gpm_r_surveyor = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_surveyor }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_surveyor }
-	}
-
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_surveyor
+		POSITIVE = materialist|P|megacorp|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+		}"
 	}
 }
 
-# r_ancient_sword
 wg_gpm_r_ancient_sword = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_ancient_sword }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_ancient_sword }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_ancient_sword
+		POSITIVE = militarist|P|authoritarian|P|spiritualist|P|xenophobe|P|
+		NEGATIVE = megacorp|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_severed_head
 wg_gpm_r_severed_head = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_severed_head }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_severed_head }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_severed_head
+		POSITIVE = spiritualist|P|authoritarian|P|
+		NEGATIVE = materialist|N|xenophobe|N|xenophile|N|megacorp|N|machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_prethoryn_queen
 wg_gpm_r_prethoryn_queen = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_prethoryn_queen }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_prethoryn_queen }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_hive_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_civic = civic_hive_devouring_swarm
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_prethoryn_queen
+		POSITIVE = hive|P|megacorp|P|xenophile|P|
+		NEGATIVE = spiritualist|N|pacifist|N|machine|N|xenophobe|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_unbidden_warlock
 wg_gpm_r_unbidden_warlock = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_unbidden_warlock }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_unbidden_warlock }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_unbidden_warlock
+		POSITIVE = spiritualist|P|
+		NEGATIVE = materialist|N|xenophobe|N|xenophile|N|megacorp|N|machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_contingency_core
 wg_gpm_r_contingency_core = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_contingency_core }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_contingency_core }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_contingency_core
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
@@ -663,300 +131,61 @@ wg_gpm_r_contingency_core = {
 				has_civic = civic_fanatic_purifiers
 			}
 			factor = 2
-		}
+		}"
 	}
 }
 
-# r_zro_crystal
 wg_gpm_r_zro_crystal = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_zro_crystal }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_zro_crystal }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_zro_crystal
+		POSITIVE = spiritualist|P|
+		NEGATIVE = materialist|N|megacorp|N|machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_the_last_baol
 wg_gpm_r_the_last_baol = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_the_last_baol }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_the_last_baol }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_the_last_baol
+		POSITIVE = pacifist|P|egalitarian|P|xenophile|P|
+		NEGATIVE = megacorp|N|hive|N|machine|N|xenophobe|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 2
-		}
+		}"
 	}
 }
 
-# r_the_defragmentor
 wg_gpm_r_the_defragmentor = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_the_defragmentor }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_the_defragmentor }
-	}
-
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_the_defragmentor
+		POSITIVE = machine|P|materialist|P|megacorp|P|
+		NEGATIVE = spiritualist|N|hive|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_reality_perforator
 wg_gpm_r_reality_perforator = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_reality_perforator }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_reality_perforator }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_reality_perforator
+		POSITIVE = spiritualist|P|militarist|P|authoritarian|P|machine|P|hive|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_pox_sample
 wg_gpm_r_pox_sample = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_pox_sample }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_pox_sample }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_pox_sample
+		POSITIVE = materialist|P|egalitarian|P|pacifist|P|xenophobe|P|
+		NEGATIVE = megacorp|N|hive|N|machine|N|xenophile|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
@@ -964,1059 +193,324 @@ wg_gpm_r_pox_sample = {
 				has_civic = civic_fanatic_purifiers
 			}
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+		}"
 	}
 }
 
-# r_cryo_core
 wg_gpm_r_cryo_core = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_cryo_core }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_cryo_core }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_cryo_core
+		POSITIVE = materialist|P|machine|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
-# r_war_forge
 wg_gpm_r_war_forge = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_war_forge }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_war_forge }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_war_forge
+		POSITIVE = materialist|P|authoritarian|P|militarist|P|machine|P|megacorp|P|
+		NEGATIVE = pacifist|N|spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
 				has_civic = civic_machine_assimilator
 				has_civic = civic_fanatic_purifiers
+				has_civic = civic_hive_devouring_swarm
 			}
 			factor = 2
-		}
-		modifier = {
-			has_civic = civic_hive_devouring_swarm
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+		}"
 	}
 }
-# r_vacuum_flower
+
 wg_gpm_r_vacuum_flower = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_vacuum_flower }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_vacuum_flower }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_vacuum_flower
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_toxic_god
+
 wg_gpm_r_toxic_god = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_toxic_god }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_toxic_god }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_toxic_god
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_odryskan_crystal
+
 wg_gpm_r_odryskan_crystal = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_odryskan_crystal }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_odryskan_crystal }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_odryskan_crystal
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_wormhole_key
+
 wg_gpm_r_wormhole_key = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_wormhole_key }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_wormhole_key }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_wormhole_key
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_ever_spinning_top
+
 wg_gpm_r_ever_spinning_top = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_ever_spinning_top }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_ever_spinning_top }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_ever_spinning_top
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_celestial_tear
+
 wg_gpm_r_celestial_tear = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_celestial_tear }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_celestial_tear }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_celestial_tear
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_plasmic_core
+
 wg_gpm_r_plasmic_core = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_plasmic_core }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_plasmic_core }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_plasmic_core
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_infinity_root
+
 wg_gpm_r_infinity_root = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_infinity_root }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_infinity_root }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_infinity_root
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_time_crystal
+
 wg_gpm_r_time_crystal = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_time_crystal }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_time_crystal }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_time_crystal
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_daedalus_seal
+
 wg_gpm_r_daedalus_seal = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_daedalus_seal }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_daedalus_seal }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_daedalus_seal
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_continuum
+
 wg_gpm_r_continuum = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_continuum }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_continuum }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_continuum
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_eternal_throne
+
 wg_gpm_r_eternal_throne = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = r_eternal_throne }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = r_eternal_throne }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_eternal_throne
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
 	}
 }
-# r_the_modularium
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_the_modularium }
-# r_flowmetal_alloy
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_flowmetal_alloy }
-# r_crystallinus_diffuser
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_crystallinus_diffuser }
-# r_everchanging_stone
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_everchanging_stone }
-# r_pulsestone
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_pulsestone }
-# r_gavel_of_the_tribunal
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_gavel_of_the_tribunal }
-# r_entangled_relay
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_entangled_relay }
-# r_prototype_vir_core
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_prototype_vir_core }
-# r_propagandosphere
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_propagandosphere }
-# r_executus_compendium
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_executus_compendium }
-# r_the_pattern_maker
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_the_pattern_maker }
-# r_vaporous_mega_orchid
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_vaporous_mega_orchid }
-# r_tiyanki_matriarch_nerve_core
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_tiyanki_matriarch_nerve_core }
-# r_preservation_chamber
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_preservation_chamber }
-# r_celestial_resonator
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_celestial_resonator }
-# r_mutated_voidworm_nest
-inline_script = { script = war_goals/gpm_generic_relic_war_goal RELIC = r_mutated_voidworm_nest }
+
+wg_gpm_r_the_modularium = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_the_modularium
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_flowmetal_alloy = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_flowmetal_alloy
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_crystallinus_diffuser = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_crystallinus_diffuser
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_everchanging_stone = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_everchanging_stone
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_pulsestone = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_pulsestone
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_gavel_of_the_tribunal = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_gavel_of_the_tribunal
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_entangled_relay = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_entangled_relay
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_prototype_vir_core = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_prototype_vir_core
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_propagandosphere = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_propagandosphere
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_executus_compendium = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_executus_compendium
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_the_pattern_maker = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_the_pattern_maker
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_vaporous_mega_orchid = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_vaporous_mega_orchid
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_tiyanki_matriarch_nerve_core = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_tiyanki_matriarch_nerve_core
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_preservation_chamber = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_preservation_chamber
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_celestial_resonator = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_celestial_resonator
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+wg_gpm_r_mutated_voidworm_nest = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_mutated_voidworm_nest
+		POSITIVE = @gpm_relic_weight_WAR_generic
+		EXTRA_WEIGHT = ""
+	}
+}
 
 ## GPM RELIC WAR GOALS ##
 
-# gpm_r_time_displacer
 wg_gpm_r_time_displacer = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_time_displacer }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_time_displacer }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_time_displacer
+		POSITIVE = hive|P|militarist|P|megacorp|P|
+		NEGATIVE = machine|N|pacifist|N|xenophobe|N|
+		EXTRA_WEIGHT = "
 		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
+			has_civic = civic_hive_devouring_swarm
 			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
+		}"
 	}
 }
-# gpm_r_alien_eggs
+
 wg_gpm_r_alien_eggs = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_alien_eggs }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_alien_eggs }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_civic = civic_hive_devouring_swarm
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_alien_eggs
+		POSITIVE = materialist|P|machine|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_machine_world_core
+
 wg_gpm_r_machine_world_core = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_machine_world_core }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_machine_world_core }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_machine_world_core
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = megacorp|N|hive|N|spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
@@ -2024,468 +518,99 @@ wg_gpm_r_machine_world_core = {
 				has_civic = civic_fanatic_purifiers
 			}
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
+		}"
 	}
 }
 
-# gpm_r_encyclopedia_galactica
 wg_gpm_r_encyclopedia_galactica = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_encyclopedia_galactica }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_encyclopedia_galactica }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_encyclopedia_galactica
+		POSITIVE = materialist|P|egalitarian|P|pacifist|P|
+		NEGATIVE = megacorp|N|hive|N|machine|N|xenophobe|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_zero_energy_generator
+
 wg_gpm_r_zero_energy_generator = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_zero_energy_generator }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_zero_energy_generator }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_zero_energy_generator
+		POSITIVE = megacorp|P|machine|P|militarist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_quantum_sphere
+
 wg_gpm_r_quantum_sphere = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_quantum_sphere }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_quantum_sphere }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_quantum_sphere
+		POSITIVE = megacorp|P|materialist|P|authoritarian|P|xenophobe|P|
+		NEGATIVE = hive|N|machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_ai_architect
+
 wg_gpm_r_ai_architect = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_ai_architect }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_ai_architect }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_ai_architect
+		POSITIVE = machine|P|materialist|P|militarist|P|
+		NEGATIVE = hive|N|spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_encrypted_sct
+
 wg_gpm_r_encrypted_sct = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_encrypted_sct }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_encrypted_sct }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_encrypted_sct
+		POSITIVE = megacorp|P|machine|P|materialist|P|militarist|P|
+		NEGATIVE = spiritualist|N|pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_experimental_weapon
+
 wg_gpm_r_experimental_weapon = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_experimental_weapon }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_experimental_weapon }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_experimental_weapon
+		POSITIVE = militarist|P|authoritarian|P|xenophobe|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
 				has_civic = civic_machine_assimilator
 				has_civic = civic_fanatic_purifiers
+				has_civic = civic_hive_devouring_swarm
 			}
 			factor = 2
-		}
-		modifier = {
-			has_civic = civic_hive_devouring_swarm
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
+		}"
 	}
 }
-# gpm_r_fallout_emergency_replicator
+
 wg_gpm_r_fallout_emergency_replicator = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_fallout_emergency_replicator }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_fallout_emergency_replicator }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 2
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_fallout_emergency_replicator
+		POSITIVE = pacifist|P|egalitarian|P|megacorp|P|
+		NEGATIVE = hive|N|machine|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+		}"
 	}
 }
-# gpm_r_power_core
+
 wg_gpm_r_power_core = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_power_core }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_power_core }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_power_core
+		POSITIVE = megacorp|P|machine|P|materialist|P|militarist|P|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
@@ -2493,938 +618,172 @@ wg_gpm_r_power_core = {
 				has_civic = civic_fanatic_purifiers
 			}
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+		}"
 	}
 }
-# gpm_r_mysterious_shield_generator
+
 wg_gpm_r_mysterious_shield_generator = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_mysterious_shield_generator }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_mysterious_shield_generator }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_mysterious_shield_generator
+		POSITIVE = materialist|P|militarist|P|pacifist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 2
-		}
+		}"
 	}
 }
-# gpm_r_gravity_engine
+
 wg_gpm_r_gravity_engine = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_gravity_engine }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_gravity_engine }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_gravity_engine
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|egalitarian|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_codex_administratum
+
 wg_gpm_r_codex_administratum = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_codex_administratum }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_codex_administratum }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_codex_administratum
+		POSITIVE = egalitarian|P|pacifist|P|authoritarian|P|
+		NEGATIVE = megacorp|N|hive|N|machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_enigmatic_advisor
+
 wg_gpm_r_enigmatic_advisor = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_enigmatic_advisor }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_enigmatic_advisor }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_enigmatic_advisor
+		POSITIVE = megacorp|P|materialist|P|egalitarian|P|xenophile|P|
+		NEGATIVE = spiritualist|N|hive|N|machine|N|xenophobe|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_positronic_microchip
+
 wg_gpm_r_positronic_microchip = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_positronic_microchip }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_positronic_microchip }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_positronic_microchip
+		POSITIVE = materialist|P|machine|P|
+		NEGATIVE = spiritualist|N|egalitarian|N|pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_venerable_dreadnaught
+
 wg_gpm_r_venerable_dreadnaught = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_venerable_dreadnaught }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_venerable_dreadnaught }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_venerable_dreadnaught
+		POSITIVE = militarist|P|authoritarian|P|
+		NEGATIVE = pacifist|N|megacorp|N|hive|N|machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_sentinel_queen
+
 wg_gpm_r_sentinel_queen = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_sentinel_queen }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_sentinel_queen }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_sentinel_queen
+		POSITIVE = authoritarian|P|xenophobe|P|
+		NEGATIVE = megacorp|N|hive|N|egalitarian|N|spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
+		}"
 	}
 }
-# gpm_r_earthquake_engine
+
 wg_gpm_r_earthquake_engine = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_earthquake_engine }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_earthquake_engine }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_earthquake_engine
+		POSITIVE = materialist|P|
+		NEGATIVE = pacifist|N|egalitarian|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_manufactorium_ship
+
 wg_gpm_r_manufactorium_ship = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_manufactorium_ship }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_manufactorium_ship }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_manufactorium_ship
+		POSITIVE = materialist|P|militarist|P|authoritarian|P|megacorp|P|
+		NEGATIVE = hive|N|machine|N|spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_datacube
+
 wg_gpm_r_datacube = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_datacube }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_datacube }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_datacube
+		POSITIVE = materialist|P|megacorp|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_self_assembly_hub
+
 wg_gpm_r_self_assembly_hub = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_self_assembly_hub }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_self_assembly_hub }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_self_assembly_hub
+		POSITIVE = machine|P|militarist|P|materialist|P|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_banner_of_the_fallen
+
 wg_gpm_r_banner_of_the_fallen = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_banner_of_the_fallen }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_banner_of_the_fallen }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_banner_of_the_fallen
+		POSITIVE = militarist|P|authoritarian|P|spiritualist|P|
+		NEGATIVE = megacorp|N|hive|N|pacifist|N|xenophobe|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_cloaking_device
+
 wg_gpm_r_cloaking_device = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_cloaking_device }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_cloaking_device }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.5
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.5
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_cloaking_device
+		POSITIVE = materialist|P|militarist|P|authoritarian|P|xenophobe|P|megacorp|P|
+		NEGATIVE = hive|N|pacifist|N|spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_q_storage_compressor
+
 wg_gpm_r_q_storage_compressor = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_q_storage_compressor }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_q_storage_compressor }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_q_storage_compressor
+		POSITIVE = megacorp|P|pacifist|P|authoritarian|P|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_soul_gem
+
 wg_gpm_r_soul_gem = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_soul_gem }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_soul_gem }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.5
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.5
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_soul_gem
+		POSITIVE = megacorp|P|spiritualist|P|xenophile|P|
+		NEGATIVE = hive|N|machine|N|materialist|N|xenophobe|N|
+		EXTRA_WEIGHT = ""
 	}
 }
-# gpm_r_self_repairing_obelisk
+
 wg_gpm_r_self_repairing_obelisk = {
-	inline_script = war_goals/gpm_relic_wg_common
-
-
-	potential = {
-		from = { has_relic = gpm_r_self_repairing_obelisk }
-	}
-	possible = {
-		inline_script = war_goals/gpm_relic_wg_possible
-	}
-	on_accept = {
-		inline_script = { script = war_goals/gpm_relic_wg_on_accept RELIC = gpm_r_self_repairing_obelisk }
-	}
-	on_status_quo = {
-		inline_script = war_goals/gpm_relic_wg_on_status_quo
-	}
-
-	ai_weight = {
-		weight = 10
-		inline_script = war_goals/gpm_relic_wg_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.5
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 2
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.6
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 2
-		}
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = gpm_r_self_repairing_obelisk
+		POSITIVE = spiritualist|P|machine|P|
+		NEGATIVE = hive|N|
+		EXTRA_WEIGHT = ""
 	}
 }
