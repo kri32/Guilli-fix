@@ -367,7 +367,7 @@
  NAME_color_red:0 "£military_power_boss£ §R[This.GetName]§!"
  
  # Change name to orange with something icon
- # NAME_color_planet_wonder:0 "£gpm_planet_wonder  §H[This.GetName]§!"
+ # NAME_color_planet_wonder:0 "£gpm_planet_wonder£  §H[This.GetName]§!"
  NAME_color_planet_wonder:0 "§H[This.GetName]§!"
  NAME_color_planet_wonder_col:0 "§H[This.GetName]§!"
  
