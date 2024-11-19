@@ -118,6 +118,16 @@ gpm_leader_level_value = {
 	}
 }
 
+gpm_scientist_trait_boost = {
+	base = 1
+	modifier = { factor = 1.25 this.leader = { has_trait = leader_trait_archaeologist } }
+	modifier = { factor = 1.5 this.leader = { has_trait = leader_trait_archaeologist_2 } }
+	modifier = { factor = 1.2 this.leader = { has_trait = leader_trait_curator } }
+	modifier = { factor = 1.2 this.leader = { has_trait = gpm_leader_trait_collector } }
+	modifier = { factor = 1.5 this.leader = { has_trait = leader_trait_expertise_archaeostudies } }
+	modifier = { factor = 1.5 this.leader = { has_trait = leader_trait_gpm_precursor_expert } }
+}
+
 gpm_base_num_relics = {
 	base = 0
 	add = $PLUS|0$
