@@ -344,6 +344,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -358,6 +359,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -397,6 +399,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -436,6 +439,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -475,6 +479,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -489,6 +494,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -529,6 +535,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}
@@ -589,6 +596,7 @@ espionage_operation_event = {
 					gpm_has_vanilla_precursor_relic = yes
 					gpm_has_modded_precursor_relic = yes
 					gpm_has_modded_non_precursor_relic = yes
+					gpm_has_other_mod_relic = yes
 				}
 			}
 		}

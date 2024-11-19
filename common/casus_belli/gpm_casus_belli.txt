@@ -20,7 +20,12 @@ cb_gpm_claim_relic = {
 		from = {
 			# a faster check before asking for each supported relic
 			num_owned_relics > value:gpm_base_num_relics
-			gpm_has_wargoal_relic = yes
+			OR = {
+				gpm_has_vanilla_precursor_relic = yes
+				gpm_has_modded_precursor_relic = yes
+				gpm_has_modded_non_precursor_relic = yes
+				gpm_has_other_mod_relic = yes
+			}
 		}
 	}
 	is_valid = {

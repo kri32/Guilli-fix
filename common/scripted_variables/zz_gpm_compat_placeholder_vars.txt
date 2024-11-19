@@ -5,3 +5,10 @@
 @has_planetary_diversity_ascension_worlds = 0
 @has_planetary_diversity_more_arcologies = 0
 @has_planetary_diversity_unique_worlds = 0
+@has_more_events_mod = 0
+@forgotten_empires = 0
+@aspmod = 0
+@HAS_AAA = 0
+@HAS_FHMP = 0
+@HAS_MAR = 0
+@HAS_UCmod = 0
