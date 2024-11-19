@@ -3,674 +3,161 @@
 # 	# SCOPE: Country "giving" the action
 # 	# FROM: Country "receiving" the action
 
+# trade_action_r_dragon_trophy = {
+# 	inline_script = {
+# 		script = tradable_actions/gpm_relic_trade
+# 		RELIC = r_dragon_trophy
+# 		POSITIVE = megacorp|P|militarist|P|
+#		NEGATIVE = pacifist|N|
+#		EXTRA_WEIGHT = "
+#		modifier = {
+# 			has_civic = civic_machine_servitor
+# 			factor = 1.2
+# 		}"
+# 	}
+# }
+# Possible conditions for POSITIVE and NEGATIVE: all ethic groups, megacorp, hive, machine. Possible values: P, N
+# It also accepts the @gpm_relic_weight_TRADE_generic scripted variable.
+
+#	The common parts are available as inline scripts:
+# 	- tradable_actions/gpm_relic_trade_potential
+# 	- tradable_actions/gpm_relic_trade_on_traded_effect
+# 	- tradable_actions/gpm_relic_trade_ai_weight
+
 trade_action_r_dragon_trophy = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_dragon_trophy
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_dragon_trophy
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_dragon_trophy
+		POSITIVE = megacorp|P|militarist|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_khans_throne = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_khans_throne
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_khans_throne
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 1.25
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_khans_throne
+		POSITIVE = megacorp|P|militarist|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_worm_scales = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_worm_scales
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_worm_scales
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 1.25
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_worm_scales
+		POSITIVE = spiritualist|P|xenophile|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_rubricator = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_rubricator
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_rubricator
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_rubricator
+		POSITIVE = megacorp|P|machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_galaxy = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_galaxy
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_galaxy
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_galaxy
+		POSITIVE = materialist|P|authoritarian|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_omnicodex = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_omnicodex
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_omnicodex
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 1.25
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 1.2
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_omnicodex
+		POSITIVE = hive|P|pacifist|P|
+		NEGATIVE = machine|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_surveyor = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_surveyor
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_surveyor
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_surveyor
+		POSITIVE = megacorp|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 1.2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
+		}"
 	}
 }
 
 trade_action_r_galatron = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_galatron
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_galatron
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_galatron
+		POSITIVE = megacorp|P|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_ancient_sword = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_ancient_sword
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_ancient_sword
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 1.25
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 1.25
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_ancient_sword
+		POSITIVE = militarist|P|authoritarian|P|spiritualist|P|xenophobe|P|
+		NEGATIVE = megacorp|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_severed_head = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_severed_head
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_severed_head
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_severed_head
+		POSITIVE = spiritualist|P|
+		NEGATIVE = megacorp|N|machine|N|materialist|N|xenophobe|N|xenophile|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_prethoryn_queen = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_prethoryn_queen
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_prethoryn_queen
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			is_hive_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_prethoryn_queen
+		POSITIVE = hive|P|megacorp|P|xenophile|P|
+		NEGATIVE = machine|N|spiritualist|N|pacifist|N|xenophobe|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_hive_devouring_swarm
 			factor = 1.2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 1.25
-		}
+		}"
 	}
 }
 
 trade_action_r_unbidden_warlock = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_unbidden_warlock
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_unbidden_warlock
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_unbidden_warlock
+		POSITIVE = spiritualist|P|
+		NEGATIVE = materialist|N|machine|N|megacorp|N|xenophobe|N|xenophile|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_contingency_core = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_contingency_core
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_contingency_core
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_contingency_core
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
@@ -678,294 +165,61 @@ trade_action_r_contingency_core = {
 				has_civic = civic_fanatic_purifiers
 			}
 			factor = 1.2
-		}
+		}"
 	}
 }
 
 trade_action_r_zro_crystal = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_zro_crystal
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_zro_crystal
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 0.75
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_zro_crystal
+		POSITIVE = spiritualist|P|
+		NEGATIVE = megacorp|N|machine|N|materialist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_the_last_baol = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_the_last_baol
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_the_last_baol
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 1.25
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.8
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_the_last_baol
+		POSITIVE = xenophile|P|egalitarian|P|pacifist|P|
+		NEGATIVE = megacorp|N|hive|N|machine|N|xenophobe|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			has_civic = civic_machine_servitor
 			factor = 1.2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 1.25
-		}
+		}"
 	}
 }
 
 trade_action_r_the_defragmentor = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_the_defragmentor
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_the_defragmentor
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_the_defragmentor
+		POSITIVE = megacorp|P|machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_reality_perforator = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_reality_perforator
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_reality_perforator
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_reality_perforator
+		POSITIVE = hive|P|machine|P|spiritualist|P|militarist|P|authoritarian|P|
+		NEGATIVE = pacifist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_pox_sample = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_pox_sample
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_pox_sample
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			is_machine_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			is_hive_empire = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_egalitarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_egalitarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 1.25
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_pox_sample
+		POSITIVE = materialist|P|egalitarian|P|pacifist|P|xenophobe|P|
+		NEGATIVE = megacorp|N|hive|N|machine|N|xenophile|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
@@ -973,880 +227,289 @@ trade_action_r_pox_sample = {
 				has_civic = civic_fanatic_purifiers
 			}
 			factor = 1.2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 0.8
-		}
-		modifier = {
-			has_ethic = ethic_xenophobe
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophobe
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+		}"
 	}
 }
 
 trade_action_r_cryo_core = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_cryo_core
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_cryo_core
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_cryo_core
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_war_forge = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_war_forge
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_war_forge
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_materialist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_materialist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			is_machine_empire = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_spiritualist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_spiritualist
-			factor = 0.75
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_war_forge
+		POSITIVE = megacorp|P|machine|P|materialist|P|authoritarian|P|militarist|P|
+		NEGATIVE = spiritualist|N|pacifist|N|
+		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
 				has_civic = civic_machine_terminator
 				has_civic = civic_machine_assimilator
 				has_civic = civic_fanatic_purifiers
+				has_civic = civic_hive_devouring_swarm
 			}
 			factor = 1.2
-		}
-		modifier = {
-			has_civic = civic_hive_devouring_swarm
-			factor = 1.2
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
+		}"
 	}
 }
 
 trade_action_r_vacuum_flower = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_vacuum_flower
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_vacuum_flower
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_vacuum_flower
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_toxic_god = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_toxic_god
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_toxic_god
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_toxic_god
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_odryskan_crystal = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_odryskan_crystal
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_odryskan_crystal
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_odryskan_crystal
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_wormhole_key = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_wormhole_key
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_wormhole_key
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_wormhole_key
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_ever_spinning_top = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_ever_spinning_top
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_ever_spinning_top
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_ever_spinning_top
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_celestial_tear = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_celestial_tear
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_celestial_tear
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_celestial_tear
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_plasmic_core = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_plasmic_core
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_plasmic_core
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_plasmic_core
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_infinity_root = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_infinity_root
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_infinity_root
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_infinity_root
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_time_crystal = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_time_crystal
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_time_crystal
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_time_crystal
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_daedalus_seal = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_daedalus_seal
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_daedalus_seal
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_daedalus_seal
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_continuum = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_continuum
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_continuum
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_continuum
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
 trade_action_r_eternal_throne = {
-	fire_and_forget = yes
-
-	potential = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_potential
-			RELIC = r_eternal_throne
-		}
-	}
-
-	on_traded_effect = {
-		inline_script = {
-			script = tradable_actions/gpm_relic_trade_on_traded_effect
-			RELIC = r_eternal_throne
-		}
-	}
-
-	ai_weight = {
-		weight = 1000
-		inline_script = tradable_actions/gpm_relic_trade_ai_weight
-		modifier = {
-			has_ethic = ethic_militarist
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_militarist
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_authoritarian
-			factor = 1.1
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_authoritarian
-			factor = 1.25
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_pacifist
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_pacifist
-			factor = 0.75
-		}
-		modifier = {
-			is_megacorp = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_ethic = ethic_fanatic_xenophile
-			factor = 0.9
-		}
-		modifier = {
-			has_ethic = ethic_xenophile
-			factor = 0.75
-		}
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_eternal_throne
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
 	}
 }
 
-########################
-# Relics - Grand Archive
-########################
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_the_modularium }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_flowmetal_alloy }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_crystallinus_diffuser }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_everchanging_stone }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_pulsestone }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_gavel_of_the_tribunal }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_entangled_relay }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_prototype_vir_core }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_propagandosphere }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_executus_compendium }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_the_pattern_maker }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_vaporous_mega_orchid }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_tiyanki_matriarch_nerve_core }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_preservation_chamber }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_celestial_resonator }
-inline_script = { script = tradable_actions/gpm_generic_relic_trade RELIC = r_mutated_voidworm_nest }
+### Grand Archive
+
+trade_action_r_the_modularium = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_the_modularium
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_flowmetal_alloy = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_flowmetal_alloy
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_crystallinus_diffuser = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_crystallinus_diffuser
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_everchanging_stone = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_everchanging_stone
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_pulsestone = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_pulsestone
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_gavel_of_the_tribunal = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_gavel_of_the_tribunal
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_entangled_relay = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_entangled_relay
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_prototype_vir_core = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_prototype_vir_core
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_propagandosphere = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_propagandosphere
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_executus_compendium = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_executus_compendium
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_the_pattern_maker = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_the_pattern_maker
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_vaporous_mega_orchid = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_vaporous_mega_orchid
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_tiyanki_matriarch_nerve_core = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_tiyanki_matriarch_nerve_core
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_preservation_chamber = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_preservation_chamber
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_celestial_resonator = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_celestial_resonator
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
+
+trade_action_r_mutated_voidworm_nest = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_mutated_voidworm_nest
+		WEIGHT = @gpm_relic_weight_TRADE_generic
+		EXTRA_WEIGHT = ""
+	}
+}
