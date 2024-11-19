@@ -112,6 +112,7 @@ trade_action_gpm_r_power_core = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = gpm_r_power_core
 		POSITIVE = megacorp|P|machine|P|militarist|P|materialist|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
@@ -237,6 +238,7 @@ trade_action_gpm_r_self_assembly_hub = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = gpm_r_self_assembly_hub
 		POSITIVE = machine|P|militarist|P|materialist|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -266,6 +268,7 @@ trade_action_gpm_r_q_storage_compressor = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = gpm_r_q_storage_compressor
 		POSITIVE = megacorp|P|pacifist|P|authoritarian|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }

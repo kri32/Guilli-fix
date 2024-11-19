@@ -103,6 +103,7 @@ trade_action_r_galatron = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_galatron
 		POSITIVE = megacorp|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -265,6 +266,7 @@ trade_action_r_vacuum_flower = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_vacuum_flower
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -274,6 +276,7 @@ trade_action_r_toxic_god = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_toxic_god
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -283,6 +286,7 @@ trade_action_r_odryskan_crystal = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_odryskan_crystal
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -292,6 +296,7 @@ trade_action_r_wormhole_key = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_wormhole_key
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -301,6 +306,7 @@ trade_action_r_ever_spinning_top = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_ever_spinning_top
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -310,6 +316,7 @@ trade_action_r_celestial_tear = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_celestial_tear
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -319,6 +326,7 @@ trade_action_r_plasmic_core = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_plasmic_core
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -328,6 +336,7 @@ trade_action_r_infinity_root = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_infinity_root
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -337,6 +346,7 @@ trade_action_r_time_crystal = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_time_crystal
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -346,6 +356,7 @@ trade_action_r_daedalus_seal = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_daedalus_seal
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -355,6 +366,7 @@ trade_action_r_continuum = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_continuum
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -364,6 +376,7 @@ trade_action_r_eternal_throne = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_eternal_throne
 		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -374,7 +387,8 @@ trade_action_r_the_modularium = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_the_modularium
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -383,7 +397,8 @@ trade_action_r_flowmetal_alloy = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_flowmetal_alloy
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -392,7 +407,8 @@ trade_action_r_crystallinus_diffuser = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_crystallinus_diffuser
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -401,7 +417,8 @@ trade_action_r_everchanging_stone = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_everchanging_stone
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -410,7 +427,8 @@ trade_action_r_pulsestone = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_pulsestone
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -419,7 +437,8 @@ trade_action_r_gavel_of_the_tribunal = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_gavel_of_the_tribunal
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -428,7 +447,8 @@ trade_action_r_entangled_relay = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_entangled_relay
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -437,7 +457,8 @@ trade_action_r_prototype_vir_core = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_prototype_vir_core
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -446,7 +467,8 @@ trade_action_r_propagandosphere = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_propagandosphere
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -455,7 +477,8 @@ trade_action_r_executus_compendium = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_executus_compendium
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -464,7 +487,8 @@ trade_action_r_the_pattern_maker = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_the_pattern_maker
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -473,7 +497,8 @@ trade_action_r_vaporous_mega_orchid = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_vaporous_mega_orchid
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -482,7 +507,8 @@ trade_action_r_tiyanki_matriarch_nerve_core = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_tiyanki_matriarch_nerve_core
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -491,7 +517,8 @@ trade_action_r_preservation_chamber = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_preservation_chamber
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -500,7 +527,8 @@ trade_action_r_celestial_resonator = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_celestial_resonator
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -509,7 +537,8 @@ trade_action_r_mutated_voidworm_nest = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade
 		RELIC = r_mutated_voidworm_nest
-		WEIGHT = @gpm_relic_weight_TRADE_generic
+		POSITIVE = @gpm_relic_weight_TRADE_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }

@@ -231,6 +231,7 @@ wg_gpm_r_vacuum_flower = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_vacuum_flower
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -240,6 +241,7 @@ wg_gpm_r_toxic_god = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_toxic_god
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -249,6 +251,7 @@ wg_gpm_r_odryskan_crystal = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_odryskan_crystal
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -258,6 +261,7 @@ wg_gpm_r_wormhole_key = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_wormhole_key
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -267,6 +271,7 @@ wg_gpm_r_ever_spinning_top = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_ever_spinning_top
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -276,6 +281,7 @@ wg_gpm_r_celestial_tear = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_celestial_tear
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -285,6 +291,7 @@ wg_gpm_r_plasmic_core = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_plasmic_core
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -294,6 +301,7 @@ wg_gpm_r_infinity_root = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_infinity_root
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -303,6 +311,7 @@ wg_gpm_r_time_crystal = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_time_crystal
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -312,6 +321,7 @@ wg_gpm_r_daedalus_seal = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_daedalus_seal
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -321,6 +331,7 @@ wg_gpm_r_continuum = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_continuum
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -330,6 +341,7 @@ wg_gpm_r_eternal_throne = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_eternal_throne
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -339,6 +351,7 @@ wg_gpm_r_the_modularium = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_the_modularium
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -348,6 +361,7 @@ wg_gpm_r_flowmetal_alloy = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_flowmetal_alloy
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -357,6 +371,7 @@ wg_gpm_r_crystallinus_diffuser = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_crystallinus_diffuser
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -366,6 +381,7 @@ wg_gpm_r_everchanging_stone = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_everchanging_stone
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -375,6 +391,7 @@ wg_gpm_r_pulsestone = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_pulsestone
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -384,6 +401,7 @@ wg_gpm_r_gavel_of_the_tribunal = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_gavel_of_the_tribunal
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -393,6 +411,7 @@ wg_gpm_r_entangled_relay = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_entangled_relay
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -402,6 +421,7 @@ wg_gpm_r_prototype_vir_core = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_prototype_vir_core
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -411,6 +431,7 @@ wg_gpm_r_propagandosphere = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_propagandosphere
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -420,6 +441,7 @@ wg_gpm_r_executus_compendium = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_executus_compendium
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -429,6 +451,7 @@ wg_gpm_r_the_pattern_maker = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_the_pattern_maker
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -438,6 +461,7 @@ wg_gpm_r_vaporous_mega_orchid = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_vaporous_mega_orchid
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -447,6 +471,7 @@ wg_gpm_r_tiyanki_matriarch_nerve_core = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_tiyanki_matriarch_nerve_core
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -456,6 +481,7 @@ wg_gpm_r_preservation_chamber = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_preservation_chamber
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -465,6 +491,7 @@ wg_gpm_r_celestial_resonator = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_celestial_resonator
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -474,6 +501,7 @@ wg_gpm_r_mutated_voidworm_nest = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = r_mutated_voidworm_nest
 		POSITIVE = @gpm_relic_weight_WAR_generic
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -610,6 +638,7 @@ wg_gpm_r_power_core = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = gpm_r_power_core
 		POSITIVE = megacorp|P|machine|P|materialist|P|militarist|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = "
 		modifier = {
 			OR = {
@@ -735,6 +764,7 @@ wg_gpm_r_self_assembly_hub = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = gpm_r_self_assembly_hub
 		POSITIVE = machine|P|militarist|P|materialist|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
@@ -764,6 +794,7 @@ wg_gpm_r_q_storage_compressor = {
 		script = war_goals/gpm_relic_war_goal
 		RELIC = gpm_r_q_storage_compressor
 		POSITIVE = megacorp|P|pacifist|P|authoritarian|P|
+		NEGATIVE = ""
 		EXTRA_WEIGHT = ""
 	}
 }
