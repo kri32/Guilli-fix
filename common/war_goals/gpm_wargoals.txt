@@ -135,6 +135,24 @@ wg_gpm_r_contingency_core = {
 	}
 }
 
+wg_gpm_r_cetanas_heart = {
+	inline_script = {
+		script = war_goals/gpm_relic_war_goal
+		RELIC = r_cetanas_heart
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
+		modifier = {
+			OR = {
+				has_civic = civic_machine_terminator
+				has_civic = civic_machine_assimilator
+				has_civic = civic_fanatic_purifiers
+			}
+			factor = 2
+		}"
+	}
+}
+
 wg_gpm_r_zro_crystal = {
 	inline_script = {
 		script = war_goals/gpm_relic_war_goal

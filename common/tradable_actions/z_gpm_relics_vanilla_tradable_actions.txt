@@ -170,6 +170,24 @@ trade_action_r_contingency_core = {
 	}
 }
 
+trade_action_r_cetanas_heart = {
+	inline_script = {
+		script = tradable_actions/gpm_relic_trade
+		RELIC = r_cetanas_heart
+		POSITIVE = machine|P|materialist|P|
+		NEGATIVE = spiritualist|N|
+		EXTRA_WEIGHT = "
+		modifier = {
+			OR = {
+				has_civic = civic_machine_terminator
+				has_civic = civic_machine_assimilator
+				has_civic = civic_fanatic_purifiers
+			}
+			factor = 1.2
+		}"
+	}
+}
+
 trade_action_r_zro_crystal = {
 	inline_script = {
 		script = tradable_actions/gpm_relic_trade

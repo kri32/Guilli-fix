@@ -1426,6 +1426,8 @@
  war_goal_wg_gpm_r_unbidden_warlock_desc:0 "War is waged to take the $r_unbidden_warlock$" 
  war_goal_wg_gpm_r_contingency_core:0 "$r_contingency_core$"
  war_goal_wg_gpm_r_contingency_core_desc:0 "War is waged to take the $r_contingency_core$" 
+ war_goal_wg_gpm_r_cetanas_heart:0 "r_cetanas_heart"
+ war_goal_wg_gpm_r_cetanas_heart_desc:0 "War is waged to take the $r_cetanas_heart$"
  war_goal_wg_gpm_r_zro_crystal:0 "$r_zro_crystal$"
  war_goal_wg_gpm_r_zro_crystal_desc:0 "War is waged to take the $r_zro_crystal$" 
  war_goal_wg_gpm_r_the_last_baol:0 "$r_the_last_baol$"

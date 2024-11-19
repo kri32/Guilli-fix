@@ -299,4 +299,8 @@ spriteTypes = {
 		name = "GFX_wg_gpm_r_mutated_voidworm_nest"
 		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
 	}	
+	spriteType = {
+		name = "GFX_wg_gpm_r_cetanas_heart"
+		texturefile = "gfx/interface/icons/diplomacy/gpm_steal_relic.dds"
+	}	
 }

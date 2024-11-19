@@ -13,6 +13,7 @@ gpm_has_vanilla_precursor_relic = {
 		has_relic = r_prethoryn_queen
 		has_relic = r_unbidden_warlock
 		has_relic = r_contingency_core
+		has_relic = r_cetanas_heart
 		has_relic = r_zro_crystal
 		has_relic = r_the_last_baol
 		has_relic = r_the_defragmentor
