@@ -329,10 +329,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.INVESTIGATE.4
@@ -377,8 +374,7 @@ ship_event = {
 				OWNER = {
 					OR = {
 						has_civic = civic_exalted_priesthood
-						has_ethic = ethic_spiritualist
-						has_ethic = ethic_fanatic_spiritualist
+						is_spiritualist = yes
 					}
 				}
 			}
@@ -835,10 +831,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_3
@@ -1321,10 +1314,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_4
@@ -2057,10 +2047,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_6
@@ -2906,10 +2893,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 		name = gpm_survey.SPIRITUALIST_1
@@ -3090,12 +3074,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_civic = civic_catalytic_processing
-					has_civic = civic_hive_catalytic_processing
-					has_civic = civic_machine_catalytic_processing
-					has_civic = civic_corporate_catalytic_processing
-				}
+				is_catalytic_empire = yes
 			}
 		}
 		name = gpm_survey.CATALYTIC_1
@@ -4125,12 +4104,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_civic = civic_catalytic_processing
-					has_civic = civic_hive_catalytic_processing
-					has_civic = civic_machine_catalytic_processing
-					has_civic = civic_corporate_catalytic_processing
-				}
+				is_catalytic_empire = yes
 			}
 		}
 		name = gpm_survey.CATALYTIC_2
@@ -4414,10 +4388,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_4
@@ -5242,12 +5213,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_civic = civic_catalytic_processing
-					has_civic = civic_hive_catalytic_processing
-					has_civic = civic_machine_catalytic_processing
-					has_civic = civic_corporate_catalytic_processing
-				}
+				is_catalytic_empire = yes
 			}
 		}
 		name = gpm_survey.CATALYTIC_3
@@ -5637,10 +5603,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 		name = gpm_survey.SPIRITUALIST_2
@@ -5728,10 +5691,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 		name = gpm_survey.XENOPHOBE_1
@@ -5808,10 +5768,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 		name = gpm_survey.XENOPHOBE_2
@@ -5880,10 +5837,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 		name = gpm_survey.XENOPHILE_1
@@ -6249,12 +6203,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_civic = civic_catalytic_processing
-					has_civic = civic_hive_catalytic_processing
-					has_civic = civic_machine_catalytic_processing
-					has_civic = civic_corporate_catalytic_processing
-				}
+				is_catalytic_empire = yes
 			}
 		}
 		name = gpm_survey.CATALYTIC_4
@@ -6469,10 +6418,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_8
@@ -6717,10 +6663,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_9
@@ -7182,10 +7125,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_10
@@ -8203,10 +8143,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_2
@@ -8415,10 +8352,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_3
@@ -8875,12 +8809,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_civic = civic_catalytic_processing
-					has_civic = civic_hive_catalytic_processing
-					has_civic = civic_machine_catalytic_processing
-					has_civic = civic_corporate_catalytic_processing
-				}
+				is_catalytic_empire = yes
 			}
 		}
 		name = gpm_survey.CATALYTIC_5
@@ -9237,10 +9166,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 		name = gpm_survey.SPIRITUALIST_3
@@ -9467,10 +9393,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_7
@@ -10369,10 +10292,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_10
@@ -10656,10 +10576,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_civic = civic_death_cult
-					has_civic = civic_death_cult_corporate
-				}
+				is_death_cult_empire = yes
 			}
 		}
 		name = gpm_survey.DEATH_CULT_1
@@ -10776,7 +10693,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				has_civic = civic_reanimated_armies
+				is_reanimator = yes
 			}
 		}
 		name = gpm_survey.REANIMATOR
@@ -11096,10 +11013,7 @@ ship_event = {
 				modifier = { factor = 0 has_global_flag = gpm_relic_drops_disabled }
 				modifier = { factor = 0
 					root.owner = {
-						OR = {
-							has_ethic = ethic_spiritualist
-							has_ethic = ethic_fanatic_spiritualist
-						}
+						is_spiritualist = yes
 					}
 				}
 			}
@@ -11181,10 +11095,7 @@ ship_event = {
 				modifier = { factor = 0 has_global_flag = gpm_relic_drops_disabled }
 				modifier = { factor = 0
 					root.owner = {
-						OR = {
-							has_ethic = ethic_spiritualist
-							has_ethic = ethic_fanatic_spiritualist
-						}
+						is_spiritualist = yes
 					}
 				}
 			}
@@ -11204,10 +11115,7 @@ ship_event = {
 	option = {
 		trigger = {
 			OWNER = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 		name = gpm_survey.RESEARCH_EMPIRE_3
@@ -11287,10 +11195,7 @@ ship_event = {
 				modifier = { factor = 0 has_global_flag = gpm_relic_drops_disabled }
 				modifier = { factor = 0
 					root.owner = {
-						OR = {
-							has_ethic = ethic_spiritualist
-							has_ethic = ethic_fanatic_spiritualist
-						}
+						is_spiritualist = yes
 					}
 				}
 			}
@@ -11490,10 +11395,7 @@ ship_event = {
 				modifier = { factor = 0 has_global_flag = gpm_relic_drops_disabled }
 				modifier = { factor = 0
 					root.owner = {
-						OR = {
-							has_ethic = ethic_spiritualist
-							has_ethic = ethic_fanatic_spiritualist
-						}
+						is_spiritualist = yes
 					}
 				}
 			}
@@ -11587,10 +11489,7 @@ ship_event = {
 				modifier = { factor = 0 has_global_flag = gpm_relic_drops_disabled }
 				modifier = { factor = 0
 					root.owner = {
-						OR = {
-							has_ethic = ethic_spiritualist
-							has_ethic = ethic_fanatic_spiritualist
-						}
+						is_spiritualist = yes
 					}
 				}
 			}

@@ -339,10 +339,7 @@ country_event = {
 	option = {
 		trigger = {
 			owner = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 		name = gpm_guardian.105.d		# "Oh great and mighty one, we have finally found you!"

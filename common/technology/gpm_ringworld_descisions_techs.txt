@@ -207,10 +207,7 @@ gpm_tech_ringworld_simulators = {
 	}
 
 	potential = {
-		NOR = {
-			has_ethic = ethic_fanatic_pacifist
-			has_ethic = ethic_pacifist
-		}
+		is_pacifist = no
 		# requires a colonized ringworld section
 		any_planet_within_border = {
 			is_colony = yes

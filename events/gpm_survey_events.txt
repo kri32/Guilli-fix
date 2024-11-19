@@ -3207,10 +3207,7 @@ ship_event = {
 		trigger = {
 			root = {
 				owner = {
-					OR = {
-						has_ethic = "ethic_fanatic_spiritualist"
-						has_ethic = "ethic_spiritualist"
-					}
+					is_spiritualist = yes
 				}
 			}
 		}
@@ -3231,10 +3228,7 @@ ship_event = {
 		trigger = {
 			root = {
 				owner = {
-					OR = {
-						has_ethic = "ethic_fanatic_xenophile"
-						has_ethic = "ethic_xenophile"
-					}
+					is_xenophile = yes
 				}
 			}
 		}
@@ -5943,10 +5937,7 @@ ship_event = {
 		trigger = {
 			root = {
 				owner = {
-					NOR = {
-						has_ethic = "ethic_fanatic_xenophile"
-						has_ethic = "ethic_xenophile"
-					}
+					is_xenophile = no
 				}
 			}
 			FROM = { NOT = { exists = space_owner } }
