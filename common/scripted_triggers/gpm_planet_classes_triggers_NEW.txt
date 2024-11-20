@@ -59,6 +59,10 @@ gpm_is_planet_class_barren = {
 gpm_is_planet_class_normal_habitable = {
 	optimize_memory
 	OR = {
+		is_colonizable = yes
+		is_colony = yes
+	}
+	OR = {
 		is_planet_class = pc_gaia					# Vanilla
 		is_planet_class = pc_continental			# Vanilla
 		is_planet_class = pc_alpine					# Vanilla
@@ -92,6 +96,7 @@ gpm_is_planet_class_nuked = {
 ###############################
 gpm_is_planet_class_star = {
 	optimize_memory
+	is_star = yes
 	OR = {
 		is_planet_class = pc_b_star					# Vanilla
 		is_planet_class = pc_a_star					# Vanilla
@@ -105,6 +110,7 @@ gpm_is_planet_class_star = {
 }
 gpm_is_planet_class_asteroid = {
 	optimize_memory
+	is_asteroid = yes
 	OR = {
 		is_planet_class = pc_asteroid				# Vanilla
 		is_planet_class = pc_ice_asteroid			# Vanilla
@@ -158,6 +164,7 @@ gpm_is_planet_class_hive = {
 	optimize_memory
 	OR = {
 		is_planet_class = pc_hive					# Vanilla
+		is_planet_class = pc_infested				# Vanilla
 		pd_is_planet_class_hive = yes				# PD
 		inline_script = {							# Giga
 			script = mod_support/gpm_giga_present
@@ -169,6 +176,7 @@ gpm_is_planet_class_hive = {
 }
 gpm_is_planet_class_habitat = {
 	optimize_memory
+	is_artificial = yes
 	OR = {
 		is_planet_class = pc_habitat				# Vanilla
 		inline_script = {
@@ -183,12 +191,15 @@ gpm_is_planet_class_habitat = {
 }
 gpm_is_planet_class_ringworld = {
 	optimize_memory
-	OR = {
-		is_ringworld = yes
-		is_planet_class = pc_ringworld_habitable		# Vanilla
-		is_planet_class = pc_cybrex						# Vanilla
-		giga_is_ringworld = yes							# Giga
-		is_planet_class = pc_rw_at_habitable			# request from user, no specific mod
-		is_planet_class = pc_rw_admin_habitable			# request from user, no specific mod
-	}
+	is_ringworld = yes
+
+	# This isn't even needed lol
+	# OR = {
+	# 	is_ringworld = yes
+	# 	is_planet_class = pc_ringworld_habitable		# Vanilla
+	# 	is_planet_class = pc_cybrex						# Vanilla
+	# 	giga_is_ringworld = yes							# Giga
+	# 	is_planet_class = pc_rw_at_habitable			# request from user, no specific mod
+	# 	is_planet_class = pc_rw_admin_habitable			# request from user, no specific mod
+	# }
 }
