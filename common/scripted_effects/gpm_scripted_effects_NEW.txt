@@ -26,3 +26,17 @@ gpm_spawn_RES_ring = {
 		}
 	}
 }
+
+gpm_guillify_system = {
+	every_system_planet = {
+		planet_event = {
+			id = gpm_engine.1
+		}
+	}
+}
+
+gpm_guillify_planet = {
+	planet_event = {
+		id = gpm_engine.1
+	}
+}
