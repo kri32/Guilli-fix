@@ -101,14 +101,6 @@ gpm_is_planet_class_star = {
 		is_planet_class = pc_m_star					# Vanilla
 		is_planet_class = pc_m_giant_star			# Vanilla
 		is_planet_class = pc_t_star					# Vanilla
-		inline_script = {							# Giga
-			script = mod_support/gpm_giga_present
-			code = "
-				is_planet_class = pc_habitable_m_star
-				is_planet_class = pc_habitable_k_star
-				is_planet_class = pc_habitable_g_star
-			"
-		}
 	}
 }
 gpm_is_planet_class_asteroid = {
