@@ -38,15 +38,16 @@ wg_gpm_r_mem_dwarf_fortress_boot = {
 	}
 }
 
-wg_gpm_r_mem_eden_protocol_devolve_relic = {
-	inline_script = {
-		script = war_goals/gpm_relic_war_goal
-		RELIC = r_mem_eden_protocol_devolve_relic
-		POSITIVE = @gpm_relic_weight_TRADE_generic
-		NEGATIVE = ""
-		EXTRA_WEIGHT = ""
-	}
-}
+# Origin related
+# wg_gpm_r_mem_eden_protocol_devolve_relic = {
+# 	inline_script = {
+# 		script = war_goals/gpm_relic_war_goal
+# 		RELIC = r_mem_eden_protocol_devolve_relic
+# 		POSITIVE = @gpm_relic_weight_TRADE_generic
+# 		NEGATIVE = ""
+# 		EXTRA_WEIGHT = ""
+# 	}
+# }
 
 wg_gpm_r_mem_dark_heart = {
 	inline_script = {

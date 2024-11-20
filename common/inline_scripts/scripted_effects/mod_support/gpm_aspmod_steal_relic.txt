@@ -1,5 +1,5 @@
 
-inline_script = { script = scripted_effects/gpm_steal_random_relic_entry RELIC = r_aspmod_geocentric_device }
+#inline_script = { script = scripted_effects/gpm_steal_random_relic_entry RELIC = r_aspmod_geocentric_device }
 inline_script = { script = scripted_effects/gpm_steal_random_relic_entry RELIC = r_aspmod_communist_manifesto }
 inline_script = { script = scripted_effects/gpm_steal_random_relic_entry RELIC = r_aspmod_vermifugum }
 inline_script = { script = scripted_effects/gpm_steal_random_relic_entry RELIC = r_aspmod_deadspace_marker }

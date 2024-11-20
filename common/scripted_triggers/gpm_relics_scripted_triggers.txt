@@ -97,7 +97,7 @@ gpm_has_mem_relic = {
 		has_relic = r_mem_doom_capacitor
 		has_relic = r_mem_dread_pirate_mask
 		has_relic = r_mem_dwarf_fortress_boot
-		has_relic = r_mem_eden_protocol_devolve_relic
+		#has_relic = r_mem_eden_protocol_devolve_relic	#Origin related
 		has_relic = r_mem_dark_heart
 		has_relic = r_mem_severance_core
 		has_relic = r_mem_amoeba_sample
@@ -110,7 +110,7 @@ gpm_has_mem_relic = {
 # Archaeology Story Pack
 gpm_has_aspmod_relic = {
 	OR = {
-		has_relic = r_aspmod_geocentric_device
+		#has_relic = r_aspmod_geocentric_device
 		has_relic = r_aspmod_communist_manifesto
 		has_relic = r_aspmod_vermifugum
 		has_relic = r_aspmod_deadspace_marker
@@ -125,22 +125,22 @@ gpm_has_aspmod_relic = {
 # Forgotten Empires
 gpm_has_scfe_relic = {
 	OR = {
-		has_relic = r_scfe_music_of_the_universe
+		#has_relic = r_scfe_music_of_the_universe
 		has_relic = r_scfe_protagonist_of_the_show
 		has_relic = r_scfe_sless_gene_template
 		has_relic = r_scfe_diary_of_innovo
 		has_relic = r_scfe_astanine_last_projector
-		has_relic = r_ziaskehorn_fire
+		#has_relic = r_ziaskehorn_fire
 		has_relic = r_scfe_alshigan_engine
 		has_relic = r_scfe_znkar_distortion_generator
-		has_relic = r_scfe_first_empire_databank
+		#has_relic = r_scfe_first_empire_databank
 		has_relic = r_scfe_orders_trinket
-		has_relic = r_scfe_arcane_rune
-		has_relic = r_scfe_damage_rune
-		has_relic = r_scfe_haste_rune
-		has_relic = r_scfe_regeneration_rune
-		has_relic = r_scfe_illusion_rune
-		has_relic = r_scfe_invisibility_rune
+		#has_relic = r_scfe_arcane_rune
+		#has_relic = r_scfe_damage_rune
+		#has_relic = r_scfe_haste_rune
+		#has_relic = r_scfe_regeneration_rune
+		#has_relic = r_scfe_illusion_rune
+		#has_relic = r_scfe_invisibility_rune
 	}
 }
 
@@ -150,14 +150,14 @@ gpm_has_AAA_relic = {
 		has_relic = r_eztarta
 		has_relic = r_plexi_log
 		has_relic = r_isolator
-		has_relic = r_AAA_machine_log
+		#has_relic = r_AAA_machine_log	#Shouldn't be transfered
 	}
 }
 
 # More Precursors
 gpm_has_FHMP_relic = {
 	OR = {
-		has_relic = r_werediran_core
+		#has_relic = r_werediran_core	#lore reasons, other empires can make use of it
 		has_relic = r_ezentian_core
 		has_relic = r_ixardian_database
 	}

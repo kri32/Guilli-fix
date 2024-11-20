@@ -28,12 +28,13 @@ trade_action_r_isolator = {
 	}
 }
 
-trade_action_r_AAA_machine_log = {
-	inline_script = {
-		script = tradable_actions/gpm_relic_trade
-		RELIC = r_AAA_machine_log
-		POSITIVE = @gpm_relic_weight_TRADE_generic
-		NEGATIVE = ""
-		EXTRA_WEIGHT = ""
-	}
-}
+# This shouldn't be tranfered
+# trade_action_r_AAA_machine_log = {
+# 	inline_script = {
+# 		script = tradable_actions/gpm_relic_trade
+# 		RELIC = r_AAA_machine_log
+# 		POSITIVE = @gpm_relic_weight_TRADE_generic
+# 		NEGATIVE = ""
+# 		EXTRA_WEIGHT = ""
+# 	}
+# }

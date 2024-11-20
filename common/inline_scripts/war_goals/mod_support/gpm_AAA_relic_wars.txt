@@ -28,12 +28,13 @@ wg_gpm_r_isolator = {
 	}
 }
 
-wg_gpm_r_AAA_machine_log = {
-	inline_script = {
-		script = war_goals/gpm_relic_war_goal
-		RELIC = r_AAA_machine_log
-		POSITIVE = @gpm_relic_weight_TRADE_generic
-		NEGATIVE = ""
-		EXTRA_WEIGHT = ""
-	}
-}
+# This shouldn't be tranfered
+# wg_gpm_r_AAA_machine_log = {
+# 	inline_script = {
+# 		script = war_goals/gpm_relic_war_goal
+# 		RELIC = r_AAA_machine_log
+# 		POSITIVE = @gpm_relic_weight_TRADE_generic
+# 		NEGATIVE = ""
+# 		EXTRA_WEIGHT = ""
+# 	}
+# }

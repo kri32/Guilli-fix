@@ -1,12 +1,12 @@
-wg_gpm_r_aspmod_geocentric_device = {
-	inline_script = {
-		script = war_goals/gpm_relic_war_goal
-		RELIC = r_aspmod_geocentric_device
-		POSITIVE = @gpm_relic_weight_TRADE_generic
-		NEGATIVE = ""
-		EXTRA_WEIGHT = ""
-	}
-}
+# wg_gpm_r_aspmod_geocentric_device = {
+# 	inline_script = {
+# 		script = war_goals/gpm_relic_war_goal
+# 		RELIC = r_aspmod_geocentric_device
+# 		POSITIVE = @gpm_relic_weight_TRADE_generic
+# 		NEGATIVE = ""
+# 		EXTRA_WEIGHT = ""
+# 	}
+# }
 
 wg_gpm_r_aspmod_communist_manifesto = {
 	inline_script = {
