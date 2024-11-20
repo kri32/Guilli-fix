@@ -1849,7 +1849,7 @@ gpm_remove_galaxy_generation_deposits = {
 					exists = space_owner
 				}
 			}
-			NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+			gpm_ignore = yes
 			gpm_engine_forbidden_planets = no
 			gpm_is_planet_class_asteroid = no
 		}

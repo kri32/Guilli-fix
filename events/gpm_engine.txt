@@ -72,7 +72,7 @@ country_event = {
 					}
 					is_planet_class = pc_desert
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -92,7 +92,7 @@ country_event = {
 					}
 					is_planet_class = pc_arid
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -112,7 +112,7 @@ country_event = {
 					}
 					is_planet_class = pc_savannah
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -132,7 +132,7 @@ country_event = {
 					}
 					is_planet_class = pc_tropical
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -152,7 +152,7 @@ country_event = {
 					}
 					is_planet_class = pc_continental
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -172,7 +172,7 @@ country_event = {
 					}
 					is_planet_class = pc_ocean
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -192,7 +192,7 @@ country_event = {
 					}
 					is_planet_class = pc_arctic
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -212,7 +212,7 @@ country_event = {
 					}
 					is_planet_class = pc_alpine
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -232,7 +232,7 @@ country_event = {
 					}
 					is_planet_class = pc_tundra
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -252,7 +252,7 @@ country_event = {
 					}
 					is_planet_class = pc_gaia
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -272,7 +272,7 @@ country_event = {
 					}
 					is_planet_class = pc_nuked
 					NOT = { gpm_is_planet_fallen_empire = yes }
-					NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+					gpm_ignore = yes
 				}
 				# Planet Modifier Scaling
 				if = {
@@ -293,7 +293,7 @@ country_event = {
 						NOT = { gpm_is_a_wondrous_world = yes }
 						gpm_is_planet_class_normal_habitable = yes
 						NOT = { gpm_is_planet_fallen_empire = yes }
-						NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+						gpm_ignore = yes
 						NAND = {
 							is_capital = yes
 							gpm_is_planet_primitive = no
@@ -776,7 +776,7 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_planet_flag = forbid_guillis_planet_modifiers }
+		gpm_ignore = yes
 		NOT = { solar_system = { has_star_flag = gpm_precursor_machine_system } }
 	}
 
