@@ -408,7 +408,7 @@ espionage_operation_event = {
 				if = {
 					limit = {
 						has_intel_level = {
-							category = technology
+							category = government
 							level >= 1
 							who = owner
 						}
@@ -561,12 +561,12 @@ espionage_operation_event = {
 				}
 				OR = {
 					has_intel_level = {
-						category = technology
+						category = government
 						level >= 2
 						who = root.owner
 					}
 					has_intel_level = {
-						category = technology
+						category = government
 						level >= 2
 						who = root.from
 					}
@@ -735,7 +735,7 @@ country_event = {
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
-							category = technology
+							category = government
 							level < 2
 						}
 						num_owned_relics = value:gpm_base_num_relics|PLUS|1|
@@ -759,7 +759,7 @@ country_event = {
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
-							category = technology
+							category = government
 							level < 2
 						}
 						num_owned_relics > value:gpm_base_num_relics|PLUS|1|
@@ -783,7 +783,7 @@ country_event = {
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
-							category = technology
+							category = government
 							level >= 2
 						}
 					}
@@ -894,7 +894,7 @@ country_event = {
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
-							category = technology
+							category = government
 							level < 2
 						}
 						num_owned_relics = value:gpm_base_num_relics|PLUS|1|
@@ -918,7 +918,7 @@ country_event = {
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
-							category = technology
+							category = government
 							level < 2
 						}
 						num_owned_relics > value:gpm_base_num_relics|PLUS|1|
@@ -942,7 +942,7 @@ country_event = {
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
-							category = technology
+							category = government
 							level >= 2
 						}
 					}

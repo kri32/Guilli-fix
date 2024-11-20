@@ -456,7 +456,7 @@ country_event = {
 						has_communications = root
 						has_intel_level = {
 							who = root
-							category = technology
+							category = government
 							level < 2
 						}
 						num_owned_relics = value:gpm_base_num_relics|PLUS|1|
@@ -480,7 +480,7 @@ country_event = {
 						has_communications = root
 						has_intel_level = {
 							who = root
-							category = technology
+							category = government
 							level < 2
 						}
 						num_owned_relics > value:gpm_base_num_relics|PLUS|1|
@@ -504,7 +504,7 @@ country_event = {
 						has_communications = root
 						has_intel_level = {
 							who = root
-							category = technology
+							category = government
 							level >= 2
 						}
 					}
