@@ -1,4 +1,14 @@
-﻿l_german: 
+﻿l_german:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+ 
  #### In this file localisation for ####
  # Deathworld
  # Rebirth
@@ -39,3 +49,4 @@
  gpm_origin_fallen_empire_colony_mod:0 "$origin_gpm_fallen_empire_colony$ origins"
  
  origin_tooltip_gpm_fallen_empire_colony_effects:0 "§RNot balanced for Multiplayer§!\n§YEmpire§!:\n Diplomacy Weight: §G+10%§!\n Research Speed: §R-15%§!\n\n§YHomeworld§!:\n Start with §Y3§! random §HElder Planet Modifiers§!\n\n§YSpecies§!:\n Gain the §YRespected Beginnings§! trait:\n   £unity£ Unity from £pop£ pop Jobs: §G+15%§!\n   §HFallen Empires§! Opinion bonus: §G+40§!"
+ 

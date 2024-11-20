@@ -39,12 +39,11 @@
  # War Goals
  # war Names
  #######################################
-
  #######################################
  #### Map Mode
  #######################################
  gpm_relic_map_mode:1 "Ancient Relic Map Mode"
- gpm_relic_map_mode_desc:1 "Empire borders will be colored based on owning an ancient relic or not."
+ gpm_relic_map_mode_desc:1 "Empire borders will be colored based on owning an ancient relic or not." 
  GPM_MAP_MODE_NOT_HAS_RELIC:1 "Has no §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC:1 "Has 1 §YAncient Relic§!"
  GPM_MAP_MODE_HAS_RELIC_2:1 "Has 2 §YAncient Relics§!"
@@ -58,7 +57,6 @@
  GPM_MAP_MODE_HAS_RELIC_10:1 "Has 10 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_11:1 "Has too many §YAncient Relics!§!"
  GPM_MAP_MODE_HAS_UNKNOWN_RELICS:1 "This empire has an unknown number of §YAncient Relics§!.\nRequires more §HIntel§!."
-
  GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC:1 "We have no §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC:1 "We have 1 §YAncient Relic§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_2:1 "We have 2 §YAncient Relics§!"
@@ -71,10 +69,8 @@
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_9:1 "We have 9 §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_10:1 "We have 10 §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_11:1 "We have over 10 §YAncient Relics!§!"
-
  GPM_MAP_MODE_HAS_RELIC_MULTIPLE: "Has [This.GuilliGetNumRelics] §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE: "We have [This.GuilliGetNumRelics] §YAncient Relics!§!"
-
  #######################################
  #### Generic Names
  #######################################
@@ -110,7 +106,6 @@
  NAME_Fen_Habbanis_IIIa:0 "Fen Habbanis IIIa"
  TECH_IS_CUSTOM_TECH_3:0 "§BPrecursor Discovery§!"
  
-
  #######################################
  #### Other non-cat events
  #######################################
@@ -177,7 +172,6 @@
  gpm_precursor_shipyards_star_desc:0 "Colossal shipyards once used by an ancient precursor race."
  
  gpm_binary_asteroids:0 "[gpm_double_asteroid.GetName]'s Twin"
-
  gpm_james_web:0 "James Webb Telescope"
  gpm_james_web_desc:0 "The James Webb Telescope was considered one of humanity's greatest achievements. It gave an unprecedented look into the beginnings of the universe."
  
@@ -198,7 +192,6 @@
  gpm_giant_arachnid_army_plural:0 "Giant Arachnid Armies"
  gpm_giant_arachnid_army_desc:0 "Trough blood, sweat and tears... well mostly blood and tears, we have managed to tame the arachnids! A cybernetic implant lets us control these giant arachnids by suggestion a direction for them to move to. They usually proceed to try and eat anything they encounter. Dropping the arachnids from orbit might just be scary enough to win the war!" 
  giant_arachnid_army_trigger_tooltip:0 "§BCan only be built on worlds infested with giant arachnids.§!"
-
  gpm_giant_arachnid_army_defensive:0 "Giant Arachnid Swarm"
  gpm_giant_arachnid_army_defensive_plural:0 "Giant Arachnid Swarms"
  gpm_giant_arachnid_army_defensive_desc:0 "A swarm of hyper-aggressive giant arachnids."
@@ -217,16 +210,12 @@
  gpm_giant_arachnid_army_machine_plural:0 "Cybernetic Arachnid Swarms"
  gpm_giant_arachnid_army_machine_desc:0 "Using extensive cybernetics and deep-brain-implants on these arachnids we have managed to obtain complete control of these violent creatures. Fast breeding programs ensure a large supply of these creatures can be used. Programmed to behave like a tight, fast moving swarm they will ensure victory over our enemies in virtually any type of situation." 
  giant_arachnid_army_machine_trigger_tooltip:0 "§BCan only be built on worlds infested with giant arachnids.§!"
-
  gpm_relic_tank_battalion:0 "Tank Battalion"
  gpm_relic_tank_battalion_desc:0 "Hyper Advanced Hover Tanks."
-
  gpm_relic_mech_squadron:0 "Mechwarriors"
  gpm_relic_mech_squadron_desc:0 "Colossal mechs piloted by your people and loaded with enough firepower to blow up a small moon."
-
  gpm_relic_fighter_squadron:0 "Fighter Squadron"
  gpm_relic_fighter_squadron_desc:0 "Fast and agile land speeders, capable of low atmospheric flight."
-
  gpm_relic_power_armoured_troops:0 "Power Armored Army"
  gpm_relic_power_armoured_troops_desc:0 "Highly advanced personal armour wearing combat units."
  
@@ -246,7 +235,6 @@
  # Venerable dreadnaught army
  gpm_venerable_dreadnaught_army:0 "Venerable Dreadnought"
  gpm_venerable_dreadnaught_army_desc:0 "A powerful ancient walking personal mech."
-
  # dreadnaught army
  gpm_dreadnaught_army:0 "Dreadnought"
  gpm_dreadnaught_army_desc:0 "A slow lumbering personal mech fitted with devastating weapon systems and colossal plates of armour"
@@ -287,8 +275,7 @@
  
  gpm_building_mining_nanite_nexus:0 "Mining Nanite Nexus"
  gpm_building_mining_nanite_nexus_desc:0 "Storage and control centre for our mining nanites. These nanites, once released, will dig smooth large tunnels towards any otherwise unreachable mineral veins."
-
- gpm_precursor_research_center:0 "Precursor Institute"
+ gpm_precursor_research_center:0 "Precursor Institute" 
  gpm_precursor_research_center_desc:0 "Specialised research facilities to assist in researching the ancient and powerful precursor civilisations."
  gpm_building_precursor_research_center_effect:0 "\n§BCan only be build on a precursor world§!\nIf built on a §YRelic World§!:\n Research Speed (Archaeostudies): §G+50%§!\n £minor_artifacts£ Minor Artifacts from £job_researcher£ Archaeoengineers: §G+0.3§!\nIf built on an §YAncient Archaeopolis World§!:\n Research Speed (Archaeostudies): §G+100%§!\n £minor_artifacts£ Minor Artifacts from £job_researcher£ Archaeoengineers: §G+0.6§!"
  
@@ -299,7 +286,7 @@
  gpm_building_exotic_park_desc:0 "A park filled with strange and exotic alien fauna."
  
  gpm_building_manufactory_hub:0 "Manufactorium Hub"
- gpm_building_manufactory_hub_desc:0"A sophisticated manufacturing hub capable of dynamically and proactively adjusting manufacturing output and input in order to keep factories running at optimal capacity."
+ gpm_building_manufactory_hub_desc:0 "A sophisticated manufacturing hub capable of dynamically and proactively adjusting manufacturing output and input in order to keep factories running at optimal capacity."
  
  gpm_building_core_prison:0 "Subsurface Prison"
  gpm_building_core_prison_desc:0 "A prison system so deep in the planetary core that escape is impossible. The only way in and out of the prison is a single shaft guarded by deadly autonomous weapon systems."
@@ -459,7 +446,6 @@
  gpm_col_megalopolis_industrial_desc:1 " "
  gpm_col_megalopolis_generator:1 "Generator Centric"
  gpm_col_megalopolis_generator_desc:1 " "
-
  district_gpm_precursor_scienceTT:0 "\nAdds an unremovable §Y$d_archaeological_site$§! blocker when build."
  
  #######################################
@@ -497,7 +483,6 @@
  pop_cat_gpm_spacer:0 "Orbital Extractor"
  pop_cat_gpm_spacer_plural:0 "Orbital Extractors"
  pop_cat_gpm_spacer_desc:0 "These are basic workers used for the extraction of materials from space."
-
  pop_cat_gpm_spacer_specialist:0 "Orbital Specialist"
  pop_cat_gpm_spacer_specialist_plural:0 "Orbital Specialist"
  pop_cat_gpm_spacer_specialist_desc:0 "These are the workers that specialise in orbital extraction of information and materials."
@@ -512,7 +497,6 @@
  job_gpm_bunker_army_plural:0 "Precursor Bunker Units"
  job_gpm_bunker_army_desc:0 "The complexity of the bunker grid on this world is amazing. Clearly designed by an advanced AI. It seems every bunker is a self-maintaining system, one which we can use to our advantage. Virtually impenetrable walls mean it'll take our enemies months to get through. With enough of these bunkers we might just be able to hold off hostile forces indefinitely."
  job_gpm_bunker_army_effect_desc:0 "£job_gpm_bunker_army£ $job_gpm_bunker_army_plural$ increase £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! and spawn £job_gpm_bunker_army£ §YDefense Armies§!"
-
  job_gpm_moon_miner:0 "Moon Miner"
  job_gpm_moon_miner_plural:0 "Moon Miners"
  job_gpm_moon_miner_desc:0 "It is hard work but the extraction of materials from moon mining can be quite lucrative."
@@ -522,77 +506,62 @@
  job_gpm_moon_miner_drone_plural:0 "Moon Extractors"
  job_gpm_moon_miner_drone_desc:0 "$job_gpm_moon_miner_desc$"
  job_gpm_moon_miner_drone_effect_desc:0 "£job_gpm_moon_miner_drone£ $job_gpm_moon_miner_drone_plural$ produce £minerals£ §Y$minerals$§! but costing some £energy£ §Y$energy$§!"
-
  job_gpm_asteroid_miner:0 "Asteroid Miner"
  job_gpm_asteroid_miner_plural:0 "Asteroid Miners"
  job_gpm_asteroid_miner_desc:0 "One of the most dangerous jobs is that of extracting materials from captured asteroids. One wrong move and you get crushed."
  job_gpm_asteroid_miner_effect_desc:0 "£job_gpm_asteroid_miner£ $job_gpm_asteroid_miner_plural$ produce £minerals£ §Y$minerals$§! but costing some £consumer_goods£ §Y$consumer_goods$§!"
-
  job_gpm_asteroid_miner_drone:0 "Asteroid Extractor"
  job_gpm_asteroid_miner_drone_plural:0 "Asteroid Extractors"
  job_gpm_asteroid_miner_drone_desc:0 "$job_gpm_asteroid_miner_desc$"
  job_gpm_asteroid_miner_drone_effect_desc:0 "£job_gpm_asteroid_miner_drone£ $job_gpm_asteroid_miner_drone_plural$ produce £minerals£ §Y$minerals$§! but costing some £energy£ §Y$energy$§!"
-
  job_gpm_orbital_researcher:0 "Orbital Researcher"
  job_gpm_orbital_researcher_plural:0 "Orbital Researchers"
  job_gpm_orbital_researcher_desc:0 "Scientific expeditions have always been the backbone to discovery."
  job_gpm_orbital_researcher_effect_desc:0 "£job_gpm_orbital_researcher£ $job_gpm_orbital_researcher_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £physics£ £society£ £engineering£ §YResearch Points§! for new technologies."
-
  job_gpm_orbital_researcher_drone:0 "Orbital Calculator"
  job_gpm_orbital_researcher_drone_plural:0 "Orbital Calculators"
  job_gpm_orbital_researcher_drone_desc:0 "$job_gpm_orbital_researcher_desc$"
  job_gpm_orbital_researcher_drone_effect_desc:0 "£job_gpm_orbital_researcher_drone£ $job_gpm_orbital_researcher_drone_plural$ turn £energy£ §Y$energy$§! into £physics£ £society£ £engineering£ §YResearch Points§! for new technologies."
-
  job_gpm_archaeologist:0 "Archaeologist"
  job_gpm_archaeologist_plural:0 "Archaeologists"
  job_gpm_archaeologist_desc:0 "Outfitted with a hat, whip and a can-do attitude, these archaeologists leave no stone unturned."
  job_gpm_archaeologist_effect_desc:0 "£job_gpm_archaeologist£ $job_gpm_archaeologist_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £physics£ £society£ £engineering£ §YResearch Points§!."
-
  job_gpm_archaeologist_drone:0 "Archaeologist Drone"
  job_gpm_archaeologist_drone_plural:0 "Archaeologist Drones"
  job_gpm_archaeologist_drone_desc:0 "$job_gpm_archaeologist_desc$"
  job_gpm_archaeologist_drone_effect_desc:0 "£job_gpm_archaeologist_drone£ $job_gpm_archaeologist_drone_plural$ turn £energy£ §Y$energy$§! into £physics£ £society£ £engineering£ §YResearch Points§!."
-
  job_gpm_precursor_archaeologist:0 "Precursor Archaeologist"
  job_gpm_precursor_archaeologist_plural:0 "Precursor Archaeologists"
  job_gpm_precursor_archaeologist_desc:0 "Archaeologists specialised in the study of ancient civilisations."
  job_gpm_precursor_archaeologist_effect_desc:0 "£job_gpm_precursor_archaeologist£ $job_gpm_precursor_archaeologist_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £physics£ £society£ £engineering£ §YResearch Points§! and produce £minor_artifacts£ §YMinor Artifacts§!"
-
  job_gpm_precursor_archaeologist_drone:0 "Precursor Archaeologist Drone"
  job_gpm_precursor_archaeologist_drone_plural:0 "Precursor Archaeologist Drones"
  job_gpm_precursor_archaeologist_drone_desc:0 "$job_gpm_precursor_archaeologist_desc$"
  job_gpm_precursor_archaeologist_drone_effect_desc:0 "£job_gpm_precursor_archaeologist_drone£ $job_gpm_precursor_archaeologist_drone_plural$ turn £energy£ §Y$energy$§! into £physics£ £society£ £engineering£ §YResearch Points§! and produce £minor_artifacts£ §YMinor Artifacts§!"
-
  job_gpm_orbital_alloy_miner:0 "Orbital Alloy Miner"
  job_gpm_orbital_alloy_miner_plural:0 "Orbital Alloy Miners"
  job_gpm_orbital_alloy_miner_desc:0 "Experienced industrial miners who specialise in extracting valuable alloys from the most dangerous surfaces."
  job_gpm_orbital_alloy_miner_effect_desc:0 "£job_gpm_orbital_alloy_miner£ $job_gpm_orbital_alloy_miner_plural$ produce £alloy£ §Y$alloys$§! but costing some £consumer_goods£ §Y$consumer_goods$§!"
-
  job_gpm_orbital_alloy_miner_drone:0 "Orbital Alloy Extractor"
  job_gpm_orbital_alloy_miner_drone_plural:0 "Orbital Alloy Extractors"
  job_gpm_orbital_alloy_miner_drone_desc:0 "$job_gpm_orbital_alloy_miner_desc$"
  job_gpm_orbital_alloy_miner_drone_effect_desc:0 "£job_gpm_orbital_alloy_miner_drone£ $job_gpm_orbital_alloy_miner_drone_plural$ produce £alloy£ §Y$alloys$§! but costing some £energy£ §Y$energy$§!"
-
  job_gpm_orbital_mineral_miner:0 "Orbital Miner"
  job_gpm_orbital_mineral_miner_plural:0 "Orbital Miners"
  job_gpm_orbital_mineral_miner_desc:0 "Cheap industrial miners who specialise in mining common minerals from planetary surfaces."
  job_gpm_orbital_mineral_miner_effect_desc:0 "£job_gpm_orbital_mineral_miner£ $job_gpm_orbital_mineral_miner_plural$ produce £minerals£ §Y$minerals$§! but costing some £consumer_goods£ §Y$consumer_goods$§!"
-
  job_gpm_orbital_mineral_miner_drone:0 "Orbital Extractor"
  job_gpm_orbital_mineral_miner_drone_plural:0 "Orbital Extractors"
  job_gpm_orbital_mineral_miner_drone_desc:0 "$job_gpm_orbital_mineral_miner_desc$"
  job_gpm_orbital_mineral_miner_drone_effect_desc:0 "£job_gpm_orbital_mineral_miner_drone£ $job_gpm_orbital_mineral_miner_drone_plural$ produce £minerals£ §Y$minerals$§! but costing some £energy£ §Y$energy$§!"
-
  job_gpm_orbital_particle_collector:0 "Orbital Particle Collector"
  job_gpm_orbital_particle_collector_plural:0 "Orbital Particle Collectors"
  job_gpm_orbital_particle_collector_desc:0 "Specialised particle harvesters are the backbone of this workforce and are so strong they can withstand extreme environments."
  job_gpm_orbital_particle_collector_effect_desc:0 "£job_gpm_orbital_particle_collector£ $job_gpm_orbital_particle_collector_plural$ produce £energy£ §Y$energy$§!"
-
  job_gpm_orbital_particle_collector_drone:0 "Orbital Particle Extractor"
  job_gpm_orbital_particle_collector_drone_plural:0 "Orbital Particle Extractors"
  job_gpm_orbital_particle_collector_drone_desc:0 "$job_gpm_orbital_particle_collector_desc$"
  job_gpm_orbital_particle_collector_drone_effect_desc:0 "£job_gpm_orbital_particle_collector_drone£ $job_gpm_orbital_particle_collector_drone_plural$ produce £energy£ §Y$energy$§!"
-
  job_gpm_orbital_spicer:0 "Orbital Spice Collector"
  job_gpm_orbital_spicer_plural:0 "Orbital Spice Collectors"
  job_gpm_orbital_spicer_desc:0 "Spice is the lifeblood of the galaxy, extracting it is all that matters."
@@ -602,7 +571,6 @@
  job_gpm_orbital_spicer_drone_plural:0 "Orbital Spice Extractors"
  job_gpm_orbital_spicer_drone_desc:0 "$job_gpm_orbital_spicer_desc$"
  job_gpm_orbital_spicer_drone_effect_desc:0 "£job_gpm_orbital_spicer_drone£ $job_gpm_orbital_spicer_drone_plural$ produce £energy£ §Y$energy$§!"
-
  job_gpm_android_entertainer:0 "'Entertainment' Visitor"
  job_gpm_android_entertainer_plural:0 "'Entertainment' Visitors"
  job_gpm_android_entertainer_desc:0 "The spirit is willing but the body parts are weak."
@@ -711,6 +679,7 @@
  mod_planet_translucers_minor_artifacts_upkeep_add:0 "£job_translucer£ Translucers £minor_artifacts£ Minor Artifacts upkeep"
  mod_planet_chemists_minor_artifacts_upkeep_add:0 "£job_chemist£ Chemists £minor_artifacts£ Minor Artifacts upkeep"
  mod_planet_pop_assemblers_minor_artifacts_upkeep_add:0 "£job_roboticist£ Roboticists £minor_artifacts£ Minor Artifacts upkeep"
+ mod_planet_doctors_produces_mult:0 "£job_healthcare£ Medical Worker output" 
  
  mod_planet_farmers_rare_crystals_produces_add:0 "£rare_crystals£ Rare Crystals from £job_farmer£ $job_farmer_plural$"
  mod_planet_miners_food_produces_add:0 "£food£ Food from £job_miner£ $job_miner_plural$"
@@ -719,7 +688,8 @@
  mod_planet_technician_society_research_produces_add:0 "£society_research£ Society Research from £job_technician£ $job_technician_plural$"
  mod_planet_researchers_sr_living_metal_produces_add:0 "£sr_living_metal£ Living Metal from £job_researcher£ $job_researcher_plural$"
  mod_planet_researchers_sr_zro_produces_add:0 "£sr_zro£ Zro from £job_researcher£ $job_researcher_plural$"
-
+ 
+ 
  #######################################
  #### Opinions
  #######################################
@@ -772,15 +742,12 @@
  gpm_crystal_ship_large_blue_elite:0 "Crystalline Beast"
  gpm_crystal_ship_large_blue_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_blue_elite_section:0 " "
-
  gpm_crystal_ship_large_green_elite:0 "Crystalline Beast"
  gpm_crystal_ship_large_green_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_green_elite_section:0 " "
-
  gpm_crystal_ship_large_yellow_elite:0 "Crystalline Beast"
  gpm_crystal_ship_large_yellow_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_yellow_elite_section:0 " "
-
  gpm_crystal_ship_large_red_elite:0 "Crystalline Beast"
  gpm_crystal_ship_large_red_elite_plural:0 "Crystalline Beasts"
  gpm_crystal_ship_large_red_elite_section:0 " "
@@ -817,7 +784,6 @@
  
  GPM_TARGETTING_COMPUTER_1:0 "Chrono-Refractive Matrix"
  GPM_TARGETTING_COMPUTER_1_DESC:0 "This targeting computer runs a future predicting enigmatic chrono-algorithm allowing the ship to fire with more devastating effect at larger targets."
-
  GPM_HANGAR_1:0 "Autonomous Maintenance Bay"
  GPM_HANGAR_1_DESC:0 "Autonomous maintenance bay allowing faster deployment of strike craft. Improved maintenance protocols allow your strike craft to be more efficient in combat."
  
@@ -833,22 +799,17 @@
  #######################################
  gpm_start_menu.1.name:0 "Guilli's Planet Modifiers"
  gpm_start_menu.1.desc:0 "§YNEW:§!\n - Small ruined megastructures can be found\n - Precursor Archaeopolis Planet\n - New Spy Operation: §HGather Relic Intel§!\n - New Spy Operation: §HSteal Relic§!\n - And more, see the 3.4 changelog!\n\n New Small Mod: §YGuilli's Exploration and Expansion Tweaks§!. Check it out!\n\n§HTips:§!\n  §Y- Make sure to set the options you want in the§! £options_icon §HOptions§! £options_icon  §Ymenu before clicking start§!\n  §Y- Modifiers will spawn after you unpause over §H2§! to §H20§! ingame days.§!"
-
  # §HThe mod might takes a few moments after unpausing to spawn everything during which the game may act slow or freeze for a second.§!
-
  gpm_start_menu.1.START:0 "Start the game"
  gpm_start_menu.1.STARTTT:0 "This will start the game. Any settings you selected will be applied and cannot be undone without starting a new game!"
  
  gpm_start_menu.1.max_one:0 "§YNumber of Modifiers:§! Max One"
  gpm_start_menu.1.max_oneTT:0 "§HClick to Cycle§! through the settings that determine the minimum and maximum number of modifiers that can spawn on a planet.\n-----§HNumber of Modifiers§!:-----\n§W 0-1 per planet§! §G(currently selected)§!\n§L 0-2 per planet (low)§!\n§L 0-3 per planet (default)§!\n§L 1-3 per planet (high)§!"
-
  # number of modifiers option
  gpm_start_menu.1.low:0 "§YNumber of Modifiers:§! Low"
  gpm_start_menu.1.lowTT:0 "§HClick to Cycle§! through the settings that determine the minimum and maximum number of modifiers that can spawn on a planet.\n-----§HNumber of Modifiers§!:-----\n§L 0-1 per planet (max one)§!\n§W 0-2 per planet§! §G(currently selected)§!\n§L 0-3 per planet (default)§!\n§L 0-4 per planet (high)§!"
-
  gpm_start_menu.1.normal:0 "§YNumber of Modifiers:§! Default (§GRecommended§!)"
  gpm_start_menu.1.normalTT:0 "§HClick to Cycle§! through the settings that determine the minimum and maximum number of modifiers that can spawn on a planet.\n-----§HNumber of Modifiers§!:-----\n§L 0-1 per planet (max one)§!\n§L 0-2 per planet (low)§!\n§W 0-3 per planet§! §G(currently selected)§!\n§L 1-3 per planet (high)§!"
-
  gpm_start_menu.1.high:0 "§YNumber of Modifiers:§! High"
  gpm_start_menu.1.highTT:0 "§HClick to Cycle§! through the settings that determine the minimum and maximum number of modifiers that can spawn on a planet.\n-----§HNumber of Modifiers§!:-----\n§L 0-1 per planet (max one)§!\n§L 0-2 per planet (low)§!\n§L 0-3 per planet (default)§!\n§W 1-3 per planet§! §G(currently selected)§!"
  
@@ -862,28 +823,23 @@
  
  gpm_start_menu.1.old_galaxy_age:0 "§YGalaxy Age:§! Old"
  gpm_start_menu.1.old_galaxy_ageTT:0 "§HClick to Cycle§! through the settings that determine the age of the galaxy. This determines the spawn chance of planet modifiers. An old galaxy will have more ruins and signs of previous civilisations.\n-----§HGalaxy Age:§!:-----\n§L Young§! \n§L Normal (default)§!\n§W Old§G(currently selected)§!\n\n§HEffects:§!\nPrecursor Planet Modifiers: §G+30%§! spawn chance\nNormal non-natural Planet Modifiers: §G+30%§! spawn chance\nNormal natural Planet Modifiers: §R-30%§! spawn chance"
-
  gpm_start_menu.1.default_scaling:0 "§YScaling:§! Planet Size"
  gpm_start_menu.1.default_scalingTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§W On Planet Size§! §G(currently selected)§!\n§L Random§!\n§L Random+§!\n§L Off§!"
  
  gpm_start_menu.1.scaling_random:0 "§YScaling:§! Random"
  gpm_start_menu.1.scaling_randomTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§W Random§! §G(currently selected)§!\n§L Random+§!\n§L Off§!"
-
  gpm_start_menu.1.scaling_randomplus:0 "§YScaling:§! Random+"
  gpm_start_menu.1.scaling_randomplusTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§L Random§!\n§W Random+§! §G(currently selected)§!\n§L Off§!\n\n§LPlanet modifier bonuses §Tmaximum§! values are increased by 50%\n<<<§RWarning§!: this isn't very balanced!>>>§!"
-
  gpm_start_menu.1.scaling_off:0 "§YScaling:§! Off"
  gpm_start_menu.1.scaling_offTT:0 "§HClick to Cycle§! through the settings that determine how planet modifiers scale.\n-----§HScaling:§!:-----\n§L On Planet Size§!\n§L Random§!\n§L Random+§!\n§R Off§! §G(currently selected)§!"
  
  # various options
  gpm_start_menu.1.options:0 "£options_icon  §YOptions§! £options_icon"
  gpm_start_menu.1.optionsTT:0 "Set various options for Guilli's Planet Modifiers mod. You can disable or enable various features of the mod here.\n\n§YMake sure to set any options you want before choosing the amount of modifiers!§!"
-
  gpm_start_menu.2.enabled_homeworld:0 "£options_icon  §GEnable Capital Modifiers§!"
  gpm_start_menu.2.enabled_homeworldTT:0 "§HClick this to enable Capital Modifiers§!\nThis will spawn §Hrandom§! planet modifiers on your capital planet.\n\n§RWARNING: This can be challenging!§!"
  gpm_start_menu.2.disable_homeworld:0 "£options_icon  §RDisable Capital Modifiers§!"
  gpm_start_menu.2.disable_homeworldTT:0 "§HClick this to disable Capital Modifiers§!\nThis will prevent modifiers from spawning on your capital planet."
-
  gpm_start_menu.2.disable_precursor:1 "£options_icon  §RDisable Precursor Modifiers and Relics§!"
  gpm_start_menu.2.enable_precursor:1 "£options_icon  §GEnable Precursor Modifiers and Relics§!"
  gpm_start_menu.2.disable_fallen_empire:0 "£options_icon  §RDisable Fallen Empire Modifiers§!"
@@ -892,7 +848,6 @@
  gpm_start_menu.2.enable_wonders:0 "£options_icon  §GEnable Planetary Wonders§!"
  gpm_start_menu.2.disable_planetary_rings:0 "£options_icon  §RDisable Planetary Rings§!"
  gpm_start_menu.2.enable_planetary_rings:0 "£options_icon  §GEnable Planetary Rings§!"
-
  gpm_start_menu.2.disable_precursorTT:1 "§HClick this to disable Precursor Modifiers and Relics§!\nThis will prevent precursor modifiers and Relics from spawning in the galaxy."
  gpm_start_menu.2.enable_precursorTT:1 "§HClick this to enable Precursor Modifiers and Relics§!"
  gpm_start_menu.2.disable_fallen_empireTT:0 "§HClick this to disable Fallen Empire Modifiers§!\nThis will prevent fallen empire modifiers from spawning in the galaxy."
@@ -901,20 +856,16 @@
  gpm_start_menu.2.enable_wondersTT:0 "§HClick this to enable Planetary Wonders§!"
  gpm_start_menu.2.disable_planetary_ringsTT:0 "§HClick this to disable Planetary Rings§!\nThis will prevent planetary rings and their rich resources from spawning in the galaxy."
  gpm_start_menu.2.enable_planetary_ringsTT:0 "§HClick this to enable Planetary Rings§!"
-
  gpm_start_menu.2.back:0 "§YBack to main menu§!"
  gpm_start_menu.2.backTT:0 "Return to the main menu to start."
- 
  gpm_start_menu.2.disable_relic_AI_heists:1 "£options_icon  §RDisable AI Relic Heists§"
  gpm_start_menu.2.disable_relic_AI_heistsTT:1 "§HClick this to disable Steal Relic spy operations for AI§!\nThis will prevent the AI from using §YSteal Relic§! Spy Operations on players."
  gpm_start_menu.2.enabled_relic_AI_heists:1 "£options_icon  §GEnable AI Relic Heists§!"
  gpm_start_menu.2.enable_relic_AI_heistsTT:1 "§HClick this to enable Steal Relic spy operations for AI§!\nThis will allow the AI to use §YSteal Relic§! Spy Operations on players."
-
  gpm_start_menu.2.enabled_mp_fun:1 "£options_icon  §GEnable Increased Precursor 'drops'§!"
  gpm_start_menu.2.enabled_mp_funTT:1 "§HClick this to increase the chance of precursor dig sites and increase their special rewards§!\nGreatly increases the chance of precursor dig sites appearing during the game.\nGreatly increases the chance precursor dig sites give special or unique rewards such as relics, ships, components,..\n\n§TAlso works in single player!§!"
  gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDisable Increased Precursor 'drops'§!"
  gpm_start_menu.2.disable_mp_funTT:1 "§HClick this to reset the chance of precursor dig sites and reset their special rewards§!\nResets the chance of precursor dig sites appearing during the game to their default values.\nResets the chance precursor digsites give special rewards to their default values"
-
  gpm_start_menu.2.enabled_mini_structures:0 "£options_icon  §GEnable Mini Megastructures§!"
  gpm_start_menu.2.enable_mini_structuresTT:0 "§HClick this to allow Mini Megastructures to spawn§!\nMini megastructures will spawn randomly across the galaxy."
  gpm_start_menu.2.disable_mini_structures:0 "£options_icon  §RDisable Mini Megastructures§!"
@@ -939,60 +890,44 @@
  
  tech_gpm_tb_toxic_gas:0 "Aero-Chemical Neutralisers"
  tech_gpm_tb_toxic_gas_desc:0 "It is going to be hard to remove toxic gas clouds that roam the landscape. Our best bet is dropping a mist of chemical neutralisers over them."
-
  tech_gpm_tb_toxic_gas_hive_mind:0 "Global Chemical Neutralisers"
  tech_gpm_tb_toxic_gas_desc_hive_mind:0 "The collective will put its full effort into spreading chemical neutralisers over these worlds."
  tech_gpm_tb_toxic_gas_machine_intelligence:0 "Non-Corrosive Alloys"
  tech_gpm_tb_toxic_gas_desc_machine_intelligence:0 "By fusing our standard building materials with a specific non-corrosive element we can keep the toxic gas out of our buildings indefinitely. "
-
  tech_gpm_d_unusual_formations:0 "Large Scale Demolition"
  tech_gpm_d_unusual_formations_desc:0 "Since these formations are unstable by nature all it would take is some explosives. "
-
  tech_gpm_d_unusual_formations_machine_intelligence:0 "Systematic Clearing"
  tech_gpm_d_unusual_formations_desc_machine_intelligence:0 "The structural integrity of the terrain on this world is highly variable. The terrain will need to be reorganised for more efficient traversing and construction."
-
  tech_gpm_tb_locust_plagues:0 "Natural Predators"
  tech_gpm_tb_locust_plagues_desc:0 "By introducing harmless natural predators into the environment we should be able to control the locust swarms. We are fairly sure nothing can go wrong with this plan."
-
  tech_gpm_tb_locust_plagues_hive_mind:0 "Planned Extermination"
  tech_gpm_tb_locust_plagues_desc_hive_mind:0 "To effectively combat these swarms we should divide the area in sectors and work from the outside in. Specialised equipment and biologically engineered natural predators will be used to systematically eradicate the locust swarms."
  
  tech_gpm_tb_locust_plagues_machine_intelligence:0 "Artificial Predators"
  tech_gpm_tb_locust_plagues_desc_machine_intelligence:0 "Carefully crafted mechanical insects will be introduced to hunt and kill every single locust."
-
  tech_gpm_tb_seasonal_flooding:0 "Flood Management"
  tech_gpm_tb_seasonal_flooding_desc:0 "Flood management strategies generally involve multiple engineering projects that can fall under one of two categories. Hard engineering projects are ones that involve the construction of artificial structures that, through a combination of science, technology and a bit of brute force, prevent a river from flooding. Soft engineering projects are the opposite. These projects use natural resources and local people's knowledge of the river to reduce the risk posed by a flood."
-
  tech_gpm_tb_seasonal_flooding_machine_intelligence:0 "Flood Draining Systems"
  tech_gpm_tb_seasonal_flooding_desc_machine_intelligence:0 "Artificial basins and deep underground cisterns will be used to buffer any flood water that appears due to natural or artificial planetary changes."
-
  tech_gpm_d_arachnophobia:0 "They are no joke!"
  tech_gpm_d_arachnophobia_desc:0 "If we could we would take the next shuttle out of here! But sadly we cannot, so we will have to deal with these giant arachnids. Perhaps a giant flamethrower. Something with fire §Ralways§! works."
-
  tech_gpm_d_arachnophobia_hive_mind:0 "Nest Containment"
  tech_gpm_d_arachnophobia_desc_hive_mind:0 "A system of containment cells will be constructed around the nests of these arachnids. This will greatly reduce their numbers to a more manageable level. The remaining arachnids that exist outside of these cells will be hunted and killed."
  
  tech_gpm_d_arachnophobia_machine_intelligence:0 "Cybernetic Arachnids"
  tech_gpm_d_arachnophobia_desc_machine_intelligence:0 "Forcefully implanting mechanical control units will allow us to direct where these arachnids go. We will also be able to kill them on command. A series of drones will be used to entrap, contain and implant these control units into the arachnids' brains. "
-
  tech_gpm_d_dunes:0 "Dune Removal"
  tech_gpm_d_dunes_desc:0 "The management of dune removal projects includes planting vegetation successfully. Merely scattering and leaving seeds over sandy areas is perceived as a potential waste as strong winds can blow seeds away. Planting of nurseries should be conducted in the hollows of any present sand hills or in depressions of sandy areas. Seeds should be planted in moist conditions and should be lightly covered by a layer of sand and large mature grass individuals should be planted in deep holes with the tops of the plants cut short so as to reduce wind resistance."
-
  tech_gpm_precursor_remnants_discovery:0 "Non-Standard Archaeologist Safety Gear"
  tech_gpm_precursor_remnants_discovery_desc:0 "Allowing your archaeologists to choose their own gear and protection based on the site they are exploring gives the best chance of success!"
-
  tech_gpm_precursor_remnants_discovery_2:0 "Triple Probe Search Patterns"
  tech_gpm_precursor_remnants_discovery_2_desc:0 "Utilising an optimised search pattern involving three probes simultaneously vastly increases our ability to scan the surfaces of worlds."
-
  tech_gpm_precursor_energy_grid_discovery:0 "Energy Recycling Conduits"
  tech_gpm_precursor_energy_grid_discovery_desc:0 "New thermal recycling systems in energy conduits allow for more efficient power transfer. Unfortunately this new technology works best in vacuum environments and is very fragile so they are best suited for stationary designs."
-
  tech_gpm_precursor_energy_grid_discovery_2:0 "Energy Field Theories"
  tech_gpm_precursor_energy_grid_discovery_2_desc:0 "New theories on energy fields will have a positive effect on our ability to generate energy."
-
  tech_gpm_precursor_satellite_grid_discovery:0 "Non-Emissive Observation Stations"
  tech_gpm_precursor_satellite_grid_discovery_desc:0 "A special coating of ultra-black radio-frequency absorbing material renders our observation station and satellites virtually invisible."
-
  tech_gpm_precursor_satellite_grid_discovery_2:0 "Deep Space Signal Boosters"
  tech_gpm_precursor_satellite_grid_discovery_2_desc:0 "Self-Powered deep space satellites act as a boosting system for long range communication. These boosters allow for far more efficient planning over long distances."
  
@@ -1031,7 +966,6 @@
  
  tech_gpm_precursor_planetary_shield_discovery_2:0 "Wide-Channel Shield Conduits"
  tech_gpm_precursor_planetary_shield_discovery_2_desc:0 "Large open channel conduits allow for vastly more power to run through the shield emitters, causing our shields to regain strength faster."
-
  tech_gpm_precursor_floating_city_discovery:0 "Gravity Anchors"
  tech_gpm_precursor_floating_city_discovery_desc:0 "Gravitational anchors reduce the amount of stress structures experience from their own weight. They allow for much taller and wider structures to be built."
  
@@ -1251,7 +1185,6 @@
  
  tech_gpm_singularity_matrix:0 "Matrix Duplication"
  tech_gpm_singularity_matrix_desc:0 "We know how to copy its design and materials, but we don't know how it works exactly. By duplicating the matrix and copying over the energy state we can effectively create more."
-
  gpm_tech_ringworld_parabolic_forcefield:0 "Ringworld $decision_gpm_ringworld_parabolic_forcefield$"
  gpm_tech_ringworld_parabolic_forcefield_desc:0 "The Ringworld decision §H$decision_gpm_ringworld_parabolic_forcefield$§! adds the ringworld modifier §H$gpm_ringworld_breath_taking_view$§! increasing pop hapiness and reduces colony bombardment damage."
  gpm_tech_ringworld_parabolic_forcefield_tt:0 "§HUnlocks ringworld decision:§! $decision_gpm_ringworld_parabolic_forcefield$"
@@ -1285,7 +1218,6 @@
  
  tech_gpm_station_researchers_build_cost:1 "Modular Research Sections"
  tech_gpm_station_researchers_build_cost_desc:1 "Pre-designed specialised research sections greatly speeds up our ability to observe the universe."
-
  tech_gpm_crystalis_targeting_matrix_1:0 "Chrono-Refractive Matrix"
  tech_gpm_crystalis_targeting_matrix_1_desc:0 "Improves ship accuracy on larger targets by predicting the effects of fire in the immediate future using an enigmatic chrono-algorithm.\n\n"
  
@@ -1307,7 +1239,6 @@
  trait_gpm_high_status:0 "Respected Beginnings"
  trait_gpm_high_status_desc:0 "§LYour species' origin is unknown to yourself, and perhaps most of the galaxy. Yet you sense that your very existence demands respect.§!"
  TRAIT_GPM_HIGH_STATUS_EFFECT:0 "£unity£ Unity from £pop£ pop Jobs: §G+15%§!\nYour species gains a §G+40§! opinion bonus with §HFallen Empires§!."
-
  leader_trait_gpm_guilli:0 "Mad Scientist"
  leader_trait_gpm_guilli_desc:0 "G'uil-li has lived eons on Xandar, spending most of his time dedicated to understanding Xandar, and the universe. It has made him slightly mad though."
  
@@ -1331,15 +1262,11 @@
  
  leader_trait_gpm_battle_standards:0 "Battle Standards"
  leader_trait_gpm_battle_standards_desc:0 "Colourful Banners that inspire the troops and bring fear to your mortal enemies."
-
  leader_trait_gpm_personal_mech:0 "Personal Mech"
  leader_trait_gpm_personal_mech_desc:0 "This leader has access to a personal mech."
-
  gpm_leader_trait_collector:0 "Collector of Artifacts"
  gpm_leader_trait_collector_desc:0 "This leader has a habit of staying behind collecting anything worthwhile."
  gpm_leader_trait_collectorTT:0 "Chance of finding £minor_artifacts£ §YMinor Artifacts§! or §YAncient Relics§!: §G+20%§!"
-
-
  #######################################
  #### War Goals
  #######################################
@@ -1397,7 +1324,6 @@
  war_goal_wg_gpm_r_soul_gem_desc:0 "War is waged to take the $gpm_r_soul_gem$"
  war_goal_wg_gpm_r_self_repairing_obelisk:0 "$gpm_r_self_repairing_obelisk$"
  war_goal_wg_gpm_r_self_repairing_obelisk_desc:0 "War is waged to take the $gpm_r_self_repairing_obelisk$"
-
  war_goal_wg_gpm_r_dragon_trophy:0 "$r_dragon_trophy$"
  war_goal_wg_gpm_r_dragon_trophy_desc:0 "War is waged to take the $r_dragon_trophy$" 
  war_goal_wg_gpm_r_khans_throne:0 "$r_khans_throne$"
@@ -1422,6 +1348,8 @@
  war_goal_wg_gpm_r_unbidden_warlock_desc:0 "War is waged to take the $r_unbidden_warlock$" 
  war_goal_wg_gpm_r_contingency_core:0 "$r_contingency_core$"
  war_goal_wg_gpm_r_contingency_core_desc:0 "War is waged to take the $r_contingency_core$" 
+ war_goal_wg_gpm_r_cetanas_heart:0 "r_cetanas_heart"
+ war_goal_wg_gpm_r_cetanas_heart_desc:0 "War is waged to take the $r_cetanas_heart$"
  war_goal_wg_gpm_r_zro_crystal:0 "$r_zro_crystal$"
  war_goal_wg_gpm_r_zro_crystal_desc:0 "War is waged to take the $r_zro_crystal$" 
  war_goal_wg_gpm_r_the_last_baol:0 "$r_the_last_baol$"
@@ -1492,7 +1420,117 @@
  war_goal_wg_gpm_r_celestial_resonator_desc:0 "War is waged to take the $r_celestial_resonator$"
  war_goal_wg_gpm_r_mutated_voidworm_nest:0 "$r_mutated_voidworm_nest$"
  war_goal_wg_gpm_r_mutated_voidworm_nest_desc:0 "War is waged to take the $r_mutated_voidworm_nest$"
- 
+### Mod support
+# More Events Mod
+ war_goal_wg_gpm_r_mem_czar_alexei_sword: "$r_mem_czar_alexei_sword$"
+ war_goal_wg_gpm_r_mem_czar_alexei_sword_desc: "War is waged to take the $r_mem_czar_alexei_sword$"
+ war_goal_wg_gpm_r_mem_doom_capacitor: "$r_mem_doom_capacitor$"
+ war_goal_wg_gpm_r_mem_doom_capacitor_desc: "War is waged to take the $r_mem_doom_capacitor$"
+ war_goal_wg_gpm_r_mem_dread_pirate_mask: "$r_mem_dread_pirate_mask$"
+ war_goal_wg_gpm_r_mem_dread_pirate_mask_desc: "War is waged to take the $r_mem_dread_pirate_mask$"
+ war_goal_wg_gpm_r_mem_dwarf_fortress_boot: "$r_mem_dwarf_fortress_boot$"
+ war_goal_wg_gpm_r_mem_dwarf_fortress_boot_desc: "War is waged to take the $r_mem_dwarf_fortress_boot$"
+ war_goal_wg_gpm_r_mem_eden_protocol_devolve_relic: "$r_mem_eden_protocol_devolve_relic$"
+ war_goal_wg_gpm_r_mem_eden_protocol_devolve_relic_desc: "War is waged to take the $r_mem_eden_protocol_devolve_relic$"
+ war_goal_wg_gpm_r_mem_dark_heart: "$r_mem_dark_heart$"
+ war_goal_wg_gpm_r_mem_dark_heart_desc: "War is waged to take the $r_mem_dark_heart$"
+ war_goal_wg_gpm_r_mem_severance_core: "$r_mem_severance_core$"
+ war_goal_wg_gpm_r_mem_severance_core_desc: "War is waged to take the $r_mem_severance_core$"
+ war_goal_wg_gpm_r_mem_amoeba_sample: "$r_mem_amoeba_sample$"
+ war_goal_wg_gpm_r_mem_amoeba_sample_desc: "War is waged to take the $r_mem_amoeba_sample$"
+ war_goal_wg_gpm_r_mem_surveyor_personality_core: "$r_mem_surveyor_personality_core$"
+ war_goal_wg_gpm_r_mem_surveyor_personality_core_desc: "War is waged to take the $r_mem_surveyor_personality_core$"
+ war_goal_wg_gpm_r_mem_surveyor_mobile_production_matrix: "$r_mem_surveyor_mobile_production_matrix$"
+ war_goal_wg_gpm_r_mem_surveyor_mobile_production_matrix_desc: "War is waged to take the $r_mem_surveyor_mobile_production_matrix$"
+ war_goal_wg_gpm_r_mem_wpdr_production_matrix: "$r_mem_wpdr_production_matrix$"
+ war_goal_wg_gpm_r_mem_wpdr_production_matrix_desc: "War is waged to take the $r_mem_wpdr_production_matrix$"
+# Archaeology Story Pack
+ war_goal_wg_gpm_r_aspmod_geocentric_device: "$r_aspmod_geocentric_device$"
+ war_goal_wg_gpm_r_aspmod_geocentric_device_desc: "War is waged to take the $r_aspmod_geocentric_device$"
+ war_goal_wg_gpm_r_aspmod_communist_manifesto: "$r_aspmod_communist_manifesto$"
+ war_goal_wg_gpm_r_aspmod_communist_manifesto_desc: "War is waged to take the $r_aspmod_communist_manifesto$"
+ war_goal_wg_gpm_r_aspmod_vermifugum: "$r_aspmod_vermifugum$"
+ war_goal_wg_gpm_r_aspmod_vermifugum_desc: "War is waged to take the $r_aspmod_vermifugum$"
+ war_goal_wg_gpm_r_aspmod_deadspace_marker: "$r_aspmod_deadspace_marker$"
+ war_goal_wg_gpm_r_aspmod_deadspace_marker_desc: "War is waged to take the $r_aspmod_deadspace_marker$"
+ war_goal_wg_gpm_r_aspmod_synthetic_god_mummy: "$r_aspmod_synthetic_god_mummy$"
+ war_goal_wg_gpm_r_aspmod_synthetic_god_mummy_desc: "War is waged to take the $r_aspmod_synthetic_god_mummy$"
+ war_goal_wg_gpm_r_aspmod_the_replicator: "$r_aspmod_the_replicator$"
+ war_goal_wg_gpm_r_aspmod_the_replicator_desc: "War is waged to take the $r_aspmod_the_replicator$"
+ war_goal_wg_gpm_r_aspmod_the_last_tribute: "$r_aspmod_the_last_tribute$"
+ war_goal_wg_gpm_r_aspmod_the_last_tribute_desc: "War is waged to take the $r_aspmod_the_last_tribute$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine: "$r_aspmod_parasite_machine$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine_desc: "War is waged to take the $r_aspmod_parasite_machine$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine_2: "$r_aspmod_parasite_machine_2$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine_2_desc: "War is waged to take the $r_aspmod_parasite_machine_2$"
+# Forgotten Empires
+ war_goal_wg_gpm_r_scfe_music_of_the_universe: "$r_scfe_music_of_the_universe$"
+ war_goal_wg_gpm_r_scfe_music_of_the_universe_desc: "War is waged to take the $r_scfe_music_of_the_universe$"
+ war_goal_wg_gpm_r_scfe_protagonist_of_the_show: "$r_scfe_protagonist_of_the_show$"
+ war_goal_wg_gpm_r_scfe_protagonist_of_the_show_desc: "War is waged to take the $r_scfe_protagonist_of_the_show$"
+ war_goal_wg_gpm_r_scfe_sless_gene_template: "$r_scfe_sless_gene_template$"
+ war_goal_wg_gpm_r_scfe_sless_gene_template_desc: "War is waged to take the $r_scfe_sless_gene_template$"
+ war_goal_wg_gpm_r_scfe_diary_of_innovo: "$r_scfe_diary_of_innovo$"
+ war_goal_wg_gpm_r_scfe_diary_of_innovo_desc: "War is waged to take the $r_scfe_diary_of_innovo$"
+ war_goal_wg_gpm_r_scfe_astanine_last_projector: "$r_scfe_astanine_last_projector$"
+ war_goal_wg_gpm_r_scfe_astanine_last_projector_desc: "War is waged to take the $r_scfe_astanine_last_projector$"
+ war_goal_wg_gpm_r_ziaskehorn_fire: "$r_ziaskehorn_fire$"
+ war_goal_wg_gpm_r_ziaskehorn_fire_desc: "War is waged to take the $r_ziaskehorn_fire$"
+ war_goal_wg_gpm_r_scfe_alshigan_engine: "$r_scfe_alshigan_engine$"
+ war_goal_wg_gpm_r_scfe_alshigan_engine_desc: "War is waged to take the $r_scfe_alshigan_engine$"
+ war_goal_wg_gpm_r_scfe_znkar_distortion_generator: "$r_scfe_znkar_distortion_generator$"
+ war_goal_wg_gpm_r_scfe_znkar_distortion_generator_desc: "War is waged to take the $r_scfe_znkar_distortion_generator$"
+ war_goal_wg_gpm_r_scfe_first_empire_databank: "$r_scfe_first_empire_databank$"
+ war_goal_wg_gpm_r_scfe_first_empire_databank_desc: "War is waged to take the $r_scfe_first_empire_databank$"
+ war_goal_wg_gpm_r_scfe_orders_trinket: "$r_scfe_orders_trinket$"
+ war_goal_wg_gpm_r_scfe_orders_trinket_desc: "War is waged to take the $r_scfe_orders_trinket$"
+ war_goal_wg_gpm_r_scfe_arcane_rune: "$r_scfe_arcane_rune$"
+ war_goal_wg_gpm_r_scfe_arcane_rune_desc: "War is waged to take the $r_scfe_arcane_rune$"
+ war_goal_wg_gpm_r_scfe_damage_rune: "$r_scfe_damage_rune$"
+ war_goal_wg_gpm_r_scfe_damage_rune_desc: "War is waged to take the $r_scfe_damage_rune$"
+ war_goal_wg_gpm_r_scfe_haste_rune: "$r_scfe_haste_rune$"
+ war_goal_wg_gpm_r_scfe_haste_rune_desc: "War is waged to take the $r_scfe_haste_rune$"
+ war_goal_wg_gpm_r_scfe_regeneration_rune: "$r_scfe_regeneration_rune$"
+ war_goal_wg_gpm_r_scfe_regeneration_rune_desc: "War is waged to take the $r_scfe_regeneration_rune$"
+ war_goal_wg_gpm_r_scfe_illusion_rune: "$r_scfe_illusion_rune$"
+ war_goal_wg_gpm_r_scfe_illusion_rune_desc: "War is waged to take the $r_scfe_illusion_rune$"
+ war_goal_wg_gpm_r_scfe_invisibility_rune: "$r_scfe_invisibility_rune$"
+ war_goal_wg_gpm_r_scfe_invisibility_rune_desc: "War is waged to take the $r_scfe_invisibility_rune$"
+# Forgotten History
+ war_goal_wg_gpm_r_eztarta: "$r_eztarta$"
+ war_goal_wg_gpm_r_eztarta_desc: "War is waged to take the $r_eztarta$"
+ war_goal_wg_gpm_r_plexi_log: "$r_plexi_log$"
+ war_goal_wg_gpm_r_plexi_log_desc: "War is waged to take the $r_plexi_log$"
+ war_goal_wg_gpm_r_isolator: "$r_isolator$"
+ war_goal_wg_gpm_r_isolator_desc: "War is waged to take the $r_isolator$"
+ war_goal_wg_gpm_r_AAA_machine_log: "$r_AAA_machine_log$"
+ war_goal_wg_gpm_r_AAA_machine_log_desc: "War is waged to take the $r_AAA_machine_log$"
+# More Precursors
+ war_goal_wg_gpm_r_werediran_core: "$r_werediran_core$"
+ war_goal_wg_gpm_r_werediran_core_desc: "War is waged to take the $r_werediran_core$"
+ war_goal_wg_gpm_r_ezentian_core: "$r_ezentian_core$"
+ war_goal_wg_gpm_r_ezentian_core_desc: "War is waged to take the $r_ezentian_core$"
+ war_goal_wg_gpm_r_ixardian_database: "$r_ixardian_database$"
+ war_goal_wg_gpm_r_ixardian_database_desc: "War is waged to take the $r_ixardian_database$"
+# More Astral Rifts
+ war_goal_wg_gpm_r_MAR_clockstopper: "$r_MAR_clockstopper$"
+ war_goal_wg_gpm_r_MAR_clockstopper_desc: "War is waged to take the $r_MAR_clockstopper$"
+ war_goal_wg_gpm_r_MAR_godsand_remote: "$r_MAR_godsand_remote$"
+ war_goal_wg_gpm_r_MAR_godsand_remote_desc: "War is waged to take the $r_MAR_godsand_remote$"
+ war_goal_wg_gpm_r_MAR_lightbeast_head: "$r_MAR_lightbeast_head$"
+ war_goal_wg_gpm_r_MAR_lightbeast_head_desc: "War is waged to take the $r_MAR_lightbeast_head$"
+# Unavoidable Changes
+ war_goal_wg_gpm_r_the_frozen_engine: "$r_the_frozen_engine$"
+ war_goal_wg_gpm_r_the_frozen_engine_desc: "War is waged to take the $r_the_frozen_engine$"
+# Gigastructural Engineering & More
+ war_goal_wg_gpm_r_soul_of_grandbunny: "$r_soul_of_grandbunny$"
+ war_goal_wg_gpm_r_soul_of_grandbunny_desc: "War is waged to take the $r_soul_of_grandbunny$"
+ war_goal_wg_gpm_r_creator_shard: "$r_creator_shard$"
+ war_goal_wg_gpm_r_creator_shard_desc: "War is waged to take the $r_creator_shard$"
+ war_goal_wg_gpm_r_eawaf_sirens_crystal: "$r_eawaf_sirens_crystal$"
+ war_goal_wg_gpm_r_eawaf_sirens_crystal_desc: "War is waged to take the $r_eawaf_sirens_crystal$"
+ war_goal_wg_gpm_r_eawaf_eqg_portal: "$r_eawaf_eqg_portal$"
+ war_goal_wg_gpm_r_eawaf_eqg_portal_desc: "War is waged to take the $r_eawaf_eqg_portal$"
  
  #######################################
  #### war Names
@@ -1508,7 +1546,7 @@
  gpm_war_of_the_stc:0 "War for the STC"
  gpm_war_of_the_codex:0 "War of the Codex"
  gpm_war_of_the_soul:0 "War for the Soul"
- gpm_war_of_the_queen:0 "The Sentinal War"
+ gpm_war_of_the_queen:0 "The Sentinel War"
  gpm_war_of_the_fallen:0 "War of the Fallen" 
  gpm_war_of_the_dragon:0 "War of the Dragon"
  gpm_war_of_the_throne:0 "War for the Throne"
@@ -1525,7 +1563,7 @@
  gpm_war_of_the_zro_crystal:0 "The Zro Wars"
  gpm_war_of_the_last_baol:0 "War for the Last Baol"
  gpm_war_of_the_defragmentor:0 "The Defragmentor Wars"
- gpm_war_of_the_reality_perforator:0 "The Reality wars"
+ gpm_war_of_the_reality_perforator:0 "The Reality Wars"
  gpm_war_of_the_pox_sample:0 "The Pox Wars"
  gpm_war_of_the_cryo_core:0 "The Cryo Wars"
  gpm_war_of_the_war_forge:0 "War of the Forge"

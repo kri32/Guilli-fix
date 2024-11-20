@@ -134,6 +134,7 @@
 
  decision_gpm_bleak_fertilize_world:0 "Localised Terraforming"
  decision_gpm_bleak_fertilize_world_desc:0 "Attempt to improve the soil quality of this world."
+
  
  #######################################
  #### Uninhabitable Decisions

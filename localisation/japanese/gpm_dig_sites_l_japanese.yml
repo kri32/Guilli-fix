@@ -30,39 +30,31 @@
  
  gpm_dig_site.12.name:0 "The Doc"
  gpm_dig_site.12.desc:0 "After multiple attempts we've finally been able to get inside this strange blue box. It appears to be slightly bigger on the inside than the outside. Inside in the middle of the box, or room at this point, we've found a strange spherical device. This device seems to have some relativistic time influence over other objects near it. The box however seemed to have amplified the effect substantially, albeit uncontrollably.\nSome notes were also found spread across the walls of this box. Most are just dribble about time being a big ball of wibbly wobbly, timey wimey stuff. None mention a name or an owner of this box and the sphere. Except for one note; which was signed with 'The Doc'."
-
  #######################################
  #### Precursor Digsite
  #######################################
  gpm_precursor_generic_digsite:0 "Precursor Expedition"
  gpm_precursor_generic_digsite_desc:0 "This world used to belong to an ancient precursor civilisation. We must prepare an expeditionary team to survey this world from the ground.\n\nFirst thing to do is find a suitable location and set up a forward expeditionary camp. Due to the many dangers of this world, and possible autonomous defensive systems, this will not be an easy task."
-
  gpm_dig_site.100.name:0 "Base of operations"
  gpm_dig_site.100.desc:0 "The expedition team found a safe spot to set up camp. Additional equipment and personnel are being dropped off to the makeshift camp with small drop-ships. An expedition is now getting ready to search the nearby precursor ruins. "
  gpm_dig_site.100.a:0 "Excellent"
-
  gpm_dig_site.110.name:0 "Searching the unknown"
  gpm_dig_site.110.desc:0 "The expeditionary team has been sent out along a narrow path alongside the first outer ruins. This to, hopefully, avoid any surprises that may lie on the main path. It will take some time before they reach an alternative way into the ruins."
  gpm_dig_site.110.a:0 "Understood"
-
  gpm_dig_site.120.name:0 "Old is an understatement"
  gpm_dig_site.120.desc:0 "The team has made it into the ruins and have found it to be quite safe.\n\nSeveral small artifacts have so far been discovered along the route the expeditionary team has taken. Trinkets, tools, but also small electronic devices. A cursory analysis reveals them to be over 100.000 years old!\n\nThe supplies of the team are running low, so they are returning to base camp. Meanwhile a secondary expedition team is heading out."
  gpm_dig_site.120.a:0 "Excellent find!"
-
  gpm_dig_site.130.name:0 "New Route"
  gpm_dig_site.130.desc:0 "Our secondary expedition team has found a few tunnel systems and has discovered they lead into a well-preserved six-sided chamber, possibly leading into a bigger complex. The chamber has five other doors but they appear to be locked.\n\nTools and equipment are being brought in to assist in breaching the locked doors."
  gpm_dig_site.130.a:0 "Continue with caution!"
-
  gpm_dig_site.140.name:0 "We're in!"
  gpm_dig_site.140.desc:0 "We have finally breached one of the locked doors! It looks like this is a rather large complex, part of the ruins above perhaps. Our expedition team is splitting up into groups of two in order to more efficiently explore the chambers of this complex.\nWho knows what they'll find. Or what will find them..."
  gpm_dig_site.140.a:0 "Record everything!"
-
  # default
  gpm_dig_site.150.name:0 "Unnamed Ruins"
  gpm_dig_site.150.desc:0 "After an extensive search across the ruins the secondary expedition has recovered only a handful of artifacts. Some small devices, heirlooms and cultural artifacts as well as a single working data slate.\n\nMost of the data has been lost however, or has been corrupted, but fortunately we've managed to recover some technological data."
  gpm_dig_site.150.a:0 "A good find nonetheless."
  gpm_dig_site.150.MEGACORP:0 "Sell it on the black market"
-
  # power array
  gpm_dig_site.151.name:0 "Power Facility"
  gpm_dig_site.151.desc:0 "These appear to be the ruins of an old power facility. Throughout several of the chambers of this complex, energy relays and power arrays were discovered. Most of them in such a bad state there is little to be learned from them however. We did find an interesting terminal in one of the deeper chambers and have pulled some incredible information from it."

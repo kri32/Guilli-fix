@@ -1,4 +1,13 @@
 ﻿l_simp_chinese:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
  
  #### In this file localisation for ####
  # Unused
@@ -35,95 +44,78 @@
  #######################################
  #### Colony Decisions
  #######################################
- gpm_decision_dig_for_precursor_artifacts:0 "寻找§Y先驱者造物§!"
- gpm_decision_dig_for_precursor_artifacts_desc:0 "下令对这个星球进行一次新的科学考察，以搜寻先驱者造物。"
- gpm_recent_archeological_expedition:0 "详尽探索"
- gpm_recent_archeological_expedition_desc:0 "详尽的探索已经发现了这个世界上所有可以找到的东西。试图在这里搜寻更多造物只会浪费资源。"
- gpm_recent_archeological_expeditionTT:0 "§Y这个星球上发现不了更多的造物了§!"
+ gpm_decision_dig_for_precursor_artifacts:0 "Search For §YPrecursor Artifacts§!"
+ gpm_decision_dig_for_precursor_artifacts_desc:0 "Order a new science expedition to this world to search for precursor artifacts."
+ gpm_recent_archeological_expedition:0 "Exhaustive Expeditions"
+ gpm_recent_archeological_expedition_desc:0 "Exhaustive expeditions have found all that can be found on this world. It would be a waste of resources to look for more artifacts here."
+ gpm_recent_archeological_expeditionTT:0 "§YNo more artifacts can be found on this world§!"
  
- decision_gpm_hunt_roaming_killbots:0 "狩猎杀戮机器"
- decision_gpm_hunt_roaming_killbots_desc:0 "呼吁协助消灭游荡在大地上的杀戮机器人。"
- gpm_decisions.1.name:0 "他们不再游荡"
- gpm_decisions.1.desc:0 "我们的精锐士兵偷袭队已经成功地消灭了§H[FROM.GetName]§!上游荡的杀戮机器人，这个星球终于安全了。"
- gpm_decisions.option:0 "胜利！"
+ decision_gpm_hunt_roaming_killbots:0 "Hunt Killbots"
+ decision_gpm_hunt_roaming_killbots_desc:0 "Call in assistance in wiping out the murderous killbots roaming the lands."
+ gpm_decisions.1.name:0 "They Roam No More"
+ gpm_decisions.1.desc:0 "Our specialised drone hunters have successfully wiped out the roaming killbots on §H[FROM.GetName]§!. The planet is finally safe."
+ gpm_decisions.option:0 "Victory!"
  
-decision_gpm_seasonal_flooding:0 "建立防洪工程"
- decision_gpm_seasonal_flooding_desc:0 "我们的殖民地将尝试遏制这个星球上频繁发生的季节性洪水。这将需要几个月的时间。"
-
- decision_gpm_locust_plagues:0 "扫除一切害人虫"
- decision_gpm_locust_plagues_desc:0 "我们的殖民地将尝试阻止蝗灾危害殖民地发展。"
+ decision_gpm_restore_oppertunity:0 "Restore Our Lost Friend"
+ decision_gpm_restore_oppertunity_desc:0 "Hey there buddy, time for a new battery and a scrub. We're finally reunited..."
  
- decision_gpm_acidic_seas:0 "海洋去酸化"
- decision_gpm_acidic_seas_desc:0 "我们的殖民地将尝试减少这一星球海洋的酸性。"
+ decision_gpm_seasonal_flooding:0 "Build Flood Protection"
+ decision_gpm_seasonal_flooding_desc:0 "Our colony will attempt to find a solution to help contain the frequent seasonal flooding that happens on this world. This will take several months. "
+ decision_gpm_locust_plagues:0 "Exterminate The Bugs"
+ decision_gpm_locust_plagues_desc:0 "Our colony will attempt to find a solution to stop the locust plagues from interfering with its development."
  
- decision_gpm_carnivorous_flies:0 "设置捕蝇器"
- decision_gpm_carnivorous_flies_desc:0 "我们的殖民地将尝试解决食肉蝇「问题」。"
+ decision_gpm_acidic_seas:0 "Deacidify The Oceans"
+ decision_gpm_acidic_seas_desc:0 "Our colony will attempt to find a solution to remove some of the acidity of this world's oceans."
  
- decision_gpm_lingering_pollution:0 "清理污染"
- decision_gpm_lingering_pollution_desc:0 "我们的殖民地将尝试清除这个星球中空气里残留的污染物。"
-
- decision_gpm_resilent_parasites:0 "寄生虫战争"
- decision_gpm_resilent_parasites_desc:0 "我们的殖民地将尝试找到一种能治愈感染顽强寄生虫居民的方法。"
+ decision_gpm_carnivorous_flies:0 "Distribute Flytraps"
+ decision_gpm_carnivorous_flies_desc:0 "Our colony will attempt to find a solution to the carnivorous flies 'problem'."
  
- decision_gpm_hostile_flora:0 "物种入侵"
- decision_gpm_hostile_flora_desc:0 "通过种植一些极具侵略性的植物，我们可以使原生植物窒息，以此获得更友好的生物群落。"
+ decision_gpm_lingering_pollution:0 "Clean Up Pollution"
+ decision_gpm_lingering_pollution_desc:0 "Our colony will attempt to clean the lingering pollution from the air on this world."
+ decision_gpm_resilent_parasites:0 "Parasitic Warfare"
+ decision_gpm_resilent_parasites_desc:0 "Our colony will attempt to find a cure for the resilient parasites that infest its residents."
  
- decision_gpm_Unstable_Tectonics:0 "稳定断层"
- decision_gpm_Unstable_Tectonics_desc:0 "钻入该星球断层线深处的人工通风孔可以定期喷出熔融岩石和气体，以此释放压力。" 
+ decision_gpm_hostile_flora:0 "Invasive Species"
+ decision_gpm_hostile_flora_desc:0 "By planting a few very invasive species of plants we can smother the native plant life and have a much more friendly biotope."
  
- decision_gpm_unusual_seasons:0 "云朵播种"
- decision_gpm_unusual_seasons_desc:0 "在关键位置仔细覆盖人造云层可以稳定地球的大气气流。"
-
+ decision_gpm_Unstable_Tectonics:0 "Fault Stabilisation"
+ decision_gpm_Unstable_Tectonics_desc:0 "Artificial vents drilled deep into the fault-lines of this planet periodically release pressure by allowing molten rock and gas to spew out." 
+ 
+ decision_gpm_unusual_seasons:0 "Cloud Seeding"
+ decision_gpm_unusual_seasons_desc:0 "Careful creation of artificial cloud coverage on key locations will stabilise the planet's atmospheric streams."
  decision_gpm_fix_ozone_layer:0 "Restore Ozone Layer"
  decision_gpm_fix_ozone_layer_desc:0 "Restore the damaged ozone layer on this world."
-
  decision_gpm_clear_toxic_gas:0 "Neutralize Toxic Gases"
  decision_gpm_clear_toxic_gas_desc:0 "A planet wide effort is made to neutralise the lingering toxic gas clouds vastly improving the living conditions on this world."
-
  decision_gpm_clear_sandstorms:0 "Sticky Sand"
  decision_gpm_clear_sandstorms_desc:0 "Cover the vast sand dunes of this world with a sticky substance greatly reducing the amount of sand being swept away by wind."
-
  decision_gpm_clear_arachnophobia:0 "Orbital Napalm Campaign"
  decision_gpm_clear_arachnophobia_desc:0 "Drop napalm from orbit. This is fine."
-
  decision_gpm_placade_arachnophobia:0 "Artificial Feeding Campaign"
  decision_gpm_placade_arachnophobia_desc:0 "Feed the native arachnid inhabitants with pheromone-based food in order to placate them."
-
  decision_gpm_clear_hazardous_weather:0 "Global Weather Control"
  decision_gpm_clear_hazardous_weather_desc:0 "Attempt a daring project to tame the harsh weather on this world."
-
  decision_gpm_clear_melted_icecaps:0 "Construct Thermal Exchangers"
  decision_gpm_clear_melted_icecaps_desc:0 "Dot the polar region with thermal exchangers allowing ice to form once again."
-
  decision_gpm_clear_ocean_dragons:0 "Hunt for the Dragon"
  decision_gpm_clear_ocean_dragons_desc:0 "Launch a military campaign using specially modified swarmer missiles capable of reaching the vast depths where the ocean dragons roam."
-
  decision_gpm_clear_weak_magnetic_field:0 "Charge the planet core"
  decision_gpm_clear_weak_magnetic_field_desc:0 "Using the planetary shield we can transfer a massive surge of energy into the planet core. The subsequent heating of the core will boost the magnetic field."
-
  decision_gpm_listen_to_the_voices:0 "Give in to the voices"
  decision_gpm_listen_to_the_voices_desc:0 "The population of this world is directed to listen to the voices and give in."
  decision_gpm_listen_to_the_voicesTT:0 "Chance to lose a pop or gain a boon"
-
  decision_gpm_clear_alien_eggs:0 "Squash the Eggs"
  decision_gpm_clear_alien_eggs_desc:0 "Destroy the alien eggs. This may have consequences. "
-
  decision_gpm_clear_temp_variation:0 "Build Weather Control Stations"
  decision_gpm_clear_temp_variation_desc:0 "Millions of weather control stations will be build across the surface of this world in order to master it's weather. "
-
  decision_gpm_evolve_simple_organisms:0 "Rapid Evolution"
  decision_gpm_evolve_simple_organisms_desc:0 "Attempt to Rapidly Evolve the many simple organisms on this world."
-
  decision_gpm_clear_titanic_predators:0 "Hunt the hunters."
  decision_gpm_clear_titanic_predators_desc:0 "Hunt the deadly predators on this world to extinction."
-
  decision_gpm_clear_wild_storms:0 "Temper the Storms"
  decision_gpm_clear_wild_storms_desc:0 "A little atmospheric manipulation goes a long way"
-
  decision_gpm_bleak_fertilize_world:0 "Localised Terraforming"
  decision_gpm_bleak_fertilize_world_desc:0 "Attempt to improve the soil quality of this world."
- 
-
  
  #######################################
  #### Uninhabitable Decisions
@@ -219,15 +211,15 @@ decision_gpm_seasonal_flooding:0 "建立防洪工程"
  #######################################
  #### Relic Decisions
  #######################################
- decision_gpm_Floating_Island_Housing:0 "建造浮岛"
- decision_gpm_Floating_Island_Housing_desc:0 "在这个星球上建造巨大的人工浮岛。"
- decision_gpm_Floating_Island_Housing_effects:0 "行星最大区划数: §G+1§!\n行星住房数: §G+10§!"
+ decision_gpm_Floating_Island_Housing:0 "Construct Floating Islands"
+ decision_gpm_Floating_Island_Housing_desc:0 "Construct huge artificial floating islands on this world."
+ decision_gpm_Floating_Island_Housing_effects:0 "Planet Max Districts: §G+1§!\nPlanet Housing: §G+10§!"
  
- decision_gpm_machine_world_core_relic:0 "同化世界"
- decision_gpm_machine_world_core_relic_desc:0 "用§Y充能的机械世界核心§!遗珍将这个世界变成机器世界。\n"
- decision_gpm_machine_world_core_relic_tt:0 "§G加载boot.ini。\n待命中。§!"
+ decision_gpm_machine_world_core_relic:0 "Assimilate World"
+ decision_gpm_machine_world_core_relic_desc:0 "Transform this world into a machine world using the §Ycharged machine world core§! relic.\n"
+ decision_gpm_machine_world_core_relic_tt:0 "§Gloading boot.ini..\nstand by...§!"
  
- decision_gpm_shield_generator_arrays:0 "建造护盾阵列"
- decision_gpm_shield_generator_arrays_desc:0 "在这个星球上分布建造几个护盾阵列，这将产生一个能够击退最强能量武器的覆盖整个星球范围的护盾。"
+ decision_gpm_shield_generator_arrays:0 "Build Shield Arrays"
+ decision_gpm_shield_generator_arrays_desc:0 "Build several shield arrays spread on this world that will produce a planet wide shield capable of repelling the strongest of energy weapons."
  # decision_gpm_shield_generator_arrays_tt:0 "§YEncase§! this world in a near-impenetrable shield.\nAdd §YAdvanced Shield Arrays§! to §G[root.GetName]§!"
- decision_gpm_shield_generator_arrays_tt:0 "将这个星球§Y封装§!在一个近乎坚不可摧的护盾中。"
+ decision_gpm_shield_generator_arrays_tt:0 "§YEncase§! this world in a near-impenetrable shield."

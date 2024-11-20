@@ -1,13 +1,4 @@
-﻿# l_english:
-# l_spanish:
-# l_german:
-# l_french:
-# l_polish:
-l_russian:
-# l_braz_por:
-# l_simp_chinese:
-# l_korean:
-# l_japanese:
+﻿l_russian:
 
  #####################################
  # TRADE ACTIONS
@@ -99,6 +90,8 @@ l_russian:
  trade_action_r_unbidden_warlock_desc: "$trade_action_trade_relic_desc$"
  trade_action_r_contingency_core:0 "Relic: $r_contingency_core$"
  trade_action_r_contingency_core_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_cetanas_heart:0 "Relic: $r_cetanas_heart$"
+ trade_action_r_cetanas_heart_desc: "$trade_action_trade_relic_desc$"
  trade_action_r_zro_crystal:0 "Relic: $r_zro_crystal$"
  trade_action_r_zro_crystal_desc: "$trade_action_trade_relic_desc$"
  trade_action_r_the_last_baol:0 "Relic: $r_the_last_baol$"
@@ -171,21 +164,114 @@ l_russian:
  trade_action_r_mutated_voidworm_nest:0 "Relic: $r_mutated_voidworm_nest$"
  trade_action_r_mutated_voidworm_nest_desc: "$trade_action_trade_relic_desc$"
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+### Mod support
+# More Events Mod
+ trade_action_r_mem_czar_alexei_sword: "Relic: $r_mem_czar_alexei_sword$"
+ trade_action_r_mem_czar_alexei_sword_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_doom_capacitor: "Relic: $r_mem_doom_capacitor$"
+ trade_action_r_mem_doom_capacitor_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_dread_pirate_mask: "Relic: $r_mem_dread_pirate_mask$"
+ trade_action_r_mem_dread_pirate_mask_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_dwarf_fortress_boot: "Relic: $r_mem_dwarf_fortress_boot$"
+ trade_action_r_mem_dwarf_fortress_boot_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_eden_protocol_devolve_relic: "Relic: $r_mem_eden_protocol_devolve_relic$"
+ trade_action_r_mem_eden_protocol_devolve_relic_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_dark_heart: "Relic: $r_mem_dark_heart$"
+ trade_action_r_mem_dark_heart_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_severance_core: "Relic: $r_mem_severance_core$"
+ trade_action_r_mem_severance_core_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_amoeba_sample: "Relic: $r_mem_amoeba_sample$"
+ trade_action_r_mem_amoeba_sample_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_surveyor_personality_core: "Relic: $r_mem_surveyor_personality_core$"
+ trade_action_r_mem_surveyor_personality_core_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_surveyor_mobile_production_matrix: "Relic: $r_mem_surveyor_mobile_production_matrix$"
+ trade_action_r_mem_surveyor_mobile_production_matrix_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_mem_wpdr_production_matrix: "Relic: $r_mem_wpdr_production_matrix$"
+ trade_action_r_mem_wpdr_production_matrix_desc: "$trade_action_trade_relic_desc$"
+# Archaeology Story Pack
+ trade_action_r_aspmod_geocentric_device: "Relic: $r_aspmod_geocentric_device$"
+ trade_action_r_aspmod_geocentric_device_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_communist_manifesto: "Relic: $r_aspmod_communist_manifesto$"
+ trade_action_r_aspmod_communist_manifesto_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_vermifugum: "Relic: $r_aspmod_vermifugum$"
+ trade_action_r_aspmod_vermifugum_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_deadspace_marker: "Relic: $r_aspmod_deadspace_marker$"
+ trade_action_r_aspmod_deadspace_marker_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_synthetic_god_mummy: "Relic: $r_aspmod_synthetic_god_mummy$"
+ trade_action_r_aspmod_synthetic_god_mummy_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_the_replicator: "Relic: $r_aspmod_the_replicator$"
+ trade_action_r_aspmod_the_replicator_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_the_last_tribute: "Relic: $r_aspmod_the_last_tribute$"
+ trade_action_r_aspmod_the_last_tribute_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_parasite_machine: "Relic: $r_aspmod_parasite_machine$"
+ trade_action_r_aspmod_parasite_machine_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_aspmod_parasite_machine_2: "Relic: $r_aspmod_parasite_machine_2$"
+ trade_action_r_aspmod_parasite_machine_2_desc: "$trade_action_trade_relic_desc$"
+# Forgotten Empires
+ trade_action_r_scfe_music_of_the_universe: "Relic: $r_scfe_music_of_the_universe$"
+ trade_action_r_scfe_music_of_the_universe_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_protagonist_of_the_show: "Relic: $r_scfe_protagonist_of_the_show$"
+ trade_action_r_scfe_protagonist_of_the_show_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_sless_gene_template: "Relic: $r_scfe_sless_gene_template$"
+ trade_action_r_scfe_sless_gene_template_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_diary_of_innovo: "Relic: $r_scfe_diary_of_innovo$"
+ trade_action_r_scfe_diary_of_innovo_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_astanine_last_projector: "Relic: $r_scfe_astanine_last_projector$"
+ trade_action_r_scfe_astanine_last_projector_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_ziaskehorn_fire: "Relic: $r_ziaskehorn_fire$"
+ trade_action_r_ziaskehorn_fire_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_alshigan_engine: "Relic: $r_scfe_alshigan_engine$"
+ trade_action_r_scfe_alshigan_engine_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_znkar_distortion_generator: "Relic: $r_scfe_znkar_distortion_generator$"
+ trade_action_r_scfe_znkar_distortion_generator_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_first_empire_databank: "Relic: $r_scfe_first_empire_databank$"
+ trade_action_r_scfe_first_empire_databank_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_orders_trinket: "Relic: $r_scfe_orders_trinket$"
+ trade_action_r_scfe_orders_trinket_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_arcane_rune: "Relic: $r_scfe_arcane_rune$"
+ trade_action_r_scfe_arcane_rune_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_damage_rune: "Relic: $r_scfe_damage_rune$"
+ trade_action_r_scfe_damage_rune_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_haste_rune: "Relic: $r_scfe_haste_rune$"
+ trade_action_r_scfe_haste_rune_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_regeneration_rune: "Relic: $r_scfe_regeneration_rune$"
+ trade_action_r_scfe_regeneration_rune_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_illusion_rune: "Relic: $r_scfe_illusion_rune$"
+ trade_action_r_scfe_illusion_rune_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_scfe_invisibility_rune: "Relic: $r_scfe_invisibility_rune$"
+ trade_action_r_scfe_invisibility_rune_desc: "$trade_action_trade_relic_desc$"
+# Forgotten History
+ trade_action_r_eztarta: "Relic: $r_eztarta$"
+ trade_action_r_eztarta_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_plexi_log: "Relic: $r_plexi_log$"
+ trade_action_r_plexi_log_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_isolator: "Relic: $r_isolator$"
+ trade_action_r_isolator_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_AAA_machine_log: "Relic: $r_AAA_machine_log$"
+ trade_action_r_AAA_machine_log_desc: "$trade_action_trade_relic_desc$"
+# More Precursors
+ trade_action_r_werediran_core: "Relic: $r_werediran_core$"
+ trade_action_r_werediran_core_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_ezentian_core: "Relic: $r_ezentian_core$"
+ trade_action_r_ezentian_core_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_ixardian_database: "Relic: $r_ixardian_database$"
+ trade_action_r_ixardian_database_desc: "$trade_action_trade_relic_desc$"
+# More Astral Rifts
+ trade_action_r_MAR_clockstopper: "Relic: $r_MAR_clockstopper$"
+ trade_action_r_MAR_clockstopper_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_MAR_godsand_remote: "Relic: $r_MAR_godsand_remote$"
+ trade_action_r_MAR_godsand_remote_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_MAR_lightbeast_head: "Relic: $r_MAR_lightbeast_head$"
+ trade_action_r_MAR_lightbeast_head_desc: "$trade_action_trade_relic_desc$"
+# Unavoidable Changes
+ trade_action_r_the_frozen_engine: "Relic: $r_the_frozen_engine$"
+ trade_action_r_the_frozen_engine_desc: "$trade_action_trade_relic_desc$"
+# Gigastructural Engineering & More
+ trade_action_r_soul_of_grandbunny: "Relic: $r_soul_of_grandbunny$"
+ trade_action_r_soul_of_grandbunny_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_creator_shard: "Relic: $r_creator_shard$"
+ trade_action_r_creator_shard_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_eawaf_sirens_crystal: "Relic: $r_eawaf_sirens_crystal$"
+ trade_action_r_eawaf_sirens_crystal_desc: "$trade_action_trade_relic_desc$"
+ trade_action_r_eawaf_eqg_portal: "Relic: $r_eawaf_eqg_portal$"
+ trade_action_r_eawaf_eqg_portal_desc: "$trade_action_trade_relic_desc$"

@@ -1,4 +1,14 @@
-﻿l_german: 
+﻿l_german:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+ 
  #### In this file localisation for ####
  # Naming & Tooltip Stuff
  # Minor Survey Events
@@ -33,7 +43,9 @@
  gpm_unlock_one_affluence_center_build_count:0 "We now have the ability to build §G1§! §Y$building_affluence_center$§! on one of our planets."
  gpm_unlock_one_nourishment_center_build_count:0 "We now have the ability to build §G1§! §Y$building_nourishment_center$§! on one of our planets."
  gpm_unlock_one_class_4_singularity_build_count:0 "We now have the ability to build §G1§! §Y$building_class_4_singularity$§! on one of our planets."
- 
+
+
+
  gpm_survey.SPACE:0 "\n--- Additionally: ---\n"
  
  gpm_survey.EXPEDITION:0 "\nOur science specialist will lead a scientific expedition in hopes of making exciting discoveries or uncovering interesting mysteries.\n§EEffect:§!"
@@ -220,6 +232,8 @@
  gpm_survey.ROGUESERVITOR_2:0 "Jewelry for our Biotrophies!"
  gpm_survey.ROGUESERVITOR_3:0 "Plan a biotrophy tourists attraction."
  gpm_survey.ROGUESERVITOR_4:0 "Designation: Recycle"
+ 
+
  
  
  #######################################

@@ -1,6 +1,18 @@
-﻿l_german: 
-
+﻿l_german:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+ 
  #### In this file localisation for ####
+ # Map Mode
+ # Generic Name
+ # Other non-cat events
  # Ambiend Objects
  # Armies
  # Artifact Actions
@@ -9,12 +21,13 @@
  # Colour Tricks
  # Country Modifiers
  # Debug
+ # Districts **************** NEW *******************
  # Edicts
  # Jobs
  # Messages
  # Modifier localisations
  # Opinions
- # Planet Classes
+ # Planet Classes **************** NEW *******************
  # Policies
  # R.E.S.
  # Ships
@@ -31,7 +44,7 @@
  #### Map Mode
  #######################################
  gpm_relic_map_mode:1 "Ancient Relic Map Mode"
- gpm_relic_map_mode_desc:1 "Empire borders will be colored based on owning an ancient relic or not."
+ gpm_relic_map_mode_desc:1 "Empire borders will be colored based on owning an ancient relic or not." 
  GPM_MAP_MODE_NOT_HAS_RELIC:1 "Has no §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC:1 "Has 1 §YAncient Relic§!"
  GPM_MAP_MODE_HAS_RELIC_2:1 "Has 2 §YAncient Relics§!"
@@ -96,6 +109,7 @@
  NAME_primitive_world_name_7:0 "Tron"
  NAME_Fen_Habbanis_IIIa:0 "Fen Habbanis IIIa"
  TECH_IS_CUSTOM_TECH_3:0 "§BPrecursor Discovery§!"
+
  
 
  #######################################
@@ -107,8 +121,6 @@
  precursor.99336.desc.first_league:0 "Another Empire has found the First Legue Home System!"
  precursor.99336.desc.irassian:0 "Another Empire has found the Irrasian Home System!"
  precursor.99336.desc.cybrex:0 "Another Empire has found the Cybrex Home System!"
- 
- 
  
  #######################################
  #### Ambiend Objects
@@ -166,7 +178,7 @@
  gpm_precursor_shipyards_star_desc:0 "Colossal shipyards once used by an ancient precursor race."
  
  gpm_binary_asteroids:0 "[gpm_double_asteroid.GetName]'s Twin"
- 
+
  gpm_james_web:0 "James Webb Telescope"
  gpm_james_web_desc:0 "The James Webb Telescope was considered one of humanity's greatest achievements. It gave an unprecedented look into the beginnings of the universe."
  
@@ -261,7 +273,8 @@
  GPM_unlock_artifact_research_centre_locked_desc:0 "$artifact_action_locked_desc$"
  GPM_unlock_artifact_research_centre:0 "Fund Precursor Research"
  GPM_unlock_artifact_research_centre_desc:0 "Institute an empire wide protocol allowing researchers far and wide access to precursor data, greatly accelerating your understanding of precursor artifacts."
- GPM_unlock_artifact_research_centre_TT:1 "\n§Y$gpm_tech_arcane_research$§! unlocks the §H$gpm_precursor_research_center$§! building which adds 3 $job_gpm_archaeologist$ jobs and pruduce some £minor_artifacts£ Minor Artifacts.\n\n$job_gpm_archaeologist_effect_desc$\n\n"
+ GPM_unlock_artifact_research_centre_TT:0 "\n§Y$gpm_tech_arcane_research$§! unlocks the §H$gpm_precursor_research_center$§! building which adds 3 $job_gpm_archaeologist$ jobs and pruduce some £minor_artifacts£ Minor Artifacts.\n\n$job_gpm_archaeologist_effect_desc$\n\n" 
+ gpm_artifact.1.name:0 "Ancient Technology Breakthrough!"
  gpm_artifact.1.desc:0 "Experiments on the arcane artifacts have resulted in an incredible technological breakthrough!"
  gpm_artifact.2.name:0 "§HReverse Engineering§! Ready"
  gpm_artifact.2.desc:0 "Our scientists are ready to begin §HReverse Engineering§! another set of £minor_artifacts£ minor artifacts."
@@ -276,7 +289,7 @@
  gpm_building_mining_nanite_nexus:0 "Mining Nanite Nexus"
  gpm_building_mining_nanite_nexus_desc:0 "Storage and control centre for our mining nanites. These nanites, once released, will dig smooth large tunnels towards any otherwise unreachable mineral veins."
 
- gpm_precursor_research_center:0 "Precursor Institute"
+ gpm_precursor_research_center:0 "Precursor Institute" 
  gpm_precursor_research_center_desc:0 "Specialised research facilities to assist in researching the ancient and powerful precursor civilisations."
  gpm_building_precursor_research_center_effect:0 "\n§BCan only be build on a precursor world§!\nIf built on a §YRelic World§!:\n Research Speed (Archaeostudies): §G+50%§!\n £minor_artifacts£ Minor Artifacts from £job_researcher£ Archaeoengineers: §G+0.3§!\nIf built on an §YAncient Archaeopolis World§!:\n Research Speed (Archaeostudies): §G+100%§!\n £minor_artifacts£ Minor Artifacts from £job_researcher£ Archaeoengineers: §G+0.6§!"
  
@@ -287,7 +300,7 @@
  gpm_building_exotic_park_desc:0 "A park filled with strange and exotic alien fauna."
  
  gpm_building_manufactory_hub:0 "Manufactorium Hub"
- gpm_building_manufactory_hub_desc:0"A sophisticated manufacturing hub capable of dynamically and proactively adjusting manufacturing output and input in order to keep factories running at optimal capacity."
+ gpm_building_manufactory_hub_desc:0 "A sophisticated manufacturing hub capable of dynamically and proactively adjusting manufacturing output and input in order to keep factories running at optimal capacity."
  
  gpm_building_core_prison:0 "Subsurface Prison"
  gpm_building_core_prison_desc:0 "A prison system so deep in the planetary core that escape is impossible. The only way in and out of the prison is a single shaft guarded by deadly autonomous weapon systems."
@@ -306,12 +319,10 @@
  # Change name to orange with something icon
  # NAME_color_planet_wonder:0 "£gpm_planet_wonder£  §H[This.GetName]§!"
  NAME_color_planet_wonder:0 "§H[This.GetName]§!"
- NAME_color_planet_wonder_col:0 "§H[This.GetName]§!"
  
  # Change name to teal with something icon
  # NAME_color_precursor:0 "£gpm_precursor  §B[This.GetName]§!"
  NAME_color_precursor:0 "§B[This.GetName]§!"
- NAME_color_precursor_col:0 "§B[This.GetName]§!"
  
  # reset to default, only applies to planet names
  NAME_color_default_white:0 "[This.Solar_System.GetName] ruined world"
@@ -701,6 +712,7 @@
  mod_planet_translucers_minor_artifacts_upkeep_add:0 "£job_translucer£ Translucers £minor_artifacts£ Minor Artifacts upkeep"
  mod_planet_chemists_minor_artifacts_upkeep_add:0 "£job_chemist£ Chemists £minor_artifacts£ Minor Artifacts upkeep"
  mod_planet_pop_assemblers_minor_artifacts_upkeep_add:0 "£job_roboticist£ Roboticists £minor_artifacts£ Minor Artifacts upkeep"
+ mod_planet_doctors_produces_mult:0 "£job_healthcare£ Medical Worker output" 
  
  mod_planet_farmers_rare_crystals_produces_add:0 "£rare_crystals£ Rare Crystals from £job_farmer£ $job_farmer_plural$"
  mod_planet_miners_food_produces_add:0 "£food£ Food from £job_miner£ $job_miner_plural$"
@@ -710,6 +722,8 @@
  mod_planet_researchers_sr_living_metal_produces_add:0 "£sr_living_metal£ Living Metal from £job_researcher£ $job_researcher_plural$"
  mod_planet_researchers_sr_zro_produces_add:0 "£sr_zro£ Zro from £job_researcher£ $job_researcher_plural$"
  
+ 
+
  #######################################
  #### Opinions
  #######################################
@@ -878,38 +892,23 @@
  gpm_start_menu.2.enable_precursor:1 "£options_icon  §GEnable Precursor Modifiers and Relics§!"
  gpm_start_menu.2.disable_fallen_empire:0 "£options_icon  §RDisable Fallen Empire Modifiers§!"
  gpm_start_menu.2.enable_fallen_empire:0 "£options_icon  §GEnable Fallen Empire Modifiers§!"
- gpm_start_menu.2.disable_habitats:0 "£options_icon  §RDisable Habitat Modifiers§!"
- gpm_start_menu.2.enable_habitats:0 "£options_icon  §GEnable Habitat Modifiers§!"
- gpm_start_menu.2.disable_ringworlds:0 "£options_icon  §RDisable Ringworld Modifiers§!"
- gpm_start_menu.2.enable_ringworlds:0 "£options_icon  §GEnable Ringworld Modifiers§!"
  gpm_start_menu.2.disable_wonders:0 "£options_icon  §RDisable Planetary Wonders§!"
  gpm_start_menu.2.enable_wonders:0 "£options_icon  §GEnable Planetary Wonders§!"
  gpm_start_menu.2.disable_planetary_rings:0 "£options_icon  §RDisable Planetary Rings§!"
  gpm_start_menu.2.enable_planetary_rings:0 "£options_icon  §GEnable Planetary Rings§!"
- gpm_start_menu.2.enable_arcane_technology:0 "£options_icon  §GEnable Minor Artifacts§!"
- gpm_start_menu.2.disable_arcane_technology:0 "£options_icon  §RDisable Minor Artifacts§!"
- gpm_start_menu.2.enable_precursor_ai_chain:0 "£options_icon  §GEnable Precursor Chains for AI§!"
- gpm_start_menu.2.disable_precursor_ai_chain:0 "£options_icon  §RDisable Precursor Chains for AI§!"
 
  gpm_start_menu.2.disable_precursorTT:1 "§HClick this to disable Precursor Modifiers and Relics§!\nThis will prevent precursor modifiers and Relics from spawning in the galaxy."
  gpm_start_menu.2.enable_precursorTT:1 "§HClick this to enable Precursor Modifiers and Relics§!"
  gpm_start_menu.2.disable_fallen_empireTT:0 "§HClick this to disable Fallen Empire Modifiers§!\nThis will prevent fallen empire modifiers from spawning in the galaxy."
  gpm_start_menu.2.enable_fallen_empireTT:0 "§HClick this to enable Fallen Empire Modifiers§!"
- gpm_start_menu.2.disable_habitatsTT:0 "§HClick this to disable Habitat Modifiers§!\nThis will prevent habitat modifiers from spawning on habitats."
- gpm_start_menu.2.enable_habitatsTT:0 "§HClick this to enable Habitat Modifiers§!"
- gpm_start_menu.2.disable_ringworldsTT:0 "§HClick this to disable Ringworld Modifiers§!\nThis will prevent ringworld modifiers from spawning on ringworlds."
- gpm_start_menu.2.enable_ringworldsTT:0 "§HClick this to enable Ringworld Modifiers§!"
  gpm_start_menu.2.disable_wondersTT:0 "§HClick this to disable Planetary Wonders§!\nThis will prevent planetary wonder modifiers and tileblockers from spawning in the galaxy."
  gpm_start_menu.2.enable_wondersTT:0 "§HClick this to enable Planetary Wonders§!"
  gpm_start_menu.2.disable_planetary_ringsTT:0 "§HClick this to disable Planetary Rings§!\nThis will prevent planetary rings and their rich resources from spawning in the galaxy."
  gpm_start_menu.2.enable_planetary_ringsTT:0 "§HClick this to enable Planetary Rings§!"
- 
- gpm_start_menu.2.disable_precursor_ai_chainTT:0 "§HClick this to disable§! precursor event chains for the AI. The AI will not be able to do precursor chains."
- gpm_start_menu.2.enable_precursor_ai_chainTT:0 "§HClick this to enable§! precursor event chains for the AI. The AI will be able to research precursor chains."
 
  gpm_start_menu.2.back:0 "§YBack to main menu§!"
  gpm_start_menu.2.backTT:0 "Return to the main menu to start."
- 
+
  gpm_start_menu.2.disable_relic_AI_heists:1 "£options_icon  §RDisable AI Relic Heists§"
  gpm_start_menu.2.disable_relic_AI_heistsTT:1 "§HClick this to disable Steal Relic spy operations for AI§!\nThis will prevent the AI from using §YSteal Relic§! Spy Operations on players."
  gpm_start_menu.2.enabled_relic_AI_heists:1 "£options_icon  §GEnable AI Relic Heists§!"
@@ -1343,7 +1342,8 @@
  gpm_leader_trait_collector:0 "Collector of Artifacts"
  gpm_leader_trait_collector_desc:0 "This leader has a habit of staying behind collecting anything worthwhile."
  gpm_leader_trait_collectorTT:0 "Chance of finding £minor_artifacts£ §YMinor Artifacts§! or §YAncient Relics§!: §G+20%§!"
- 
+
+
  #######################################
  #### War Goals
  #######################################
@@ -1426,6 +1426,8 @@
  war_goal_wg_gpm_r_unbidden_warlock_desc:0 "War is waged to take the $r_unbidden_warlock$" 
  war_goal_wg_gpm_r_contingency_core:0 "$r_contingency_core$"
  war_goal_wg_gpm_r_contingency_core_desc:0 "War is waged to take the $r_contingency_core$" 
+ war_goal_wg_gpm_r_cetanas_heart:0 "r_cetanas_heart"
+ war_goal_wg_gpm_r_cetanas_heart_desc:0 "War is waged to take the $r_cetanas_heart$"
  war_goal_wg_gpm_r_zro_crystal:0 "$r_zro_crystal$"
  war_goal_wg_gpm_r_zro_crystal_desc:0 "War is waged to take the $r_zro_crystal$" 
  war_goal_wg_gpm_r_the_last_baol:0 "$r_the_last_baol$"
@@ -1496,6 +1498,118 @@
  war_goal_wg_gpm_r_celestial_resonator_desc:0 "War is waged to take the $r_celestial_resonator$"
  war_goal_wg_gpm_r_mutated_voidworm_nest:0 "$r_mutated_voidworm_nest$"
  war_goal_wg_gpm_r_mutated_voidworm_nest_desc:0 "War is waged to take the $r_mutated_voidworm_nest$"
+
+### Mod support
+# More Events Mod
+ war_goal_wg_gpm_r_mem_czar_alexei_sword: "$r_mem_czar_alexei_sword$"
+ war_goal_wg_gpm_r_mem_czar_alexei_sword_desc: "War is waged to take the $r_mem_czar_alexei_sword$"
+ war_goal_wg_gpm_r_mem_doom_capacitor: "$r_mem_doom_capacitor$"
+ war_goal_wg_gpm_r_mem_doom_capacitor_desc: "War is waged to take the $r_mem_doom_capacitor$"
+ war_goal_wg_gpm_r_mem_dread_pirate_mask: "$r_mem_dread_pirate_mask$"
+ war_goal_wg_gpm_r_mem_dread_pirate_mask_desc: "War is waged to take the $r_mem_dread_pirate_mask$"
+ war_goal_wg_gpm_r_mem_dwarf_fortress_boot: "$r_mem_dwarf_fortress_boot$"
+ war_goal_wg_gpm_r_mem_dwarf_fortress_boot_desc: "War is waged to take the $r_mem_dwarf_fortress_boot$"
+ war_goal_wg_gpm_r_mem_eden_protocol_devolve_relic: "$r_mem_eden_protocol_devolve_relic$"
+ war_goal_wg_gpm_r_mem_eden_protocol_devolve_relic_desc: "War is waged to take the $r_mem_eden_protocol_devolve_relic$"
+ war_goal_wg_gpm_r_mem_dark_heart: "$r_mem_dark_heart$"
+ war_goal_wg_gpm_r_mem_dark_heart_desc: "War is waged to take the $r_mem_dark_heart$"
+ war_goal_wg_gpm_r_mem_severance_core: "$r_mem_severance_core$"
+ war_goal_wg_gpm_r_mem_severance_core_desc: "War is waged to take the $r_mem_severance_core$"
+ war_goal_wg_gpm_r_mem_amoeba_sample: "$r_mem_amoeba_sample$"
+ war_goal_wg_gpm_r_mem_amoeba_sample_desc: "War is waged to take the $r_mem_amoeba_sample$"
+ war_goal_wg_gpm_r_mem_surveyor_personality_core: "$r_mem_surveyor_personality_core$"
+ war_goal_wg_gpm_r_mem_surveyor_personality_core_desc: "War is waged to take the $r_mem_surveyor_personality_core$"
+ war_goal_wg_gpm_r_mem_surveyor_mobile_production_matrix: "$r_mem_surveyor_mobile_production_matrix$"
+ war_goal_wg_gpm_r_mem_surveyor_mobile_production_matrix_desc: "War is waged to take the $r_mem_surveyor_mobile_production_matrix$"
+ war_goal_wg_gpm_r_mem_wpdr_production_matrix: "$r_mem_wpdr_production_matrix$"
+ war_goal_wg_gpm_r_mem_wpdr_production_matrix_desc: "War is waged to take the $r_mem_wpdr_production_matrix$"
+# Archaeology Story Pack
+ war_goal_wg_gpm_r_aspmod_geocentric_device: "$r_aspmod_geocentric_device$"
+ war_goal_wg_gpm_r_aspmod_geocentric_device_desc: "War is waged to take the $r_aspmod_geocentric_device$"
+ war_goal_wg_gpm_r_aspmod_communist_manifesto: "$r_aspmod_communist_manifesto$"
+ war_goal_wg_gpm_r_aspmod_communist_manifesto_desc: "War is waged to take the $r_aspmod_communist_manifesto$"
+ war_goal_wg_gpm_r_aspmod_vermifugum: "$r_aspmod_vermifugum$"
+ war_goal_wg_gpm_r_aspmod_vermifugum_desc: "War is waged to take the $r_aspmod_vermifugum$"
+ war_goal_wg_gpm_r_aspmod_deadspace_marker: "$r_aspmod_deadspace_marker$"
+ war_goal_wg_gpm_r_aspmod_deadspace_marker_desc: "War is waged to take the $r_aspmod_deadspace_marker$"
+ war_goal_wg_gpm_r_aspmod_synthetic_god_mummy: "$r_aspmod_synthetic_god_mummy$"
+ war_goal_wg_gpm_r_aspmod_synthetic_god_mummy_desc: "War is waged to take the $r_aspmod_synthetic_god_mummy$"
+ war_goal_wg_gpm_r_aspmod_the_replicator: "$r_aspmod_the_replicator$"
+ war_goal_wg_gpm_r_aspmod_the_replicator_desc: "War is waged to take the $r_aspmod_the_replicator$"
+ war_goal_wg_gpm_r_aspmod_the_last_tribute: "$r_aspmod_the_last_tribute$"
+ war_goal_wg_gpm_r_aspmod_the_last_tribute_desc: "War is waged to take the $r_aspmod_the_last_tribute$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine: "$r_aspmod_parasite_machine$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine_desc: "War is waged to take the $r_aspmod_parasite_machine$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine_2: "$r_aspmod_parasite_machine_2$"
+ war_goal_wg_gpm_r_aspmod_parasite_machine_2_desc: "War is waged to take the $r_aspmod_parasite_machine_2$"
+# Forgotten Empires
+ war_goal_wg_gpm_r_scfe_music_of_the_universe: "$r_scfe_music_of_the_universe$"
+ war_goal_wg_gpm_r_scfe_music_of_the_universe_desc: "War is waged to take the $r_scfe_music_of_the_universe$"
+ war_goal_wg_gpm_r_scfe_protagonist_of_the_show: "$r_scfe_protagonist_of_the_show$"
+ war_goal_wg_gpm_r_scfe_protagonist_of_the_show_desc: "War is waged to take the $r_scfe_protagonist_of_the_show$"
+ war_goal_wg_gpm_r_scfe_sless_gene_template: "$r_scfe_sless_gene_template$"
+ war_goal_wg_gpm_r_scfe_sless_gene_template_desc: "War is waged to take the $r_scfe_sless_gene_template$"
+ war_goal_wg_gpm_r_scfe_diary_of_innovo: "$r_scfe_diary_of_innovo$"
+ war_goal_wg_gpm_r_scfe_diary_of_innovo_desc: "War is waged to take the $r_scfe_diary_of_innovo$"
+ war_goal_wg_gpm_r_scfe_astanine_last_projector: "$r_scfe_astanine_last_projector$"
+ war_goal_wg_gpm_r_scfe_astanine_last_projector_desc: "War is waged to take the $r_scfe_astanine_last_projector$"
+ war_goal_wg_gpm_r_ziaskehorn_fire: "$r_ziaskehorn_fire$"
+ war_goal_wg_gpm_r_ziaskehorn_fire_desc: "War is waged to take the $r_ziaskehorn_fire$"
+ war_goal_wg_gpm_r_scfe_alshigan_engine: "$r_scfe_alshigan_engine$"
+ war_goal_wg_gpm_r_scfe_alshigan_engine_desc: "War is waged to take the $r_scfe_alshigan_engine$"
+ war_goal_wg_gpm_r_scfe_znkar_distortion_generator: "$r_scfe_znkar_distortion_generator$"
+ war_goal_wg_gpm_r_scfe_znkar_distortion_generator_desc: "War is waged to take the $r_scfe_znkar_distortion_generator$"
+ war_goal_wg_gpm_r_scfe_first_empire_databank: "$r_scfe_first_empire_databank$"
+ war_goal_wg_gpm_r_scfe_first_empire_databank_desc: "War is waged to take the $r_scfe_first_empire_databank$"
+ war_goal_wg_gpm_r_scfe_orders_trinket: "$r_scfe_orders_trinket$"
+ war_goal_wg_gpm_r_scfe_orders_trinket_desc: "War is waged to take the $r_scfe_orders_trinket$"
+ war_goal_wg_gpm_r_scfe_arcane_rune: "$r_scfe_arcane_rune$"
+ war_goal_wg_gpm_r_scfe_arcane_rune_desc: "War is waged to take the $r_scfe_arcane_rune$"
+ war_goal_wg_gpm_r_scfe_damage_rune: "$r_scfe_damage_rune$"
+ war_goal_wg_gpm_r_scfe_damage_rune_desc: "War is waged to take the $r_scfe_damage_rune$"
+ war_goal_wg_gpm_r_scfe_haste_rune: "$r_scfe_haste_rune$"
+ war_goal_wg_gpm_r_scfe_haste_rune_desc: "War is waged to take the $r_scfe_haste_rune$"
+ war_goal_wg_gpm_r_scfe_regeneration_rune: "$r_scfe_regeneration_rune$"
+ war_goal_wg_gpm_r_scfe_regeneration_rune_desc: "War is waged to take the $r_scfe_regeneration_rune$"
+ war_goal_wg_gpm_r_scfe_illusion_rune: "$r_scfe_illusion_rune$"
+ war_goal_wg_gpm_r_scfe_illusion_rune_desc: "War is waged to take the $r_scfe_illusion_rune$"
+ war_goal_wg_gpm_r_scfe_invisibility_rune: "$r_scfe_invisibility_rune$"
+ war_goal_wg_gpm_r_scfe_invisibility_rune_desc: "War is waged to take the $r_scfe_invisibility_rune$"
+# Forgotten History
+ war_goal_wg_gpm_r_eztarta: "$r_eztarta$"
+ war_goal_wg_gpm_r_eztarta_desc: "War is waged to take the $r_eztarta$"
+ war_goal_wg_gpm_r_plexi_log: "$r_plexi_log$"
+ war_goal_wg_gpm_r_plexi_log_desc: "War is waged to take the $r_plexi_log$"
+ war_goal_wg_gpm_r_isolator: "$r_isolator$"
+ war_goal_wg_gpm_r_isolator_desc: "War is waged to take the $r_isolator$"
+ war_goal_wg_gpm_r_AAA_machine_log: "$r_AAA_machine_log$"
+ war_goal_wg_gpm_r_AAA_machine_log_desc: "War is waged to take the $r_AAA_machine_log$"
+# More Precursors
+ war_goal_wg_gpm_r_werediran_core: "$r_werediran_core$"
+ war_goal_wg_gpm_r_werediran_core_desc: "War is waged to take the $r_werediran_core$"
+ war_goal_wg_gpm_r_ezentian_core: "$r_ezentian_core$"
+ war_goal_wg_gpm_r_ezentian_core_desc: "War is waged to take the $r_ezentian_core$"
+ war_goal_wg_gpm_r_ixardian_database: "$r_ixardian_database$"
+ war_goal_wg_gpm_r_ixardian_database_desc: "War is waged to take the $r_ixardian_database$"
+# More Astral Rifts
+ war_goal_wg_gpm_r_MAR_clockstopper: "$r_MAR_clockstopper$"
+ war_goal_wg_gpm_r_MAR_clockstopper_desc: "War is waged to take the $r_MAR_clockstopper$"
+ war_goal_wg_gpm_r_MAR_godsand_remote: "$r_MAR_godsand_remote$"
+ war_goal_wg_gpm_r_MAR_godsand_remote_desc: "War is waged to take the $r_MAR_godsand_remote$"
+ war_goal_wg_gpm_r_MAR_lightbeast_head: "$r_MAR_lightbeast_head$"
+ war_goal_wg_gpm_r_MAR_lightbeast_head_desc: "War is waged to take the $r_MAR_lightbeast_head$"
+# Unavoidable Changes
+ war_goal_wg_gpm_r_the_frozen_engine: "$r_the_frozen_engine$"
+ war_goal_wg_gpm_r_the_frozen_engine_desc: "War is waged to take the $r_the_frozen_engine$"
+# Gigastructural Engineering & More
+ war_goal_wg_gpm_r_soul_of_grandbunny: "$r_soul_of_grandbunny$"
+ war_goal_wg_gpm_r_soul_of_grandbunny_desc: "War is waged to take the $r_soul_of_grandbunny$"
+ war_goal_wg_gpm_r_creator_shard: "$r_creator_shard$"
+ war_goal_wg_gpm_r_creator_shard_desc: "War is waged to take the $r_creator_shard$"
+ war_goal_wg_gpm_r_eawaf_sirens_crystal: "$r_eawaf_sirens_crystal$"
+ war_goal_wg_gpm_r_eawaf_sirens_crystal_desc: "War is waged to take the $r_eawaf_sirens_crystal$"
+ war_goal_wg_gpm_r_eawaf_eqg_portal: "$r_eawaf_eqg_portal$"
+ war_goal_wg_gpm_r_eawaf_eqg_portal_desc: "War is waged to take the $r_eawaf_eqg_portal$"
  
  #######################################
  #### war Names
@@ -1511,7 +1625,7 @@
  gpm_war_of_the_stc:0 "War for the STC"
  gpm_war_of_the_codex:0 "War of the Codex"
  gpm_war_of_the_soul:0 "War for the Soul"
- gpm_war_of_the_queen:0 "The Sentinal War"
+ gpm_war_of_the_queen:0 "The Sentinel War"
  gpm_war_of_the_fallen:0 "War of the Fallen" 
  gpm_war_of_the_dragon:0 "War of the Dragon"
  gpm_war_of_the_throne:0 "War for the Throne"
@@ -1528,11 +1642,10 @@
  gpm_war_of_the_zro_crystal:0 "The Zro Wars"
  gpm_war_of_the_last_baol:0 "War for the Last Baol"
  gpm_war_of_the_defragmentor:0 "The Defragmentor Wars"
- gpm_war_of_the_reality_perforator:0 "The Reality wars"
+ gpm_war_of_the_reality_perforator:0 "The Reality Wars"
  gpm_war_of_the_pox_sample:0 "The Pox Wars"
  gpm_war_of_the_cryo_core:0 "The Cryo Wars"
  gpm_war_of_the_war_forge:0 "War of the Forge"
- 
  
  
  

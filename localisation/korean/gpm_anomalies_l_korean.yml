@@ -35,7 +35,6 @@
  # machine empire
  GPM_BLACK_HOLE_CAT_MACH_DESC:0 "This singularity is emitting unpredictable patterns. It must be observed and studied."
  gpm_anomaly.78877.desc.mach:0 "Initial observation of this singularity reveals it is not spinning. Until now the existence of this type of black hole has been a theoretical expectation. This non-spinning black hole will be categorized as a Schwarzschild black hole in the celestial databases. Its location and properties will further increase the accuracy of the galaxy and system generating models and processes."
-
  #######################################
  #### Diamond In The Sky
  #######################################
@@ -55,7 +54,6 @@
  
  gpm_unusual_bright_sun:0 "Unusually Bright"
  gpm_unusual_bright_sun_desc:0 "This sun is unusually bright due to vastly increased surface solar activity. A rare combination of elements and gravitational pressure seems to be the cause of this unusual phenomenon. We could take advantage of this!"
-
  #######################################
  #### Something Strange
  #######################################
@@ -73,7 +71,6 @@
  # machine empire
  GPM_WEIRD_CAT_MACH_DESC:0 "Our scanners are detecting improbable readings. This world should not be where it is according to our navigational databases and galactic simulations. §HA series of tests and observations are required§!"
  gpm_anomaly.78879.desc.mach:0 "This world is emitting unexpected chronotron readings. This world has been displaced out of time by an unknown variable. Further observation and further experimentations will increase the probability of discovering the missing variables that have led to the displacement of this celestial body. Time must be studied further."
-
  #######################################
  #### Unusual Emissions
  #######################################
@@ -93,14 +90,12 @@
  
  gpm_protomolecule_infected_station:0 "Protomolecule Infected Station"
  gpm_protomolecule_infected_station_desc:0 "At first this asteroid station seemed abandoned, damaged. But as soon as we started listening to various channels we could hear strange voices, ever so slightly picking up in speed. On closer inspection the interior of the station is filled with strange crystals and a bizarrely moving bio-metal core, almost lifelike. The entire place sounds terrifying."
-
  #######################################
  #### Flickering In The Darkness
  #######################################
  GPM_CLOCK_CAT:0 "Flickering In The Darkness"
  gpm_anomaly.78881.name:0 "Pulsar Clock"
  gpm_d_pulsar_clock:0 "£physics£ +12\n"
-
  # normal
  GPM_CLOCK_CAT_DESC:0 "Something about this pulsar seems very consistent. It pulses regularly while releasing immense amounts of energy."
  gpm_anomaly.78881.desc:0 "Not only is this pulsar fast, but it also spins with such amazing regularity that it is among the most accurate clocks in the universe. Using these celestial timekeepers, astronomers are answering questions about stars, matter - and even space and time itself - that would otherwise be impossible."

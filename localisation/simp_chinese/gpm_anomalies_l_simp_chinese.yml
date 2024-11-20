@@ -1,4 +1,13 @@
 ﻿l_simp_chinese:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
  
  #### In this file localisation for ####
  # Alluring Darkness
@@ -13,87 +22,86 @@
  #######################################
  #### Alluring Darkness
  #######################################
- GPM_BLACK_HOLE_CAT:0 "诱人的黑暗"
- gpm_anomaly.78877.name:0 "诱人的黑暗"
- gpm_d_inspirational:0 "£dark_matter£+3\n"
+ GPM_BLACK_HOLE_CAT:0 "Alluring Darkness"
+ gpm_anomaly.78877.name:0 "Alluring Darkness"
+ gpm_d_inspirational:0 "£sr_dark_matter£ +3\n"
     
  # normal
- GPM_BLACK_HOLE_CAT_DESC:0 "这个奇点有些不寻常之处，或许我们应该多呆一会儿。"
- gpm_anomaly.78877.desc:0 "我们很难想象黑洞的实际应用。因为它是如此遥不可及，许多人认为我们不应该对它感兴趣。但是，正是这种对世界奥秘的孜孜追求，才将我们定义为了智慧体。"
+ GPM_BLACK_HOLE_CAT_DESC:0 "There is something about this singularity, perhaps we should just stay a while."
+ gpm_anomaly.78877.desc:0 "It is hard to think of practical applications of the black hole. Because practical applications are so remote, many people assume we should not be interested. But this quest to understand the world is what defines us as intelligent beings."
  # hive mind
- GPM_BLACK_HOLE_CAT_HIVE_DESC:0 "这个奇点引人驻足，也许我该在这停留一会。"
- gpm_anomaly.78877.desc.hive:0 "我很难想象黑洞的实际应用。因为它是如此遥不可及，许多人认为我不应该对它感兴趣。但是，正是这种对世界奥秘的孜孜追求，才将我定义为了智慧体。"
+ GPM_BLACK_HOLE_CAT_HIVE_DESC:0 "There is something alluring about this singularity, perhaps I should stay a while."
+ gpm_anomaly.78877.desc.hive:0 "It is hard to think of practical applications of the black hole. Despite the difficult nature of singularities like this I must learn more about it. Only that way can I grow."
  # machine empire
- GPM_BLACK_HOLE_CAT_MACH_DESC:0 "这个奇点放射出不可预知的光图，我们必须研究它。"
- gpm_anomaly.78877.desc.mach:0 "对这种奇点的初步观测表明，它并没有自转。直到现在，这种类型的黑洞是否存在也只存在于理论中。这种不旋转的黑洞将在天体数据库中被归类为史瓦西黑洞。它的位置和属性将进一步提高银河系模型生成和数据处理的准确性。"
-
+ GPM_BLACK_HOLE_CAT_MACH_DESC:0 "This singularity is emitting unpredictable patterns. It must be observed and studied."
+ gpm_anomaly.78877.desc.mach:0 "Initial observation of this singularity reveals it is not spinning. Until now the existence of this type of black hole has been a theoretical expectation. This non-spinning black hole will be categorized as a Schwarzschild black hole in the celestial databases. Its location and properties will further increase the accuracy of the galaxy and system generating models and processes."
  #######################################
  #### Diamond In The Sky
  #######################################
- GPM_SUN_CAT:0 "天降钻石"
- gpm_anomaly.78878.name:0 "不寻常的明光"
- gpm_d_sun_energy_deposit:0 "£energy£+9\n"
+ GPM_SUN_CAT:0 "Diamond in the sky"
+ gpm_anomaly.78878.name:0 "Unusually Bright"
+ gpm_d_sun_energy_deposit:0 "£energy£ +12\n"
     
  # normal
- GPM_SUN_CAT_DESC:0 "这个恒星似乎很亮，如果进行完整的轨道扫描，我们可能会得到这个现象的一些启示。"
- gpm_anomaly.78878.desc:0 "这个恒星由于表面太阳活动大大增加，所以异常明亮。元素和引力的罕见组合似乎是造成这种异常现象的原因。我们可以利用这一现象！"
+ GPM_SUN_CAT_DESC:0 "This sun seems very bright, a full orbital scan might shed some light on this phenomenon."
+ gpm_anomaly.78878.desc:0 "This sun is unusually bright due to vastly increased surface solar activity. A rare combination of elements and gravitational pressure seems to be the cause of this unusual phenomenon. We could take advantage of this!"
  # hive mind
- GPM_SUN_CAT_HIVE_DESC:0 "这个恒星似乎很亮，如果进行完整的轨道扫描，我可能会得到这个现象的一些启示。"
- gpm_anomaly.78878.desc.hive:0 "这个恒星由于表面太阳活动大大增加，所以异常明亮。元素和引力的罕见组合似乎是造成这种异常现象的原因。我可以利用这一现象！"
+ GPM_SUN_CAT_HIVE_DESC:0 "This sun seems very bright, a full orbital scan might shed some light on this phenomenon."
+ gpm_anomaly.78878.desc.hive:0 "This sun is unusually bright due to vastly increased surface solar activity. A rare combination of elements and gravitational pressure seems to be the cause of this unusual phenomenon. I could take advantage of this!"
  # machine empire
- GPM_SUN_CAT_MACH_DESC:0 "传感器检测到来自这个恒星光球的能量放射增加。需要进行观察。"
- gpm_anomaly.78878.desc.mach:0 "这种恒星天体出乎意料的明亮，这是由于其表面太阳活动增加了。它增加的能量输出，可以进一步强化我们的功能。"
-
+ GPM_SUN_CAT_MACH_DESC:0 "Sensors detect increased energy emissions coming from this solar mass. An observation is required."
+ gpm_anomaly.78878.desc.mach:0 "This solar mass is unexpectedly bright due to increased surface solar activity. An improbable combination of elements and gravitational pressure are theorized to be the primary variables of the higher emissions. The increased energy output of this solar mass is required to further advance our functions."
+ 
+ gpm_unusual_bright_sun:0 "Unusually Bright"
+ gpm_unusual_bright_sun_desc:0 "This sun is unusually bright due to vastly increased surface solar activity. A rare combination of elements and gravitational pressure seems to be the cause of this unusual phenomenon. We could take advantage of this!"
  #######################################
  #### Something Strange
  #######################################
- GPM_WEIRD_CAT:0 "一些怪事"
- gpm_anomaly.78879.name:0 "时间错位的星球"
- gpm_anomaly.78879.TT:0 "£physics£+6\n£society£+6\n£engineering£+6\n"
- # gpm_d_time_displaced_planet:0 "£physics£+6\n£society£+6\n£engineering£+6\n"
+ GPM_WEIRD_CAT:0 "Something Strange"
+ gpm_anomaly.78879.name:0 "Time Displaced Planet"
+ gpm_anomaly.78879.TT:0 "£physics£ +6\n£society£ +6\n£engineering£ +6\n"
+ # gpm_d_time_displaced_planet:0 "£physics£ +6\n£society£ +6\n£engineering£ +6\n"
     
  # normal
- GPM_WEIRD_CAT_DESC:0 "我们的扫描器探测到了不寻常的读数。根据我们的远距离扫描和星图，这个世界不应该是现在的样子。我们§H绝对应该§!进行调查。"
- gpm_anomaly.78879.desc:0 "这个星球散发着奇怪的时子读数。不知为何，这个星球已经脱离了时间本位。虽然不知道这个星球是什么时候诞生的，也不知道是从什么时候来这的，但它确实为我们提供了很多了解时间本质的机会！"
+ GPM_WEIRD_CAT_DESC:0 "Our scanners are detecting unusual readings. This world should not be where it is according to our long range scans and star charts. We should §Hdefinitely§! investigate."
+ gpm_anomaly.78879.desc:0 "This world emits strange chronotron readings. Somehow this world has been displaced out of time. It is not known when this world was born, or when it is from, but it sure offers a lot of opportunities to learn about the nature of time itself!"
  # hive mind
- GPM_WEIRD_CAT_HIVE_DESC:0 "我的扫描器探测到了不寻常的读数。根据我的远距离扫描和星图，这个世界不应该是现在的样子。§H我很感兴趣§!。"
- gpm_anomaly.78879.desc.hive:0 "这个星球散发着奇怪的时子读数。不知为何，这个星球已经脱离了时间本位。虽然不知道这个星球是什么时候诞生的，也不知道是从什么时候来这的。通过对这个世界的深入研究，我可能会更加了解时间的本性。"
+ GPM_WEIRD_CAT_HIVE_DESC:0 "Our scanners are detecting unusual readings. This world should not be where it is according to our long range scans and star charts. §HI am intrigued§!."
+ gpm_anomaly.78879.desc.hive:0 "This world emits strange chronotron readings. Somehow this world has been displaced out of time. It is not known when this world was born, or when it is from. I might learn more about the singular nature of time by further studying this world very closely. "
  # machine empire
- GPM_WEIRD_CAT_MACH_DESC:0 "我们的扫描器探测到了不可能的读数。根据我们的导航数据库和星系模拟，这个世界不应该是现在的位置。§H需要进行一系列的测试和观察§!。"
- gpm_anomaly.78879.desc.mach:0 "这个星球散发着奇怪的时子读数。这个星球已经被一个未知的变量移出了时间本位。进一步的观察和进一步的实验，将增加发现导致这个天体位移的未知变量的概率。时间必须要进一步被研究。"
-
+ GPM_WEIRD_CAT_MACH_DESC:0 "Our scanners are detecting improbable readings. This world should not be where it is according to our navigational databases and galactic simulations. §HA series of tests and observations are required§!"
+ gpm_anomaly.78879.desc.mach:0 "This world is emitting unexpected chronotron readings. This world has been displaced out of time by an unknown variable. Further observation and further experimentations will increase the probability of discovering the missing variables that have led to the displacement of this celestial body. Time must be studied further."
  #######################################
  #### Unusual Emissions
  #######################################
- GPM_PROTO_CAT:0 "不寻常的放射"
- gpm_anomaly.78880.name:0 "被原分子病毒感染的站点"
- gpm_d_proto_molecule_deposit:0 "£society£+6\n"
+ GPM_PROTO_CAT:0 "Unusual Emissions"
+ gpm_anomaly.78880.name:0 "Protomolecule Infected Station"
+ gpm_d_proto_molecule_deposit:0 "£society£ +15\n"
     
  # normal
- GPM_PROTO_CAT_DESC:0 "我们的扫描器探测到这颗小行星的表面有不寻常的辐射。我们应该调查一下。"
- gpm_anomaly.78880.desc:0 "这个小行星站最初看起来废弃且损坏了。但是，当我们开始收听各种频道时，就会听到奇怪的声音，而且在缓慢地加快速度。经过仔细检查，我们发现站点的内部充满了奇怪的晶体，还有一个奇异的生物金属芯，它几乎栩栩如生。整个地方听起来十分恐怖。"
+ GPM_PROTO_CAT_DESC:0 "Our scanners are detecting unusual emissions coming from the surface of this asteroid. We should investigate."
+ gpm_anomaly.78880.desc:0 "At first this asteroid station seemed abandoned, damaged. But as soon as we started listening to various electromagnetic channels we could hear strange voices, ever so slightly picking up in speed. On closer inspection the interior of the station is filled with strange crystals and a bizarrely moving bio-metal core, almost lifelike. The entire place sounds terrifying."
  # hive mind
- GPM_PROTO_CAT_HIVE_DESC:0 "我们的扫描器探测到这颗小行星的表面有不寻常的辐射。我应该调查一下。"
- gpm_anomaly.78880.desc.hive:0 "这个小行星站最初看起来废弃且损坏了。但是，当我开始收听各种频道时，就会听到奇怪的声音，而且在缓慢地加快速度。经过仔细检查，我发现站点的内部充满了奇怪的晶体，还有一个奇异的生物金属芯，它几乎栩栩如生。这些声音的性质是单一的，但似乎在慢慢地融为一体，和我们很像。我要了解更多"
+ GPM_PROTO_CAT_HIVE_DESC:0 "Scanners are detecting unusual emissions coming from the surface of this asteroid. We should investigate."
+ gpm_anomaly.78880.desc.hive:0 "At first this asteroid station seemed abandoned, damaged. But as soon as I started listening to various electromagnetic channels I could hear strange voices, ever so slightly picking up in speed. On closer inspection the interior of the station is filled with strange crystals and a bizarrely moving bio-metal core, almost lifelike. The voices are singular in nature, but appear to be slowly becoming one, much like us. I must know more."
  # machine empire
- GPM_PROTO_CAT_MACH_DESC:0 "我们的扫描器探测到这颗小行星的表面有不寻常的辐射。需要深入调查。"
- gpm_anomaly.78880.desc.mach:0 "经过初步扫描，这个小行星站似乎已经被遗弃了，并且被外部的能量破坏。它的内部被一种奇怪的能量场腐蚀了。当我们的传感器的焦点被设置到一个较窄的波段后，检测到了不寻常的声音模式，其速度也在微微加快。仔细观察了一下内部奇怪的晶体，我们发现了一个诡异的生物金属核心，它正在移动。站点内部的晶体似乎在有意识地迁移到单一位置。"
-
+ GPM_PROTO_CAT_MACH_DESC:0 "Scanners are detecting unusual emissions coming from the surface of this asteroid. Further scans are required."
+ gpm_anomaly.78880.desc.mach:0 "After the initial scans the asteroid station seemed abandoned and damaged by exterior energy discharges. The interior has corroded by a strange energy field. Once the focus of our sensors was set to a narrower band they detected unusual sound patterns, ever so slightly picking up in speed. On closer observation of the interior strange crystals and a bizarrely moving bio-metal core was detected. The interior crystals seem to be consciously migrating to a single location within the station."
+ 
+ gpm_protomolecule_infected_station:0 "Protomolecule Infected Station"
+ gpm_protomolecule_infected_station_desc:0 "At first this asteroid station seemed abandoned, damaged. But as soon as we started listening to various channels we could hear strange voices, ever so slightly picking up in speed. On closer inspection the interior of the station is filled with strange crystals and a bizarrely moving bio-metal core, almost lifelike. The entire place sounds terrifying."
  #######################################
  #### Flickering In The Darkness
  #######################################
-GPM_CLOCK_CAT:0 "黑暗中的闪光"
- gpm_anomaly.78881.name:0 "脉冲星钟"
- gpm_d_pulsar_clock:0 "£physics£+12\n"
-
+ GPM_CLOCK_CAT:0 "Flickering In The Darkness"
+ gpm_anomaly.78881.name:0 "Pulsar Clock"
+ gpm_d_pulsar_clock:0 "£physics£ +12\n"
  # normal
- GPM_CLOCK_CAT_DESC:0 "这颗脉冲星似乎很有规律。它有规律地释放脉冲，同时释放出巨大的能量。"
- gpm_anomaly.78881.desc:0 "这种脉冲星不仅速度快，而且旋转速度惊人，是宇宙中最精确的时钟之一。天文学家使用这些天文钟来回答有关恒星，物质甚至空间和时间本身的问题。要不是有了它，这本来根本是不可能的。"
+ GPM_CLOCK_CAT_DESC:0 "Something about this pulsar seems very consistent. It pulses regularly while releasing immense amounts of energy."
+ gpm_anomaly.78881.desc:0 "Not only is this pulsar fast, but it also spins with such amazing regularity that it is among the most accurate clocks in the universe. Using these celestial timekeepers, astronomers are answering questions about stars, matter - and even space and time itself - that would otherwise be impossible."
  # hive mind
- GPM_CLOCK_CAT_HIVE_DESC:0 "这颗脉冲星似乎很有规律。它有规律地释放脉冲，同时释放出巨大的能量。"
- gpm_anomaly.78881.desc.hive:0 "这种脉冲星不仅速度快，而且旋转速度惊人，是宇宙中最精确的时钟之一。天文学家使用这些天文钟来回答有关恒星，物质甚至空间和时间本身的问题。要不是有了它，这本来根本是不可能的。"
+ GPM_CLOCK_CAT_HIVE_DESC:0 "Something about this pulsar seems very consistent. It pulses regularly while releasing immense amounts of energy."
+ gpm_anomaly.78881.desc.hive:0 "Not only is this pulsar fast, but it also spins with such amazing regularity that it is among the most accurate clocks in the universe. Using these celestial timekeepers, I can find answers to questions about stars, matter - and even space and time itself - that would otherwise be impossible."
  # machine empire
- GPM_CLOCK_CAT_MACH_DESC:0 "这颗脉冲星是非常稳定的。它的脉冲很有规律，同时释放出巨大的宝贵能量。"
- gpm_anomaly.78881.desc.mach:0 "这种脉冲星不仅速度快，而且旋转速度惊人，是宇宙中最精确的时钟之一。使用天文钟，比如这个脉冲星，我们的系统可以将时钟速度保持在标准参数范围内，从而减少了远距离同步问题。"
-
-
+ GPM_CLOCK_CAT_MACH_DESC:0 "This pulsar is very consistent. It pulses regularly while releasing immense amounts of valuable energy."
+ gpm_anomaly.78881.desc.mach:0 "This pulsar is spinning at a rare but predictable speed. It spins with such regularity that it is among the most accurate clocks in the universe. Using celestial timekeepers like this pulsar, our systems can keep their clock speeds within standard parameters resulting in far less synchronisation issues over distance."

@@ -1,4 +1,14 @@
-﻿l_german: 
+﻿l_german:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+ 
  #### In this file localisation for ####
  # UNUSED Modifiers
  # Event Modifiers
@@ -112,6 +122,7 @@
 
  gpm_artificial_weather_systems:0 "Artificial Weather Systems"
  gpm_artificial_weather_systems_desc:0 "The construction of planet wide temperature and humidity infrastructure has finally tempered the weather."
+
  
  #######################################
  #### Special Modifiers
@@ -638,7 +649,8 @@
 
  gpm_massive_world:0 "Super Massive World"
  gpm_massive_world_desc:0 "An impossibly rare world so large it defies all known theories of planet formation."
- 
+
+
  #######################################
  #### Normal Uninhabitable Planets Modifiers
  #######################################

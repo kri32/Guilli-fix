@@ -1,4 +1,14 @@
-﻿l_german: 
+﻿l_german:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+ 
  #### In this file localisation for ####
  # Unused
  # Colony Decisions
@@ -124,6 +134,7 @@
 
  decision_gpm_bleak_fertilize_world:0 "Localised Terraforming"
  decision_gpm_bleak_fertilize_world_desc:0 "Attempt to improve the soil quality of this world."
+
  
  #######################################
  #### Uninhabitable Decisions

@@ -1,4 +1,4 @@
-﻿# l_english:
+﻿l_korean:
 # l_spanish:
 # l_german:
 # l_french:
@@ -6,12 +6,11 @@
 # l_russian:
 # l_braz_por:
 # l_simp_chinese:
-l_korean:
+# l_korean:
 # l_japanese:
  
  #### In this file localisation for ####
  # Messages
-
  
  #######################################
  #### Messages
@@ -62,8 +61,3 @@ l_korean:
  GPM_MESSAGE_RELIC_WAR_DESC:0 "$COUNTRY|H$ is rumoured to have claimed an §HAncient Relic§! from $COUNTRY_TARGET|H$ after a successful war."
  GPM_MESSAGE_RELIC_STOLEN_TITLE:1 "A Relic has been stolen!"
  GPM_MESSAGE_RELIC_STOLEN_DESC:1 "The §Y$COUNTRY$§! empire managed to steal a relic from $COUNTRY_TARGET|H$. This will certainly have long lasting diplomatic consequences."
-
-
-
-
-

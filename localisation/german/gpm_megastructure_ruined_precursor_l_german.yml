@@ -1,6 +1,6 @@
-﻿# l_english:
+﻿l_german:
 # l_spanish:
-l_german:
+# l_german:
 # l_french:
 # l_polish:
 # l_russian:
@@ -98,6 +98,7 @@ l_german:
  NAME_ruined_silo_3:1 "Leaking Silo"
  NAME_ruined_silo_4:1 "Ruined Silo"
  NAME_ruined_silo_5:1 "Destroyed Silo"
+ 
 
  # exploration events
  # Ruined Refinery
