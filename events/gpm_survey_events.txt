@@ -6693,14 +6693,14 @@ ship_event = {
 				min = @tier2researchmin
 				max = @tier2researchmax
 			}
-			if = { limit = { has_country_flag = "gpm_discovery_reward_1" }
-				add_modifier = { modifier = "gpm_artificial_core_discovery" days = -1 }
-				remove_country_flag = "gpm_discovery_reward_1"
-			}
-			if = { limit = { has_country_flag = "gpm_discovery_reward_2" }
-				add_modifier = { modifier = "gpm_artificial_core_discovery_2" days = -1 }
-				remove_country_flag = "gpm_discovery_reward_2"
-			}
+			# if = { limit = { has_country_flag = "gpm_discovery_reward_1" }
+			# 	add_modifier = { modifier = "gpm_artificial_core_discovery" days = -1 }
+			# 	remove_country_flag = "gpm_discovery_reward_1"
+			# }
+			# if = { limit = { has_country_flag = "gpm_discovery_reward_2" }
+			# 	add_modifier = { modifier = "gpm_artificial_core_discovery_2" days = -1 }
+			# 	remove_country_flag = "gpm_discovery_reward_2"
+			# }
 			# if = { limit = { has_country_flag = "gpm_discovery_reward_3" }
 			# 	add_research_option = tech_gpm_artificial_core_discovery
 			# 	remove_country_flag = "gpm_discovery_reward_3"
