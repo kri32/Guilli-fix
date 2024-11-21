@@ -21,3 +21,9 @@ pd_aw_is_lithoid_planet = { always = no }
 
 ### Gigastructural Engineering
 giga_is_ringworld = { always = no }
+
+### ZoFE
+is_zofe_utopian_city = { always = no }
+is_zofe_utopian_machine = { always = no }
+is_zofe_utopian_hive = { always = no }
+is_zofe_utopian_habitat = { always = no }

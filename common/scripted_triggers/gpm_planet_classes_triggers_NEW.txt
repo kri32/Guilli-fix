@@ -143,6 +143,7 @@ gpm_is_planet_class_city = {
 				is_planet_class = pc_ringworld_city
 			"
 		}
+		is_zofe_utopian_city = yes					# ZoFE
 	}
 }
 gpm_is_planet_class_machine = {
@@ -158,6 +159,7 @@ gpm_is_planet_class_machine = {
 				is_planet_class = pc_giga_planetary_computer
 			"
 		}
+		is_zofe_utopian_machine = yes					# ZoFE
 	}
 }
 gpm_is_planet_class_hive = {
@@ -172,6 +174,7 @@ gpm_is_planet_class_hive = {
 				is_planet_class = pc_ringworld_hive
 			"
 		}
+		is_zofe_utopian_hive = yes					# ZoFE
 	}
 }
 gpm_is_planet_class_habitat = {
@@ -182,11 +185,12 @@ gpm_is_planet_class_habitat = {
 		inline_script = {
 			script = mod_support/gpm_giga_present
 			code = "
-				is_planet_class = pc_interstellar_habitat
+				# is_planet_class = pc_interstellar_habitat # disabled in gigas
 				is_planet_class = pc_giga_elysium
 				is_planet_class = pc_giga_orbital
 			"
 		}
+		is_zofe_utopian_habitat = yes				#ZoFE
 	}
 }
 gpm_is_planet_class_ringworld = {
