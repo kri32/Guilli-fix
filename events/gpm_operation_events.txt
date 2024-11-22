@@ -648,6 +648,7 @@ country_event = {
 				every_relation = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 					}
 					log = "<< RELICS >> | RELIC STOLEN <<< create message on THIS = [THIS.GetName]; every relation notifcation"
@@ -669,6 +670,7 @@ country_event = {
 				every_relation = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 					}
 					log = "<< RELICS >> | RELIC STOLEN <<< create message on THIS = [THIS.GetName]; every relation notifcation"
@@ -732,6 +734,7 @@ country_event = {
 				if = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
@@ -756,6 +759,7 @@ country_event = {
 				if = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
@@ -780,6 +784,7 @@ country_event = {
 				if = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
@@ -891,6 +896,7 @@ country_event = {
 				if = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
@@ -915,6 +921,7 @@ country_event = {
 				if = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
@@ -939,6 +946,7 @@ country_event = {
 				if = {
 					limit = {
 						gpm_is_country_type_default = yes
+						NOT = { is_country = fromfrom }
 						has_communications = root.owner
 						has_intel_level = {
 							who = root.owner
@@ -1022,7 +1030,7 @@ country_event = {
 
 	option = {
 		name = gpm_operation.80.a
-		gpm_steal_relic_event_notifaction_tooltips = yes
+		custom_tooltip = gpm_operation_getaway_relic_stolenTT
 	}
 }
 
@@ -1047,7 +1055,7 @@ country_event = {
 
 	option = {
 		name = gpm_operation.80.a
-		gpm_steal_relic_event_notifaction_tooltips = yes
+		custom_tooltip = gpm_operation_getaway_relic_stolenTT
 	}
 }
 
@@ -1072,7 +1080,7 @@ country_event = {
 
 	option = {
 		name = gpm_operation.80.a
-		gpm_steal_relic_event_notifaction_tooltips = yes
+		custom_tooltip = gpm_operation_getaway_relic_stolenTT
 	}
 }
 

@@ -105,6 +105,15 @@ operation_gpm_steal_relic = {
 		target = { is_primitive = no }
 	}
 	allow = {
+		# Forbid if not neighbours
+		custom_tooltip = {
+			target = { is_neighbor_of = root.owner }
+			fail_text = gpm_operation_not_neighbours
+		}
+		custom_tooltip = {
+			is_running_espionage_operation = no
+			fail_text = operation_one_at_a_time
+		}
 		custom_tooltip = {
 			target = {
 				num_owned_relics > value:gpm_base_num_relics
@@ -117,16 +126,6 @@ operation_gpm_steal_relic = {
 			}
 			fail_text = gpm_target_has_no_relics_operation
 		}
-		custom_tooltip = {
-			is_running_espionage_operation = no
-			fail_text = operation_one_at_a_time
-		}
-		# Forbid if not neighbours
-		custom_tooltip = {
-			target = { is_neighbor_of = root.owner }
-			fail_text = gpm_operation_not_neighbours
-		}
-		
 		# forbid for overlords and their subjects if both arent AI
 		custom_tooltip = {
 			OR = {

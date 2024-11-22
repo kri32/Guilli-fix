@@ -1,4 +1,0 @@
-$RELIC$_relic_stolen = {
-	remove_country_flag = $RELIC$_relic_stolen
-	FROMFROM = { custom_tooltip = gpm_operation_getaway_$RELIC$TT }
-}

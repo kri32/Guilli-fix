@@ -49,7 +49,7 @@
  
  ## Steal Relic Warning ##
  GPM_MESSAGE_STEAL_RELIC_WARNING_TITLE: "An empire is attempting to steal our relic!"
- GPM_MESSAGE_STEAL_RELIC_WARNING_desc: "A plot has been discovered that the §Y$COUNTRY$§! empire is attempting to steal a rare and valuable Relic!"
+ GPM_MESSAGE_STEAL_RELIC_WARNING_DESC: "A plot has been discovered that the §Y$COUNTRY$§! empire is attempting to steal a rare and valuable Relic!"
  
  ## GENERIC RELIC NOTIFICATIONS ##
  GPM_MESSAGE_RELIC_POSSESSION_TITLE: "Alien empire possesses a relic"
