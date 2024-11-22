@@ -19,28 +19,28 @@
  
  
  ## Generic non-notification stuff ##
- gpm_relics.1001.name:0 "What was yours is now ours"
- gpm_relics.1001.desc:0 "We have successfully taken over another empire and their vast collection of resources, cultural art and relics are ready for the taking."
- gpm_relics.1201.name:0 "All your relics are ours"
- gpm_relics.1201.desc:0 "With the integration of the [from.GetName] Empire we now gain control of their vast collection of antiques."
- gpm_relics_looted:0 "§YAncient Relics§! looted"
+ gpm_relics.1001.name: "What was yours is now ours"
+ gpm_relics.1001.desc: "We have successfully taken over another empire and their vast collection of resources, cultural art and relics are ready for the taking."
+ gpm_relics.1201.name: "All your relics are ours"
+ gpm_relics.1201.desc: "With the integration of the [from.GetName] Empire we now gain control of their vast collection of antiques."
+ gpm_relics_looted: "§YAncient Relics§! looted"
  
  
  ## Worlds discovered ##
- GPM_MESSAGE_VALUABLE_WORLD_TITLE:0 "Valuable World Discovered"
- GPM_MESSAGE_VALUABLE_WORLD_DESC:0 "The planet §G$PLANET|H$§! is considered a §HValuable World§! and can be §HTerraformed§! with the right technology."
- GPM_MESSAGE_WONDROUS_WORLD_TITLE:0 "Wondrous World Discovered"
- GPM_MESSAGE_WONDROUS_WORLD_DESC:0 "A §HWondrous World§! has been discovered on $PLANET|H$"
+ GPM_MESSAGE_VALUABLE_WORLD_TITLE: "Valuable World Discovered"
+ GPM_MESSAGE_VALUABLE_WORLD_DESC: "The planet §G$PLANET|H$§! is considered a §HValuable World§! and can be §HTerraformed§! with the right technology."
+ GPM_MESSAGE_WONDROUS_WORLD_TITLE: "Wondrous World Discovered"
+ GPM_MESSAGE_WONDROUS_WORLD_DESC: "A §HWondrous World§! has been discovered on $PLANET|H$"
  
  ## Mini Megastructures ##
- GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Refinery§!"
- GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_DESC:1 "The ancient refinery station in the $SYSTEM|H$ system has been fully repaired"
- GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Mining Facility§!"
- GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_DESC:1 "The ancient mining facility in the $SYSTEM|H$ system has been fully repaired"
- GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Planetary Station§!"
- GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_DESC:1 "The ancient orbital station in the $SYSTEM|H$ system has been fully repaired"
- GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Silo§!"
- GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_DESC:1 "The ancient silo in the $SYSTEM|H$ system has been fully repaired"
+ GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_TITLE: "Repairs Complete: §YAncient Refinery§!"
+ GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_DESC: "The ancient refinery station in the $SYSTEM|H$ system has been fully repaired"
+ GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_TITLE: "Repairs Complete: §YAncient Mining Facility§!"
+ GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_DESC: "The ancient mining facility in the $SYSTEM|H$ system has been fully repaired"
+ GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_TITLE: "Repairs Complete: §YAncient Planetary Station§!"
+ GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_DESC: "The ancient orbital station in the $SYSTEM|H$ system has been fully repaired"
+ GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_TITLE: "Repairs Complete: §YAncient Silo§!"
+ GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_DESC: "The ancient silo in the $SYSTEM|H$ system has been fully repaired"
  
  
  ###########################
@@ -48,20 +48,20 @@
  ###########################
  
  ## Steal Relic Warning ##
- GPM_MESSAGE_STEAL_RELIC_WARNING_TITLE:1 "An empire is attempting to steal our relic!"
- GPM_MESSAGE_STEAL_RELIC_WARNING_desc:1 "A plot has been discovered that the §Y$COUNTRY$§! empire is attempting to steal a rare and valuable Relic!"
+ GPM_MESSAGE_STEAL_RELIC_WARNING_TITLE: "An empire is attempting to steal our relic!"
+ GPM_MESSAGE_STEAL_RELIC_WARNING_desc: "A plot has been discovered that the §Y$COUNTRY$§! empire is attempting to steal a rare and valuable Relic!"
  
  ## GENERIC RELIC NOTIFICATIONS ##
- GPM_MESSAGE_RELIC_POSSESSION_TITLE:0 "Alien empire possesses a relic"
- GPM_MESSAGE_RELIC_POSSESSION_DESC:0 "$COUNTRY|H$ is rumoured to be in possession of an §HAncient Relic§!." 
- GPM_MESSAGE_RELIC_POSSESSION_MULTI_TITLE:0 "Alien empire possesses several relics"
- GPM_MESSAGE_RELIC_POSSESSION_MULTI_DESC:0 "$COUNTRY|H$ is rumoured to be in possession of several §HAncient Relics§!."
- GPM_MESSAGE_RELIC_TRADE_TITLE:0 "Alien empire traded a relic"
- GPM_MESSAGE_RELIC_TRADE_DESC:0 "$COUNTRY|H$ is rumoured to have traded an §HAncient Relic§! to $COUNTRY_TARGET|H$."
- GPM_MESSAGE_RELIC_WAR_TITLE:0 "Alien empire traded a relic"
- GPM_MESSAGE_RELIC_WAR_DESC:0 "$COUNTRY|H$ is rumoured to have claimed an §HAncient Relic§! from $COUNTRY_TARGET|H$ after a successful war."
- GPM_MESSAGE_RELIC_STOLEN_TITLE:1 "A Relic has been stolen!"
- GPM_MESSAGE_RELIC_STOLEN_DESC:1 "The §Y$COUNTRY$§! empire managed to steal a relic from $COUNTRY_TARGET|H$. This will certainly have long lasting diplomatic consequences."
+ GPM_MESSAGE_RELIC_POSSESSION_TITLE: "Alien empire possesses a relic"
+ GPM_MESSAGE_RELIC_POSSESSION_DESC: "$COUNTRY|H$ is rumoured to be in possession of an §HAncient Relic§!." 
+ GPM_MESSAGE_RELIC_POSSESSION_MULTI_TITLE: "Alien empire possesses several relics"
+ GPM_MESSAGE_RELIC_POSSESSION_MULTI_DESC: "$COUNTRY|H$ is rumoured to be in possession of several §HAncient Relics§!."
+ GPM_MESSAGE_RELIC_TRADE_TITLE: "Alien empire traded a relic"
+ GPM_MESSAGE_RELIC_TRADE_DESC: "$COUNTRY|H$ is rumoured to have traded an §HAncient Relic§! to $COUNTRY_TARGET|H$."
+ GPM_MESSAGE_RELIC_WAR_TITLE: "Alien empire traded a relic"
+ GPM_MESSAGE_RELIC_WAR_DESC: "$COUNTRY|H$ is rumoured to have claimed an §HAncient Relic§! from $COUNTRY_TARGET|H$ after a successful war."
+ GPM_MESSAGE_RELIC_STOLEN_TITLE: "A Relic has been stolen!"
+ GPM_MESSAGE_RELIC_STOLEN_DESC: "The §Y$COUNTRY$§! empire managed to steal a relic from $COUNTRY_TARGET|H$. This will certainly have long lasting diplomatic consequences."
 
 
 
