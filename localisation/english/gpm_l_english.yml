@@ -39,41 +39,27 @@
  # War Goals
  # war Names
  #######################################
-
+ gpm_empty_string: ""
  #######################################
  #### Map Mode
  #######################################
  gpm_relic_map_mode: "Ancient Relic Map Mode"
- gpm_relic_map_mode_desc: "Empire borders will be colored based on owning an ancient relic or not." 
+ gpm_relic_map_mode_desc: "Empire borders will be colored based on the number of §YAncient Relics§! owned." 
+ GPM_MAP_MODE_HAS_UNKNOWN_RELICS: "We do not know if they have any §YAncient Relics§! \nRequires more §HIntel§!"
+ GPM_MAP_MODE_NEEDS_INTEL_FOR_LIST: "\nWe need more §HIntel§! to know more"
+ GPM_MAP_MODE_HOLD_ALT_HINT: "§GHold £gpm_alt£ for more info§!"
+
  GPM_MAP_MODE_NOT_HAS_RELIC: "Has no §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC: "Has 1 §YAncient Relic§!"
- GPM_MAP_MODE_HAS_RELIC_2: "Has 2 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_3: "Has 3 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_4: "Has 4 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_5: "Has 5 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_6: "Has 6 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_7: "Has 7 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_8: "Has 8 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_9: "Has 9 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_10: "Has 10 §YAncient Relics§!"
- GPM_MAP_MODE_HAS_RELIC_11: "Has too many §YAncient Relics!§!"
- GPM_MAP_MODE_HAS_UNKNOWN_RELICS: "This empire has an unknown number of §YAncient Relics§!.\nRequires more §HIntel§!."
+ GPM_MAP_MODE_HAS_RELIC: "Has 1 §YAncient Relic§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
+ GPM_MAP_MODE_HAS_RELIC_MULTIPLE: "Has [This.GuilliGetNumRelics] §YAncient Relics§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
+ GPM_MAP_MODE_HAS_RELIC_LIST: "Has 1 §YAncient Relic§! [This.gpm_list_relics_intel]"
+ GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST: "Has [This.GuilliGetNumRelics] §YAncient Relics§! [This.gpm_list_relics_intel]"
 
  GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC: "We have no §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC: "We have 1 §YAncient Relic§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_2: "We have 2 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_3: "We have 3 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_4: "We have 4 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_5: "We have 5 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_6: "We have 6 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_7: "We have 7 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_8: "We have 8 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_9: "We have 9 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_10: "We have 10 §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_11: "We have over 10 §YAncient Relics!§!"
-
- GPM_MAP_MODE_HAS_RELIC_MULTIPLE: "Has [This.GuilliGetNumRelics] §YAncient Relics§!"
- GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE: "We have [This.GuilliGetNumRelics] §YAncient Relics!§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC: "We have 1 §YAncient Relic§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE: "We have [This.GuilliGetNumRelics] §YAncient Relics§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_LIST: "We have 1 §YAncient Relic§! $GPM_MAP_MODE_RELIC_LIST$"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE_LIST: "We have [This.GuilliGetNumRelics] §YAncient Relics§! $GPM_MAP_MODE_RELIC_LIST$"
 
  #######################################
  #### Generic Names

@@ -36,7 +36,7 @@ gpm_relic_map_mode = {
 	display_espionage_operations = yes
 	display_claims = no
 
-	# rgb { 255 128 0 200 }		No Intel
+	# rgb { 40 140 160 200 }	No Intel
 	# hsv { 0.0 0.0 0.8 0.7 }	No Relic
 	# rgb { 127 0 149 200 }		1 
 	# rgb { 252 84 158 200 }	2-3 
@@ -44,24 +44,21 @@ gpm_relic_map_mode = {
 	# rgb { 203 0 34 200 }		7-9
 	# rgb { 66 0 7 200 }		10+
 	
-	# observer mode
-	color = { value = hsv { 0.0 0.0 0.8 0.7 } custom_tooltip = "GPM_MAP_MODE_NOT_HAS_RELIC" condition = { NOT = { exists = FROM } num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
-	color = { value = rgb { 127 0 149 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC" condition = { NOT = { exists = FROM } num_owned_relics = value:gpm_base_num_relics|PLUS|1| } }
-	color = { value = rgb { 252 84 158 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics <= value:gpm_base_num_relics|PLUS|3| } }
-	color = { value = rgb { 255 122 6 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics <= value:gpm_base_num_relics|PLUS|6| } }
-	color = { value = rgb { 203 0 34 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics <= value:gpm_base_num_relics|PLUS|9| } }
-	color = { value = rgb { 66 0 7 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics >= value:gpm_base_num_relics|PLUS|10| } }
+	# # observer mode
+	# color = { value = hsv { 0.0 0.0 0.8 0.7 } custom_tooltip = "GPM_MAP_MODE_NOT_HAS_RELIC" condition = { NOT = { exists = FROM } num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
+	# color = { value = rgb { 127 0 149 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC" condition = { NOT = { exists = FROM } num_owned_relics = value:gpm_base_num_relics|PLUS|1| } }
+	# color = { value = rgb { 252 84 158 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics <= value:gpm_base_num_relics|PLUS|3| } }
+	# color = { value = rgb { 255 122 6 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics <= value:gpm_base_num_relics|PLUS|6| } }
+	# color = { value = rgb { 203 0 34 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics <= value:gpm_base_num_relics|PLUS|9| } }
+	# color = { value = rgb { 66 0 7 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { NOT = { exists = FROM } num_owned_relics >= value:gpm_base_num_relics|PLUS|10| } }
 	
-	# This will be your own empire
-	color = { value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE" condition = { is_same_empire = from num_owned_relics >= value:gpm_base_num_relics|PLUS|2| } }
-	color = { value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC" condition = { is_same_empire = from num_owned_relics = value:gpm_base_num_relics|PLUS|1| } }
-	color = { value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC" condition = { is_same_empire = from num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
-
 	# empires if not sufficient intel:
 	color = {
-		value = rgb { 255 128 0 200 }
+		value = rgb { 40 140 160 200 }
 		custom_tooltip = "GPM_MAP_MODE_HAS_UNKNOWN_RELICS" 
 		condition = {
+			exists = FROM	# If not observer
+			NOT = { is_same_empire = FROM } # If not self
 			FROM = {
 				has_intel_level = {
 					who = prev
@@ -71,6 +68,24 @@ gpm_relic_map_mode = {
 			}
 		}
 	}
+	
+	# This will be your own empire - with relic list
+	color = { filter = details value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE_LIST" condition = { exists = FROM is_same_empire = FROM num_owned_relics >= value:gpm_base_num_relics|PLUS|2| } }
+	color = { filter = details value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_LIST" condition = { exists = FROM is_same_empire = FROM num_owned_relics = value:gpm_base_num_relics|PLUS|1| } }
+	color = { filter = details value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC" condition = { exists = FROM is_same_empire = FROM num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
+	
+	# This will be your own empire
+	color = { value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_MULTIPLE" condition = { exists = FROM is_same_empire = FROM num_owned_relics >= value:gpm_base_num_relics|PLUS|2| } }
+	color = { value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC" condition = { exists = FROM is_same_empire = FROM num_owned_relics = value:gpm_base_num_relics|PLUS|1| } }
+	color = { value = hsv { 0.580 1.0 0.8 1.0 } custom_tooltip = "GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC" condition = { exists = FROM is_same_empire = FROM num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
+	
+	# All empires with a relic and sufficient intel - with relic list
+	color = { filter = details value = hsv { 0.0 0.0 0.8 0.7 } custom_tooltip = "GPM_MAP_MODE_NOT_HAS_RELIC" condition = { num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
+	color = { filter = details value = rgb { 127 0 149 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_LIST" condition = { num_owned_relics = value:gpm_base_num_relics|PLUS|1| } }
+	color = { filter = details value = rgb { 252 84 158 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST" condition = { num_owned_relics <= value:gpm_base_num_relics|PLUS|3| } }
+	color = { filter = details value = rgb { 255 122 6 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST" condition = { num_owned_relics <= value:gpm_base_num_relics|PLUS|6| } }
+	color = { filter = details value = rgb { 203 0 34 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST" condition = { num_owned_relics <= value:gpm_base_num_relics|PLUS|9| } }
+	color = { filter = details value = rgb { 66 0 7 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST" condition = { num_owned_relics >= value:gpm_base_num_relics|PLUS|10| } }
 
 	# All empires with a relic and sufficient intel
 	color = { value = hsv { 0.0 0.0 0.8 0.7 } custom_tooltip = "GPM_MAP_MODE_NOT_HAS_RELIC" condition = { num_owned_relics = value:gpm_base_num_relics|PLUS|0| } }
@@ -79,4 +94,5 @@ gpm_relic_map_mode = {
 	color = { value = rgb { 255 122 6 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { num_owned_relics <= value:gpm_base_num_relics|PLUS|6| } }
 	color = { value = rgb { 203 0 34 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { num_owned_relics <= value:gpm_base_num_relics|PLUS|9| } }
 	color = { value = rgb { 66 0 7 200 } custom_tooltip = "GPM_MAP_MODE_HAS_RELIC_MULTIPLE" condition = { num_owned_relics >= value:gpm_base_num_relics|PLUS|10| } }
+	
 }
