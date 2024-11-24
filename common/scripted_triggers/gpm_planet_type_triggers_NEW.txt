@@ -191,3 +191,31 @@ gpm_has_pd_planet_modifier = {
 		# Hope I caught all
 	}
 }
+
+gpm_has_planetary_ring = {
+	OR = {
+		has_planet_flag = gpm_rings_huge
+		has_planet_flag = gpm_rings_large
+		has_planet_flag = has_rings_01_large
+		has_planet_flag = has_rings_02_large
+		has_planet_flag = has_rings_03_large
+		has_planet_flag = has_rings_04_large
+		has_planet_flag = gpm_rings_medium
+		has_planet_flag = has_rings_01_sparse
+		has_planet_flag = has_rings_02_sparse
+		has_planet_flag = has_rings_03_sparse
+		has_planet_flag = has_rings_04_sparse
+		has_planet_flag = gpm_rings_small
+		has_planet_flag = has_rings_01_small
+		has_planet_flag = has_rings_02_small
+		has_planet_flag = has_rings_03_small
+		has_planet_flag = has_rings_04_small
+		has_planet_flag = has_rings_01_thin
+		has_planet_flag = has_rings_02_thin
+		has_planet_flag = has_rings_03_thin
+		has_planet_flag = has_rings_01_low
+		has_planet_flag = has_rings_02_low
+		has_planet_flag = has_rings_01_rare
+		has_planet_flag = has_rings_02_rare
+	}
+}
