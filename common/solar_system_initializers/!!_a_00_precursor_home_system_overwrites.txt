@@ -399,27 +399,7 @@ Zrocursor_system = {
 	}
 
 	init_effect = {
-		if = {
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 
@@ -605,27 +585,7 @@ last_baol_system = {
 	}
 
 	init_effect = {
-		if = { 
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 
@@ -819,27 +779,7 @@ vultaumar_system = {
 	}
 
 	init_effect = {
-		if = { 
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 
@@ -1090,27 +1030,7 @@ yuhtaan_system = {
 			random_pos = yes	
 			orbit_angle = 360		# range of the randomization
 		}
-		if = {
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 
@@ -1310,27 +1230,7 @@ fen_habbanis_system = {
 	}
 
 	init_effect = {
-		if = { 
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 
@@ -1571,27 +1471,7 @@ irass_system = {
 	}
 
 	init_effect = {
-		if = { 
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 
@@ -1779,27 +1659,7 @@ cybrex_system = {
 			type = "small_debris_object"
 			location = solar_system
 		}
-		if = { 
-			limit = { host_has_dlc = Federations }
-			spawn_megastructure = {
-				type = "gpm_mega_shipyard_ruined_precursor"
-				planet = star
-
-				init_effect = {
-					create_ambient_object = {
-						type = "large_debris_object"
-						location = this
-					}
-					last_created_ambient_object = {
-						set_location = {
-							target = prev
-							distance = 20
-							angle = 20
-						}
-					}
-				}
-			}
-		}
+		gpm_spawn_ruined_precursor_shipyard = yes
 	}
 }
 

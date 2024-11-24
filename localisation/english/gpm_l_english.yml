@@ -915,6 +915,23 @@
  gpm_start_menu.2.enable_mini_structuresTT: "§HClick this to allow Mini Megastructures to spawn§!\nMini megastructures will spawn randomly across the galaxy."
  gpm_start_menu.2.disable_mini_structures: "£options_icon  §RDisable Mini Megastructures§!"
  gpm_start_menu.2.disable_mini_structuresTT: "§HClick this to forbid Mini Megastructures to spawn§!\nMini megastructures will §Rnot§! spawn randomly across the galaxy."
+
+ gpm_start_menu.2.disable_ancient_archaeopolis: "£options_icon  §RDisable Ancient Archaeopolis§!"
+ gpm_start_menu.2.disable_ancient_archaeopolisTT: "§HClick this to forbid Ancient Archaeopoli to spawn§!\nAncient Archaeopoli will §Rnot§! spawn randomly across the galaxy."
+ gpm_start_menu.2.enable_ancient_archaeopolis: "£options_icon  §GEnable Ancient Archaeopolis§!"
+ gpm_start_menu.2.enable_ancient_archaeopolisTT: "§HClick this to allow Ancient Archaeopoli to spawn§!\nAncient Archaeopoli will spawn randomly across the galaxy."
+ gpm_start_menu.2.disable_primitive_relic_worlds: "£options_icon  §RDisable Primitive Relic Worlds§!"
+ gpm_start_menu.2.disable_primitive_relic_worldsTT: "§HClick this to forbid extra primitive civilizations living on relic worlds to spawn.§!\nRecommended if primitives are disabled in galaxy settings."
+ gpm_start_menu.2.enable_primitive_relic_worlds: "£options_icon  §GEnable Primitive Relic Worlds"
+ gpm_start_menu.2.enable_primitive_relic_worldsTT: "§HClick this to allow extra primitive civilizations living on relic worlds to spawn."
+ gpm_start_menu.2.disable_precursor_shipyards: "£options_icon  §RDisable Precursor Shipyards"
+ gpm_start_menu.2.disable_precursor_shipyardsTT: "§HClick this to forbid Precursor Shipyards to spawn§!\nPrecursor Shipyards will §Rnot§! spawn in precursor home systems."
+ gpm_start_menu.2.enable_precursor_shipyards: "£options_icon  §GEnable Precursor Shipyards"
+ gpm_start_menu.2.enable_precursor_shipyardsTT: "§HClick this to allow Precursor Shipyards to spawn§!\nPrecursor Shipyards will spawn in precursor home systems."
+ gpm_start_menu.2.disable_spider_features: "£options_icon  §RDisable Spider Features"
+ gpm_start_menu.2.disable_spider_featuresTT: "§HClick this to forbid Spider Features to spawn"
+ gpm_start_menu.2.enable_spider_features: "£options_icon  §GEnable Spider Features"
+ gpm_start_menu.2.enable_spider_featuresTT: "§HClick this to allow Spider Features to spawn"
  
  #######################################
  #### Techologies

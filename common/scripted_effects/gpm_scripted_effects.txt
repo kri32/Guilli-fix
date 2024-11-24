@@ -1608,6 +1608,7 @@ gpm_precursor_star_shipyards = {
 	if = {
 		limit = { 
 			gpm_are_precursors_enabled = yes
+			NOT = { has_global_flag = gpm_precursor_shipyards_disabled }
 		}
 		solar_system = {
 			set_star_flag = gpm_precursor_shipyards_star
@@ -1641,6 +1642,33 @@ gpm_precursor_star_shipyards = {
 	}
 }
 
+gpm_spawn_ruined_precursor_shipyard = {
+	optimize_memory
+	if = { 
+		limit = { 
+			host_has_dlc = Federations
+			NOT = { has_global_flag = gpm_precursor_shipyards_disabled }
+		}
+		spawn_megastructure = {
+			type = "gpm_mega_shipyard_ruined_precursor"
+			planet = star
+
+			init_effect = {
+				create_ambient_object = {
+					type = "large_debris_object"
+					location = this
+				}
+				last_created_ambient_object = {
+					set_location = {
+						target = prev
+						distance = 20
+						angle = 20
+					}
+				}
+			}
+		}
+	}
+}
 
 gpm_create_primitive_relic_world = {
 	optimize_memory

@@ -554,6 +554,7 @@ planet_event = {
 							modifier = { factor = gpm_galaxy_setting_habitable_worlds_scale } # scale chance bases on galaxy setting
 							# not if you dont have ancrel DLC
 							modifier = { factor = 0 has_ancrel = no }
+							modifier = { factor = 0 has_global_flag = gpm_ancient_archaeopolis_disabled }
 							remove_modifier = terraforming_candidate
 							modifier = { factor = 0
 								any_system = {
@@ -1553,7 +1554,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-
+		NOT = { has_global_flag = gpm_primitive_relic_worlds_disabled }
 	}
 
 	immediate = {
