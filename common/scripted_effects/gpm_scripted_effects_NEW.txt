@@ -13,6 +13,7 @@ gpm_spawn_RES_ring = {
 			}
 			set_surveyed = { surveyed = no surveyor = event_target:gpm_host_country_event_target }
 			set_planet_flag = gpm_is_RES
+			set_planet_flag = shroud_storm_changed
 			prevent_anomaly = yes
 			if = {
 				limit = { event_target:res_location_planet = { has_modifier = gpm_metallic_ring } }

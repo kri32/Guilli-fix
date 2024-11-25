@@ -1409,6 +1409,7 @@ gpm_spawn_xandar_gaia_world = {
 				10 = { add_deposit = d_tropical_island }
 			}
 			set_planet_flag = gpm_ego_gaia_planet
+			set_planet_flag = shroud_storm_changed
 		}
 	}
 }
