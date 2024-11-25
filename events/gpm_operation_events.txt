@@ -1042,6 +1042,7 @@ country_event = {
 	picture = GFX_evt_ancient_artifact
 	show_sound = event_espionage_concluded
 	is_triggered_only = yes
+	location = from
 
 	trigger = {
 	}
@@ -1067,6 +1068,7 @@ country_event = {
 	picture = GFX_evt_ancient_artifact
 	show_sound = event_espionage_concluded
 	is_triggered_only = yes
+	location = from
 
 	trigger = {
 	}
