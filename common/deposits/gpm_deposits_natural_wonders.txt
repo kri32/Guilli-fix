@@ -104,7 +104,7 @@ gpm_d_crystal_jungle = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_crystal_miner_add = 4
+			job_crystal_mining_drone_add = 4
 			district_farming_max = 10
 			planet_farmers_rare_crystals_produces_add = 1
 		}
@@ -115,8 +115,8 @@ gpm_d_crystal_jungle = {
 			exists = owner
 			owner = { is_machine_empire = yes }
 		}
-		modifier = {	
-			job_crystal_miner_add = 4
+		modifier = {
+			job_crystal_mining_drone_add = 4
 			district_mining_max = 10
 			planet_miners_rare_crystals_produces_add = 1
 		}

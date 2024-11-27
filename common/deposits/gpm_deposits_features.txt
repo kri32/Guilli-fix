@@ -735,10 +735,8 @@ gpm_d_magma_ocean = {
 	use_for_min_max_adjustments = yes
 	
 	category = deposit_cat_rare
-	
-	planet_modifier = { 
-		job_gas_extractor_add = 1
-	}
+
+	inline_script = { script = jobs/gpm_gas_extractor_add AMOUNT = 1 }
 	
 	# weight 0: event added
 	drop_weight = {
@@ -750,10 +748,8 @@ gpm_d_toxic_vent = {
 	use_for_min_max_adjustments = yes
 	
 	category = deposit_cat_rare
-	
-	planet_modifier = { 
-		job_gas_extractor_add = 1
-	}
+
+	inline_script = { script = jobs/gpm_gas_extractor_add AMOUNT = 1 }
 	
 	# weight 0: event added
 	drop_weight = {
@@ -812,10 +808,8 @@ gpm_d_unnatural_crystals = {
 	use_for_min_max_adjustments = yes
 	
 	category = deposit_cat_rare
-	
-	planet_modifier = { 
-		job_crystal_miner_add = 1
-	}
+
+	inline_script = { script = jobs/gpm_crystal_miner_add AMOUNT = 1 }
 
 	# weight 0: event added
 	drop_weight = {
@@ -987,9 +981,7 @@ gpm_d_crystal_hills = {
 
 	category = deposit_cat_rare
 	
-	planet_modifier = { 
-		job_crystal_miner_add = 1
-	}
+	inline_script = { script = jobs/gpm_crystal_miner_add AMOUNT = 1 }
 	
 	# weight 0: event added
 	drop_weight = {
@@ -1048,10 +1040,8 @@ gpm_d_spice_fields = {
 	use_for_min_max_adjustments = yes
 
 	category = deposit_cat_rare
-	
-	planet_modifier = { 
-		job_mote_harvester_add = 1
-	}
+
+	inline_script = { script = jobs/gpm_mote_harvester_add AMOUNT = 1 }
 	
 	# weight 0: event added
 	drop_weight = {
@@ -1857,8 +1847,8 @@ gpm_d_empty_nest = {
 	
 	planet_modifier = {
 		district_mining_max = 2
-		job_crystal_miner_add = 1
 	}
+	inline_script = { script = jobs/gpm_crystal_miner_add AMOUNT = 1 }
 	
 	triggered_planet_modifier = {
 		potential = {
