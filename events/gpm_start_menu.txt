@@ -284,7 +284,7 @@ country_event = {
 country_event = {
 	id = gpm_start_menu.2
 	title = gpm_start_menu.1.name
-	desc = gpm_start_menu.1.desc
+	#desc = gpm_start_menu.1.desc
 	picture = GFX_evt_gpm_guillis_planet_modifiers
 
 	is_triggered_only = yes
