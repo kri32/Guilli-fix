@@ -52,8 +52,8 @@
  GPM_MAP_MODE_NOT_HAS_RELIC: "Has no §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC: "Has 1 §YAncient Relic§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
  GPM_MAP_MODE_HAS_RELIC_MULTIPLE: "Has [This.GuilliGetNumRelics] §YAncient Relics§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
- GPM_MAP_MODE_HAS_RELIC_LIST: "Has 1 §YAncient Relic§! [This.gpm_list_relics_intel]"
- GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST: "Has [This.GuilliGetNumRelics] §YAncient Relics§! [This.gpm_list_relics_intel]"
+ GPM_MAP_MODE_HAS_RELIC_LIST: "Has 1 §YAncient Relic§! $GPM_MAP_MODE_RELIC_LIST$"
+ GPM_MAP_MODE_HAS_RELIC_MULTIPLE_LIST: "Has [This.GuilliGetNumRelics] §YAncient Relics§! $GPM_MAP_MODE_RELIC_LIST$"
 
  GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC: "We have no §YAncient Relics§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC: "We have 1 §YAncient Relic§! \n$GPM_MAP_MODE_HOLD_ALT_HINT$"
