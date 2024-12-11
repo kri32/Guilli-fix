@@ -101,8 +101,8 @@ gpm_edict_armor_regen  = {
 
 	modifier = {
 		#ship_armor_regen_add_perc = 100.00
-		ship_hull_regen_add_perc = 1.0
-		ship_armor_regen_add_perc = 1.0
+		ship_hull_regen_add_perc = 0.1
+		ship_armor_regen_add_perc = 0.1
 	}
 	
 	ai_weight = {
@@ -134,7 +134,7 @@ gpm_edict_shield_regen  = {
     }
 
 	modifier = {
-		ship_shield_regen_add_perc = 1.0
+		ship_shield_regen_add_perc = 0.1
 	}
 	
 	ai_weight = {
